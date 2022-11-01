@@ -132,6 +132,15 @@ Assets {
       }
     }
     Assets {
+      Id: 11541351433568807997
+      Name: "Fantasy Craft Gem 023"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Fantasy_Crafting_Gem_023"
+      }
+    }
+    Assets {
       Id: 16929179271829491253
       Name: "Collect Coin Star Small 01 SFX"
       PlatformAssetType: 7
@@ -228,6 +237,15 @@ Assets {
       PrimaryAsset {
         AssetType: "AudioAssetRef"
         AssetId: "sfx_footstep_metal_heavy_hollow_01a_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 5586383917361334043
+      Name: "Chest Gems Opening 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_chest_gems_opening_01_Cue_ref"
       }
     }
   }

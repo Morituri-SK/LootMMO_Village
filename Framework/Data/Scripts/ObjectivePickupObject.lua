@@ -5,10 +5,12 @@ local GEO_TO_HIDE = script:GetCustomProperty("GeoToHide"):WaitForObject()
 
 
 function Show()
+	print("Showing",GEO_TO_HIDE)
 	GEO_TO_HIDE.visibility = Visibility.INHERIT
 end
 
 function Hide()
+	print("Hiding",GEO_TO_HIDE)
 	GEO_TO_HIDE.visibility = Visibility.FORCE_OFF
 end
 

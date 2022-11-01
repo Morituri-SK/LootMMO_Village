@@ -69,6 +69,15 @@ Assets {
       }
     }
     Assets {
+      Id: 16565689527445500785
+      Name: "House"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Urban_Icon_011"
+      }
+    }
+    Assets {
       Id: 338139243958881271
       Name: "Icon Skull"
       PlatformAssetType: 9
@@ -120,6 +129,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "UI_Fantasy_Icon_Book"
+      }
+    }
+    Assets {
+      Id: 9979240382267732439
+      Name: "Crate"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Military_Icon_010"
       }
     }
     Assets {

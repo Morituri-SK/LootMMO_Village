@@ -1,6 +1,1055 @@
 Name: "Quests"
 RootId: 17798732759644559527
 Objects {
+  Id: 190860723530651946
+  Name: "Cart"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17798732759644559527
+  ChildIds: 3596772733111668458
+  ChildIds: 6785639698803999618
+  ChildIds: 6027092394335620886
+  ChildIds: 14682876555441161092
+  ChildIds: 5194263957960348502
+  ChildIds: 15033138865762087797
+  ChildIds: 6451286473535473017
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6451286473535473017
+  Name: "LostCrate"
+  Transform {
+    Location {
+      X: 11787.4814
+      Y: 19242.1484
+      Z: 45450.7383
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 190860723530651946
+  ChildIds: 3213512931467878885
+  ChildIds: 4822285833890348824
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4822285833890348824
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6451286473535473017
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6892861472875270100
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3213512931467878885
+  Name: "QuestObjectivePickup"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6451286473535473017
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:QuestID"
+      String: "Cart"
+    }
+    Overrides {
+      Name: "cs:ObjectiveIndex"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:GeoToHide"
+      ObjectReference {
+        SelfId: 4822285833890348824
+      }
+    }
+    Overrides {
+      Name: "cs:InteractionLabel"
+      String: "Recover Lost Crate"
+    }
+    Overrides {
+      Name: "cs:TriggerScale"
+      Float: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 120242700683647500
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15033138865762087797
+  Name: "Cart Placeholder"
+  Transform {
+    Location {
+      X: 11789.0371
+      Y: 19247.3301
+      Z: 45454.0586
+    }
+    Rotation {
+      Roll: -9.10096359
+    }
+    Scale {
+      X: 2.17705131
+      Y: 1.5584991
+      Z: 1.05457139
+    }
+  }
+  ParentId: 190860723530651946
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11585502172935602812
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5194263957960348502
+  Name: "Quest Area"
+  Transform {
+    Location {
+      X: 11244.3984
+      Y: 18535.8926
+      Z: 46395.5
+    }
+    Rotation {
+    }
+    Scale {
+      X: 45.7309761
+      Y: 45.7309761
+      Z: 45.7309761
+    }
+  }
+  ParentId: 190860723530651946
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Y Scale"
+      Float: 1.5
+    }
+    Overrides {
+      Name: "bp:X Scale"
+      Float: 1.5
+    }
+    Overrides {
+      Name: "bp:Z Scale"
+      Float: 1.5
+    }
+    Overrides {
+      Name: "bp:Type"
+      Enum {
+        Value: "mc:evolumetype:1"
+      }
+    }
+    Overrides {
+      Name: "bp:Absolute Scale"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Shape Visibility"
+      Enum {
+        Value: "mc:evolumevisibility:newenumerator0"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        G: 0.5
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Visible In Preview"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15895911216899816748
+    }
+    TeamSettings {
+    }
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14682876555441161092
+  Name: "Enemy Spawn"
+  Transform {
+    Location {
+      X: 11918.0732
+      Y: 19852.3672
+      Z: 45482.4453
+    }
+    Rotation {
+      Yaw: 62.7005653
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 190860723530651946
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Y Scale"
+      Float: 1.5
+    }
+    Overrides {
+      Name: "bp:X Scale"
+      Float: 1.5
+    }
+    Overrides {
+      Name: "bp:Z Scale"
+      Float: 1.5
+    }
+    Overrides {
+      Name: "bp:Type"
+      Enum {
+        Value: "mc:evolumetype:1"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Absolute Scale"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15895911216899816748
+    }
+    TeamSettings {
+    }
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6027092394335620886
+  Name: "Enemy Spawn"
+  Transform {
+    Location {
+      X: 12205.6279
+      Y: 19232.5488
+      Z: 45459.5391
+    }
+    Rotation {
+      Yaw: 4.78811455
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 190860723530651946
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Y Scale"
+      Float: 1.5
+    }
+    Overrides {
+      Name: "bp:X Scale"
+      Float: 1.5
+    }
+    Overrides {
+      Name: "bp:Z Scale"
+      Float: 1.5
+    }
+    Overrides {
+      Name: "bp:Type"
+      Enum {
+        Value: "mc:evolumetype:1"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Absolute Scale"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15895911216899816748
+    }
+    TeamSettings {
+    }
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6785639698803999618
+  Name: "Enemy Spawn"
+  Transform {
+    Location {
+      X: 12038.3613
+      Y: 18581.5723
+      Z: 45384.6172
+    }
+    Rotation {
+      Yaw: -82.1563416
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 190860723530651946
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Y Scale"
+      Float: 1.5
+    }
+    Overrides {
+      Name: "bp:X Scale"
+      Float: 1.5
+    }
+    Overrides {
+      Name: "bp:Z Scale"
+      Float: 1.5
+    }
+    Overrides {
+      Name: "bp:Type"
+      Enum {
+        Value: "mc:evolumetype:1"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Absolute Scale"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15895911216899816748
+    }
+    TeamSettings {
+    }
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3596772733111668458
+  Name: "ObjectiveEncounterSpawn"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 190860723530651946
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:EnemyIDs"
+      String: "Dragon"
+    }
+    Overrides {
+      Name: "cs:MinPlayerLevel"
+      Int: 0
+    }
+    Overrides {
+      Name: "cs:EnemyCount"
+      Int: 3
+    }
+    Overrides {
+      Name: "cs:ChanceEpicEnemy"
+      Float: 0.05
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15156443327978326566
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3253575031683594171
+  Name: "Village2"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17798732759644559527
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13270360202876158798
+  Name: "Village1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17798732759644559527
+  ChildIds: 9638887953298177940
+  ChildIds: 9485394127368936704
+  ChildIds: 12290750376576766191
+  ChildIds: 15392258726286298620
+  ChildIds: 12265497624585477538
+  ChildIds: 6713468285719382376
+  ChildIds: 8462837038556050452
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8462837038556050452
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: 7441.76904
+      Y: 9767.70801
+      Z: 43490.8516
+    }
+    Rotation {
+      Yaw: -20.2550964
+    }
+    Scale {
+      X: 17.9411354
+      Y: 11.2432947
+      Z: 11.243289
+    }
+  }
+  ParentId: 13270360202876158798
+  ChildIds: 13674081162233065868
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13674081162233065868
+  Name: "HomeFound_QuestTest"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8462837038556050452
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 18024811661879571544
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6713468285719382376
+  Name: "ObjectiveEventListener"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13270360202876158798
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:QuestID"
+      String: "Village1"
+    }
+    Overrides {
+      Name: "cs:ObjectiveIndex"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:ObjectID"
+      String: "HomeFound"
+    }
+    Overrides {
+      Name: "cs:EventID"
+      String: "Quest.Village1"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9246345034586664616
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12265497624585477538
+  Name: "Spawn Point - Village1"
+  Transform {
+    Location {
+      X: -1550.11572
+      Y: 10832.5986
+      Z: 42811.5
+    }
+    Rotation {
+      Yaw: -0.733459473
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13270360202876158798
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 1
+    PlayerScaleMultiplier: 1
+    SpawnKey: "Village"
+    SpawnEffectsTemplate {
+      Id: 841534158063459245
+    }
+    ShouldDecrowdPlayers: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15392258726286298620
+  Name: "Spawn Point - Village1"
+  Transform {
+    Location {
+      X: -1659.9541
+      Y: 10775.459
+      Z: 42811.5
+    }
+    Rotation {
+      Yaw: -0.733459473
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13270360202876158798
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 1
+    PlayerScaleMultiplier: 1
+    SpawnKey: "Village"
+    SpawnEffectsTemplate {
+      Id: 841534158063459245
+    }
+    ShouldDecrowdPlayers: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12290750376576766191
+  Name: "Spawn Point - Village1"
+  Transform {
+    Location {
+      X: -1658.47559
+      Y: 10890.9307
+      Z: 42811.5
+    }
+    Rotation {
+      Yaw: -0.733459473
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13270360202876158798
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 1
+    PlayerScaleMultiplier: 1
+    SpawnKey: "Village"
+    SpawnEffectsTemplate {
+      Id: 841534158063459245
+    }
+    ShouldDecrowdPlayers: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9485394127368936704
+  Name: "Spawn Point - Village1"
+  Transform {
+    Location {
+      X: -1548.63867
+      Y: 10947.9785
+      Z: 42811.5
+    }
+    Rotation {
+      Yaw: -0.733459473
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13270360202876158798
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 1
+    PlayerScaleMultiplier: 1
+    SpawnKey: "Village"
+    SpawnEffectsTemplate {
+      Id: 841534158063459245
+    }
+    ShouldDecrowdPlayers: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9638887953298177940
+  Name: "Spawn Point - Village1"
+  Transform {
+    Location {
+      X: -1551.60938
+      Y: 10715.9482
+      Z: 42811.5
+    }
+    Rotation {
+      Yaw: -0.733459473
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13270360202876158798
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 1
+    PlayerScaleMultiplier: 1
+    SpawnKey: "Village"
+    SpawnEffectsTemplate {
+      Id: 841534158063459245
+    }
+    ShouldDecrowdPlayers: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 2480062710975198621
   Name: "Poker"
   Transform {
