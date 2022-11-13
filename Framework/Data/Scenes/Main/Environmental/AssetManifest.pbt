@@ -1,13 +1,4 @@
 Assets {
-  Id: 17812816660570473491
-  Name: "Tonemapping Post Process"
-  PlatformAssetType: 20
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_post_process_tonemapping"
-  }
-}
-Assets {
   Id: 16910278292812118833
   Name: "Sun Light"
   PlatformAssetType: 6
@@ -41,15 +32,6 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_post_process_advanced_motion_blur"
-  }
-}
-Assets {
-  Id: 15121749094906828004
-  Name: "Simple Depth Blur Post Process"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_simple_depthblur"
   }
 }
 Assets {

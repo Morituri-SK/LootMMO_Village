@@ -9,11 +9,15 @@ Assets {
       Overrides {
         Name: "color"
         Color {
-          R: 1.2
-          G: 1.13144267
-          B: 0.871199965
+          R: 1
+          G: 0.46649009
+          B: 0.24000001
           A: 1
         }
+      }
+      Overrides {
+        Name: "edge_wear"
+        Float: 1
       }
     }
     Assets {

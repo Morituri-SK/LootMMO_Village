@@ -62,15 +62,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17262393803512971106
-  Name: "Plane Pentagon - One Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_pentagon_001"
-  }
-}
-Assets {
   Id: 17118136979191323600
   Name: "Metal Iron 01"
   PlatformAssetType: 2
@@ -341,6 +332,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14281826121533999733
+  Name: "Coral Tubes Small"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_coral_tube_small_01"
+  }
+}
+Assets {
   Id: 14270419193600238466
   Name: "Hill 02"
   PlatformAssetType: 1
@@ -485,6 +485,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13161146325196931920
+  Name: "Coral Table 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_coral_table_02"
+  }
+}
+Assets {
   Id: 12891613213664917379
   Name: "Stone Block Standard"
   PlatformAssetType: 1
@@ -509,6 +518,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_barrel_001"
+  }
+}
+Assets {
+  Id: 12558067698426651158
+  Name: "Tree Oak Stump 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_oak_stump_001"
+  }
+}
+Assets {
+  Id: 12478223806335538230
+  Name: "Fern 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fern_generic_001"
   }
 }
 Assets {
@@ -908,15 +935,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9241339813623090261
-  Name: "Ivy 04"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ivy_generic_004"
-  }
-}
-Assets {
   Id: 9229199904602472614
   Name: "Craftsman Roof 01 Cap"
   PlatformAssetType: 1
@@ -986,6 +1004,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_hill_005"
+  }
+}
+Assets {
+  Id: 8777307662385110705
+  Name: "Fern 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fern_generic_003"
   }
 }
 Assets {
@@ -1130,15 +1157,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_wall_curve_002"
-  }
-}
-Assets {
-  Id: 7490936105211316160
-  Name: "Decal Leaves 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_leaves_001"
   }
 }
 Assets {
@@ -1448,15 +1466,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4545713430863939559
-  Name: "Ivy 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ivy_generic_001"
-  }
-}
-Assets {
   Id: 4533424030597734882
   Name: "Lens"
   PlatformAssetType: 1
@@ -1580,15 +1589,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_iron_002"
-  }
-}
-Assets {
-  Id: 3799856779660246222
-  Name: "Falling Leaves Volume VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_falling_leaves_volume_vfx"
   }
 }
 Assets {

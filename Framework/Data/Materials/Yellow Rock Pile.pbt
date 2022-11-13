@@ -9,19 +9,15 @@ Assets {
       Overrides {
         Name: "color"
         Color {
-          R: 1
-          G: 0.627417207
-          B: 0.420000017
+          R: 0.536458313
+          G: 0.342659593
+          B: 0.158692345
           A: 1
         }
       }
       Overrides {
         Name: "edge_wear"
         Float: 1
-      }
-      Overrides {
-        Name: "gradient_shift"
-        Float: 0
       }
       Overrides {
         Name: "gradient_falloff"

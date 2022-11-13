@@ -111,18 +111,18 @@ Assets {
       Overrides {
         Name: "cmpc:Material1"
         Color {
-          R: 1
-          G: 0.558854222
-          B: 0.197916687
+          R: 0.119791664
+          G: 0.0765162334
+          B: 0.0354361571
           A: 1
         }
       }
       Overrides {
         Name: "cmpc:Material3"
         Color {
-          R: 0.796875
-          G: 0.610107422
-          B: 0.610107422
+          R: 0.276041657
+          G: 0.260671407
+          B: 0.255108178
           A: 1
         }
       }
@@ -138,29 +138,48 @@ Assets {
       Overrides {
         Name: "cmpc:Material4_Sides"
         Color {
-          R: 1
-          G: 0.759375036
-          B: 0.5625
+          R: 0.671875
+          G: 0.486968338
+          B: 0.311442077
           A: 1
         }
       }
       Overrides {
         Name: "cmpc:Material2"
         Color {
-          R: 1
-          G: 0.575000048
-          B: 0.291666687
+          R: 0.364583343
+          G: 0.232875511
+          B: 0.107849173
           A: 1
         }
       }
       Overrides {
         Name: "cmpc:Material4"
         Color {
-          R: 0.734375
-          G: 0.67390269
-          B: 0.596467376
+          R: 0.76
+          G: 0.603973508
           A: 1
         }
+      }
+      Overrides {
+        Name: "brightness_albedo_m1sides"
+        Float: 1
+      }
+      Overrides {
+        Name: "brightness_albedo_m1top"
+        Float: 5
+      }
+      Overrides {
+        Name: "desaturation_albedo_m1top"
+        Float: 1
+      }
+      Overrides {
+        Name: "b_invert_metallic_m2top"
+        Bool: false
+      }
+      Overrides {
+        Name: "roughness_multiplier_m2top"
+        Float: 2
       }
     }
     Assets {

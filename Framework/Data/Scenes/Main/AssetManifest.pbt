@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17479800590338811613
+  Name: "Carpet Tile 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_carpet_tile_002"
+  }
+}
+Assets {
   Id: 17157977466683768474
   Name: "NFTUpgraded"
   PlatformAssetType: 23
@@ -18,6 +27,24 @@ Assets {
         Value: "mc:enetreferencetype:concurrentplayerpersistence"
       }
     }
+  }
+}
+Assets {
+  Id: 16912192915158960834
+  Name: "Humanoid 2 Rig"
+  PlatformAssetType: 25
+  PrimaryAsset {
+    AssetType: "SkeletonAssetRef"
+    AssetId: "npc_guy_wireframe_001_ref"
+  }
+}
+Assets {
+  Id: 16845241941935487831
+  Name: "Glass 01 (no distortion)"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_glass_001"
   }
 }
 Assets {
@@ -74,6 +101,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16051074517428955240
+  Name: "Small Crate Lid"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_crate_narrow_lid_simple_160cm_001"
+  }
+}
+Assets {
   Id: 15969669977645369301
   Name: "SERVERXPBOOST"
   PlatformAssetType: 24
@@ -96,6 +132,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15844588089312651302
+  Name: "Fantasy Basket 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fan_basket_003_ref"
+  }
+}
+Assets {
   Id: 15827781868427444608
   Name: "GoldPack4"
   PlatformAssetType: 24
@@ -115,6 +160,24 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_brick_stone_floor_rough_002"
+  }
+}
+Assets {
+  Id: 15529149580810381787
+  Name: "Cube - Rounded Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_rounded_001"
+  }
+}
+Assets {
+  Id: 15418753173860505430
+  Name: "Fantasy Vanity 01 - Counter 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fan_vanity_001_base_001_ref"
   }
 }
 Assets {
@@ -153,6 +216,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15117047820700872013
+  Name: "Pyramid - 4-Sided Truncated Hollow Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pyramid_4_sided_truncated_hollow_thick_001"
+  }
+}
+Assets {
   Id: 15115004373043497991
   Name: "Gold Pack 3"
   PlatformAssetType: 24
@@ -175,6 +247,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14985117741908229758
+  Name: "Craftsman Roof 01 Bracket"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_roof_001_bracket"
+  }
+}
+Assets {
   Id: 14862609072787733245
   Name: "GoldPack1"
   PlatformAssetType: 24
@@ -185,6 +266,15 @@ Assets {
         Value: "mc:enetreferencetype:creatorperk"
       }
     }
+  }
+}
+Assets {
+  Id: 14804925474299247765
+  Name: "Fantasy Dining Chair 01 - Head 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fan_chair_dining_001_head_001_ref"
   }
 }
 Assets {
@@ -219,6 +309,33 @@ Assets {
   }
 }
 Assets {
+  Id: 14287349269321119691
+  Name: "Ring"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_torus_004"
+  }
+}
+Assets {
+  Id: 14212988502358508072
+  Name: "Metal Basic Steel"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "steel_001"
+  }
+}
+Assets {
+  Id: 14212412153888790346
+  Name: "Pipe - 4-Sided Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_4_sided_thin_001"
+  }
+}
+Assets {
   Id: 13950225922132296555
   Name: "Cylinder"
   PlatformAssetType: 1
@@ -237,12 +354,39 @@ Assets {
   }
 }
 Assets {
+  Id: 13677687073568333259
+  Name: "Humanoid 2 Peasant Shirt"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_guy_upper_fantasy_000_ref_temp"
+  }
+}
+Assets {
   Id: 13642204757580273705
   Name: "Cube - Chamfered Small Polished"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_003"
+  }
+}
+Assets {
+  Id: 13583040906138958744
+  Name: "Humanoid 2 Roscoe"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_guy_head_military_001_ref"
+  }
+}
+Assets {
+  Id: 13512674754793005214
+  Name: "Fantasy Chain - Straight 2m 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fan_chain_strt_2m_001_ref"
   }
 }
 Assets {
@@ -265,6 +409,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_pillar_001_top"
+  }
+}
+Assets {
+  Id: 13062875898901558076
+  Name: "Decal Letters 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_letters_001"
   }
 }
 Assets {
@@ -316,12 +469,39 @@ Assets {
   }
 }
 Assets {
+  Id: 12510064410993333055
+  Name: "Fantasy Pommel 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_pommel_004"
+  }
+}
+Assets {
+  Id: 12369596735706014517
+  Name: "Fantasy Scroll Rolled 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fan_scroll_001_ref"
+  }
+}
+Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_002"
+  }
+}
+Assets {
+  Id: 12046203229753918105
+  Name: "Small Open Crate"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_crate_narrow_open_simple_160cm_001"
   }
 }
 Assets {
@@ -370,6 +550,24 @@ Assets {
         Value: "mc:enetreferencetype:creatorperk"
       }
     }
+  }
+}
+Assets {
+  Id: 11452126672691922020
+  Name: "Craftsman Dining Chair"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_chair_dining_001"
+  }
+}
+Assets {
+  Id: 11348006848872106943
+  Name: "Pipe Thin 01 - Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_thin_lg_001_ref"
   }
 }
 Assets {
@@ -431,6 +629,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10778227496330129291
+  Name: "Text 03: H"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F5_Text_007"
+  }
+}
+Assets {
   Id: 10777523509111713302
   Name: "Prism - 6-Sided Polished"
   PlatformAssetType: 1
@@ -471,6 +678,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10184847056121543272
+  Name: "Basic Material"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_pbr_material_001"
+  }
+}
+Assets {
   Id: 10039668417810932723
   Name: "SELFGOLDBOOST"
   PlatformAssetType: 24
@@ -503,6 +719,15 @@ Assets {
         Value: "mc:enetreferencetype:creatorperk"
       }
     }
+  }
+}
+Assets {
+  Id: 9578978721665608895
+  Name: "Grid Basic"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "grid_blue_001"
   }
 }
 Assets {
@@ -551,6 +776,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_roof_001_cap"
+  }
+}
+Assets {
+  Id: 9199751096616988864
+  Name: "Candle Flame VFX"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "fxsm_candleflame"
   }
 }
 Assets {
@@ -617,6 +851,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_grass_generic_001"
+  }
+}
+Assets {
+  Id: 8475244315695859103
+  Name: "Humanoid 2 Xavier"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_guy_head_basic_006_ref"
   }
 }
 Assets {
@@ -713,6 +956,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7147607578013694397
+  Name: "Sphere - Half Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hemisphere_002"
+  }
+}
+Assets {
   Id: 6997751774838429298
   Name: "Grass Basic"
   PlatformAssetType: 2
@@ -728,6 +980,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rock_generic_003"
+  }
+}
+Assets {
+  Id: 6892861472875270100
+  Name: "Simple Crate 150cm"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_crate_simple_150cm_001"
   }
 }
 Assets {
@@ -777,6 +1038,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_stairs_001_post"
+  }
+}
+Assets {
+  Id: 6249565137426286956
+  Name: "Fantasy Study Easel 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fan_study_easel_001_ref"
   }
 }
 Assets {
@@ -876,6 +1146,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4488444258523261897
+  Name: "Flare Billboard"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_flare_object"
+  }
+}
+Assets {
   Id: 4437160827424791669
   Name: "Large Wood Beam 8m"
   PlatformAssetType: 1
@@ -898,6 +1177,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4265265376636481888
+  Name: "Decal Gold Coins 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_gold_coins_001"
+  }
+}
+Assets {
   Id: 4231794252657893743
   Name: "GoldPack3"
   PlatformAssetType: 24
@@ -917,6 +1205,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_grass_generic_002"
+  }
+}
+Assets {
+  Id: 3962847529698472036
+  Name: "Fantasy Sack Open"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fantasy_sack_001_ref"
   }
 }
 Assets {
@@ -977,12 +1274,30 @@ Assets {
   }
 }
 Assets {
+  Id: 1648351798271745680
+  Name: "Decal Fantasy Carved 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_fantasy_carved_001"
+  }
+}
+Assets {
   Id: 1534350165316884423
   Name: "Main Street Stairs 01 - 1.5m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_stairs_001_150cm_ref"
+  }
+}
+Assets {
+  Id: 1430557070987966504
+  Name: "Humanoid 2 Peasant Pants"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_guy_lower_fantasy_000_ref"
   }
 }
 Assets {
@@ -1010,6 +1325,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_fantasy_block_broken_01"
+  }
+}
+Assets {
+  Id: 1137112816547272582
+  Name: "Cylinder"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_002"
   }
 }
 Assets {
@@ -1054,6 +1378,15 @@ Assets {
         Value: "mc:enetreferencetype:creatorperk"
       }
     }
+  }
+}
+Assets {
+  Id: 750590760549569354
+  Name: "Fantasy Pommel 05"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_pommel_005"
   }
 }
 Assets {

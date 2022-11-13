@@ -22,11 +22,9 @@ Objects {
   ChildIds: 10204651723635706203
   ChildIds: 2716031646225940882
   ChildIds: 17211331053235690457
-  ChildIds: 17862054296994801031
-  ChildIds: 5782105561255309277
   ChildIds: 15420170624833856413
   ChildIds: 11648666783363970768
-  ChildIds: 10238707556722705455
+  ChildIds: 16549013787783880264
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -50,14 +48,16 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10238707556722705455
+  Id: 16549013787783880264
   Name: "Vignette Grain Post Process"
   Transform {
     Location {
-      X: 60
-      Y: 2980
+      X: -4461.57764
+      Y: -1416.86768
+      Z: -51064.2031
     }
     Rotation {
+      Yaw: -89.999939
     }
     Scale {
       X: 1
@@ -77,7 +77,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Vignette Intensity"
-      Float: 0.6
+      Float: 0.363446862
     }
   }
   Collidable_v2 {
@@ -197,6 +197,14 @@ Objects {
       Name: "bp:Intensity"
       Float: 0
     }
+    Overrides {
+      Name: "bp:Max"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Per Object Amount"
+      Float: 0
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -210,123 +218,6 @@ Objects {
   Blueprint {
     BlueprintAsset {
       Id: 15946579520938017950
-    }
-    TeamSettings {
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 5782105561255309277
-  Name: "Simple Depth Blur Post Process"
-  Transform {
-    Location {
-      X: -240
-      Y: -11920
-      Z: 3400
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7490083330898921651
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Visible In Preview"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Start Distance"
-      Float: 50
-    }
-    Overrides {
-      Name: "bp:Max Distance"
-      Float: 80
-    }
-    Overrides {
-      Name: "bp:Effect Strength"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Blur Amount"
-      Float: 0.02
-    }
-    Overrides {
-      Name: "bp:Visualize Range"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Brightness Multiplier"
-      Float: 1.1
-    }
-    Overrides {
-      Name: "bp:Priority"
-      Float: 3
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 15121749094906828004
-    }
-    TeamSettings {
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 17862054296994801031
-  Name: "Tonemapping Post Process"
-  Transform {
-    Location {
-      X: 60
-      Y: 2980
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7490083330898921651
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Toe"
-      Float: 0.504228234
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 17812816660570473491
     }
     TeamSettings {
     }
@@ -410,15 +301,15 @@ Objects {
     Overrides {
       Name: "bp:Color"
       Color {
-        R: 0.112792969
-        G: 0.252144784
-        B: 0.401041657
+        R: 0.364583343
+        G: 0.232875511
+        B: 0.107849173
         A: 1
       }
     }
     Overrides {
       Name: "bp:Start"
-      Float: 200
+      Float: 1117.87598
     }
     Overrides {
       Name: "bp:Volumetric Fog"
@@ -426,11 +317,11 @@ Objects {
     }
     Overrides {
       Name: "bp:Layered Fog Offset Height"
-      Float: -28.3203354
+      Float: -24.632225
     }
     Overrides {
       Name: "bp:Falloff"
-      Float: 0.05
+      Float: 0.736092806
     }
     Overrides {
       Name: "bp:Layered Fog Falloff"
@@ -438,24 +329,24 @@ Objects {
     }
     Overrides {
       Name: "bp:Light Absorption Amount"
-      Float: 1.2
+      Float: 0.445237458
     }
     Overrides {
       Name: "bp:Fog Density"
-      Float: 3
+      Float: 1.22739744
     }
     Overrides {
       Name: "bp:Albedo"
       Color {
-        R: 1
-        G: 0.905562937
-        B: 0.69
+        R: 0.364583343
+        G: 0.232875511
+        B: 0.107849173
         A: 1
       }
     }
     Overrides {
       Name: "bp:View Distance"
-      Float: 3190.92456
+      Float: 973.366455
     }
     Overrides {
       Name: "bp:Layered Fog Density"
@@ -464,11 +355,19 @@ Objects {
     Overrides {
       Name: "bp:Directional Inscattering Color"
       Color {
-        R: 0.278501242
-        G: 0.531623065
-        B: 0.802083313
+        R: 0.364583343
+        G: 0.232875511
+        B: 0.107849173
         A: 1
       }
+    }
+    Overrides {
+      Name: "bp:Beam View Direction"
+      Float: 0.516328156
+    }
+    Overrides {
+      Name: "bp:Opacity"
+      Float: 1
     }
   }
   Collidable_v2 {
@@ -510,7 +409,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Exposure"
-      Float: 0.1
+      Float: -0.0673685074
     }
   }
   Collidable_v2 {
@@ -568,18 +467,6 @@ Objects {
       Bool: true
     }
     Overrides {
-      Name: "bp:Shadow Gain"
-      Color {
-        G: 0.0574833788
-        B: 0.309999943
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Shadow Max"
-      Float: 0.04
-    }
-    Overrides {
       Name: "bp:Color Saturation"
       Color {
         R: 1
@@ -591,11 +478,23 @@ Objects {
     Overrides {
       Name: "bp:Scene Tint"
       Color {
-        R: 0.996514797
-        G: 1.06434321
-        B: 1.2
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
+    }
+    Overrides {
+      Name: "bp:Blue Correction"
+      Float: 0.276507437
+    }
+    Overrides {
+      Name: "bp:Expand Gamut"
+      Float: 0.778606117
+    }
+    Overrides {
+      Name: "bp:White Temperature"
+      Float: 7298.97803
     }
   }
   Collidable_v2 {
@@ -651,7 +550,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 0.85
+      Float: 0.700153172
     }
     Overrides {
       Name: "bp:Fade Out Distance"
@@ -667,7 +566,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Radius"
-      Float: 300
+      Float: 187.471222
     }
   }
   Collidable_v2 {
@@ -769,7 +668,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 0.8
+      Float: 0.786295056
     }
     Overrides {
       Name: "bp:Blend Target Image"
@@ -860,9 +759,9 @@ Objects {
     Overrides {
       Name: "bp:Sun Disc Color"
       Color {
-        R: 50
-        G: 10
-        B: 2
+        R: 10
+        G: 8.41059685
+        B: 0.400000215
         A: 1
       }
     }
@@ -902,7 +801,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 3.7
+      Float: 5
     }
     Overrides {
       Name: "bp:Soft Distance Shadows"
@@ -963,37 +862,11 @@ Objects {
       }
     }
     Overrides {
-      Name: "bp:Horizon Color"
-      Color {
-        R: 2.73199987
-        G: 3.76753283
-        B: 4
-        A: 0.659000039
-      }
-    }
-    Overrides {
-      Name: "bp:Zenith Color"
-      Color {
-        G: 0.0866663456
-        B: 0.520000041
-        A: 0.659000039
-      }
-    }
-    Overrides {
       Name: "bp:Cloud Color"
       Color {
         R: 1
         G: 0.979867578
         B: 0.81
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Cloud Wisp Color"
-      Color {
-        R: 0.74
-        G: 0.0244098939
-        B: 0.0244098939
         A: 1
       }
     }
@@ -1015,24 +888,15 @@ Objects {
     }
     Overrides {
       Name: "bp:Cloud Opacity"
-      Float: 0.7
+      Float: 0.725258112
     }
     Overrides {
       Name: "bp:Cloud Lighting Brightness"
-      Float: 5.26850843
+      Float: 6.79371
     }
     Overrides {
       Name: "bp:Cloud Ambient Brightness"
       Float: 5
-    }
-    Overrides {
-      Name: "bp:Cloud Ambient Color"
-      Color {
-        R: 1
-        G: 0.644503355
-        B: 0.39
-        A: 1
-      }
     }
     Overrides {
       Name: "bp:Cloud Wisp Opacity"
@@ -1041,14 +905,6 @@ Objects {
     Overrides {
       Name: "bp:Sky Influence On Clouds"
       Float: 0.665817499
-    }
-    Overrides {
-      Name: "bp:High Cloud Color"
-      Color {
-        R: 0.973958313
-        G: 0.387740493
-        A: 1
-      }
     }
     Overrides {
       Name: "bp:High Cloud Opacity"
@@ -1060,7 +916,9 @@ Objects {
     }
     Overrides {
       Name: "bp:High Cloud Index"
-      Int: 2
+      Enum {
+        Value: "mc:ehighaltitudecloudshapes:2"
+      }
     }
     Overrides {
       Name: "bp:High Cloud Noise Scale"
@@ -1069,14 +927,6 @@ Objects {
     Overrides {
       Name: "bp:High Cloud Speed"
       Float: 0.2
-    }
-    Overrides {
-      Name: "bp:Cloud Rim Color"
-      Color {
-        R: 1
-        G: 0.470289171
-        A: 1
-      }
     }
     Overrides {
       Name: "bp:Cloud Wisp Speed"
@@ -1091,25 +941,50 @@ Objects {
       Float: 1
     }
     Overrides {
-      Name: "bp:Brightness"
-      Float: 2
-    }
-    Overrides {
       Name: "bp:Disable Cloud Mask"
       Bool: false
     }
     Overrides {
       Name: "bp:Haze Falloff"
-      Float: 15
+      Float: 3
     }
     Overrides {
       Name: "bp:Haze Color"
       Color {
-        R: 0.157463983
-        G: 0.357501537
-        B: 0.729000032
-        A: 0.659000039
+        R: 0.0100662131
+        B: 0.0399999619
+        A: 1
       }
+    }
+    Overrides {
+      Name: "bp:Zenith Color"
+      Color {
+        G: 0.144635633
+        B: 0.419999957
+        A: 0.6
+      }
+    }
+    Overrides {
+      Name: "bp:Horizon Color"
+      Color {
+        R: 0.57
+        G: 1
+        B: 0.880397439
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Overall Tint"
+      Color {
+        R: 0.932291687
+        G: 0.71864152
+        B: 0.543836832
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Brightness"
+      Float: 4
     }
   }
   Collidable_v2 {

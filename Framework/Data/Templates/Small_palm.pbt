@@ -10,12 +10,12 @@ Assets {
         Name: "Small_palm"
         Transform {
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 2.37643862
+            Y: 2.37643862
+            Z: 2.37643862
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 17099318105465236386
         ChildIds: 10143524279940654328
         ChildIds: 17624963925719290447
         ChildIds: 4182307201867080222
@@ -56,21 +56,6 @@ Assets {
         }
         ParentId: 16295755683547083001
         UnregisteredParameters {
-          Overrides {
-            Name: "ma:Nature_Leaves:id"
-            AssetReference {
-              Id: 532304363034804995
-            }
-          }
-          Overrides {
-            Name: "ma:Nature_Leaves:color"
-            Color {
-              R: 0.032864254
-              G: 0.0800000429
-              B: 0.0312500149
-              A: 1
-            }
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -79,11 +64,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 12416815806534727809
+            Id: 15128280182623405640
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -148,7 +133,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -193,21 +178,6 @@ Assets {
         }
         ParentId: 16295755683547083001
         UnregisteredParameters {
-          Overrides {
-            Name: "ma:Nature_Leaves:id"
-            AssetReference {
-              Id: 532304363034804995
-            }
-          }
-          Overrides {
-            Name: "ma:Nature_Leaves:color"
-            Color {
-              R: 0.032864254
-              G: 0.0800000429
-              B: 0.0312500149
-              A: 1
-            }
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -216,11 +186,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 12416815806534727809
+            Id: 15128280182623405640
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -242,12 +212,12 @@ Assets {
       }
     }
     Assets {
-      Id: 12416815806534727809
-      Name: "Kelp Bush 01"
+      Id: 15128280182623405640
+      Name: "Fern 04"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_kelp_bush_01"
+        AssetId: "sm_fern_generic_004"
       }
     }
     Assets {

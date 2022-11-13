@@ -55,45 +55,53 @@ Assets {
       Overrides {
         Name: "cmpc:Material1_Sides"
         Color {
-          R: 1
-          G: 0.931854308
-          B: 0.79
+          R: 0.364583343
+          G: 0.232875511
+          B: 0.107849173
           A: 1
         }
       }
       Overrides {
         Name: "cmpc:Material3"
         Color {
-          R: 0.65625
-          G: 0.538806856
-          B: 0.297379553
+          R: 0.020833334
+          G: 0.0133071719
+          B: 0.00616281
           A: 1
         }
       }
       Overrides {
         Name: "cmpc:Material3_Sides"
         Color {
-          R: 0.65625
-          G: 0.538806856
-          B: 0.297379553
+          R: 0.5
+          G: 0.319372118
+          B: 0.147907436
           A: 1
         }
       }
       Overrides {
         Name: "cmpc:Material2_Sides"
         Color {
-          R: 1
-          G: 0.931854308
-          B: 0.79
+          R: 0.364583343
+          G: 0.232875511
+          B: 0.107849173
           A: 1
         }
       }
       Overrides {
         Name: "cmpc:Material2"
         Color {
-          R: 1
-          G: 0.931854308
-          B: 0.79
+          R: 0.364583343
+          G: 0.232875511
+          B: 0.107849173
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "cmpc:Material1"
+        Color {
+          R: 0.86
+          G: 0.153774858
           A: 1
         }
       }
