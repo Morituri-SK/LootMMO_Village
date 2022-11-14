@@ -3827,7 +3827,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -3889,7 +3889,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -3952,7 +3952,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -4016,7 +4016,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -4182,7 +4182,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -4244,7 +4244,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -4307,7 +4307,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -4371,7 +4371,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -4517,7 +4517,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -4579,7 +4579,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -4642,7 +4642,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -4706,7 +4706,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -4872,7 +4872,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -4934,7 +4934,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -4997,7 +4997,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -5061,7 +5061,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -5207,7 +5207,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -5269,7 +5269,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -5332,7 +5332,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -5396,7 +5396,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -5562,7 +5562,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -5624,7 +5624,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -5687,7 +5687,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -5751,7 +5751,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -5897,7 +5897,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -5959,7 +5959,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -6022,7 +6022,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -6086,7 +6086,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -6252,7 +6252,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -6314,7 +6314,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -6377,7 +6377,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -6441,7 +6441,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4809529976550021000
+              Id: 6937005782613619979
             }
           }
         }
@@ -7242,15 +7242,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_weap_mod_bow_recurve_001_arm_001_ref"
-      }
-    }
-    Assets {
-      Id: 4809529976550021000
-      Name: "Metal Old Beaten Gold 02"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_gold_002"
       }
     }
     PrimaryAssetId {

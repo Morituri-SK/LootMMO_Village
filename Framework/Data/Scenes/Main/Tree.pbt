@@ -20555,6 +20555,12 @@ Objects {
   }
   ParentId: 3200473580519523536
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 14274508695299141600
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
