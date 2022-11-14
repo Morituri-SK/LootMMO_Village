@@ -722,6 +722,19 @@ Assets {
   }
 }
 Assets {
+  Id: 9873395270556790564
+  Name: "HaH_RentedHomes"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "6d080c59b04142d0bee73e8a775a2143"
+      Type {
+        Value: "mc:enetreferencetype:concurrentpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 9578978721665608895
   Name: "Grid Basic"
   PlatformAssetType: 2
@@ -860,6 +873,19 @@ Assets {
   PrimaryAsset {
     AssetType: "SkinnedMeshAssetRef"
     AssetId: "npc_human_guy_head_basic_006_ref"
+  }
+}
+Assets {
+  Id: 8379647479970023649
+  Name: "HaH_PlayerFurnitureInventory"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "1343d442394a4f66a452f18f674af38a"
+      Type {
+        Value: "mc:enetreferencetype:concurrentplayerpersistence"
+      }
+    }
   }
 }
 Assets {

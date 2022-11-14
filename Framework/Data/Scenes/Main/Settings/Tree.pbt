@@ -1,6 +1,43 @@
 Name: "Settings"
 RootId: 1578154111882892155
 Objects {
+  Id: 17057411036052482755
+  Name: "HaH"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1578154111882892155
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  BindingSet {
+    BindingSetAsset {
+      Id: 16049717878354223219
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 12027737536324965123
   Name: "Ability"
   Transform {
@@ -362,6 +399,7 @@ Objects {
         Value: "mc:eplayerstoragemode:writable"
       }
       EnableConcurrentPlayerStorage: true
+      EnableConcurrentCreatorStorage: true
       EnableNetworkedEventsQueuing: true
       MobileRelevanceSettings {
         key: "decal"

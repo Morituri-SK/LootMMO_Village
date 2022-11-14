@@ -369,5 +369,57 @@ Assets {
       VirtualFolderPath: "Hierarchy"
       PlatformAssetType: 5
     }
+    Folders {
+      VirtualFolderPath: "nonNFT"
+      PlatformAssetType: 31
+    }
+    Folders {
+      VirtualFolderPath: "HouseParts"
+      PlatformAssetType: 5
+    }
+    Folders {
+      VirtualFolderPath: "HouseParts"
+      VirtualFolderPath: "Floors"
+      PlatformAssetType: 5
+    }
+    Folders {
+      VirtualFolderPath: "HouseParts"
+      VirtualFolderPath: "Doors"
+      PlatformAssetType: 5
+    }
+    Folders {
+      VirtualFolderPath: "HouseParts"
+      VirtualFolderPath: "Walls"
+      PlatformAssetType: 5
+    }
+    Folders {
+      VirtualFolderPath: "HnH_Walls"
+      PlatformAssetType: 13
+    }
+    Folders {
+      VirtualFolderPath: "HnH_Trims"
+      PlatformAssetType: 13
+    }
+    Folders {
+      VirtualFolderPath: "HouseParts"
+      VirtualFolderPath: "Roofs"
+      PlatformAssetType: 5
+    }
+    Folders {
+      VirtualFolderPath: "HnH_Roofs"
+      PlatformAssetType: 13
+    }
+    Folders {
+      VirtualFolderPath: "NFT"
+      PlatformAssetType: 31
+    }
+    Folders {
+      VirtualFolderPath: "HnH_Materials"
+      PlatformAssetType: 13
+    }
+    Folders {
+      VirtualFolderPath: "Furniture"
+      PlatformAssetType: 5
+    }
   }
 }

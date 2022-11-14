@@ -26,6 +26,8 @@ Objects {
   ChildIds: 17798732759644559527
   ChildIds: 764194984864902660
   ChildIds: 8212739915466549664
+  ChildIds: 11760477838484950255
+  ChildIds: 10952045993512622073
   ChildIds: 880106829888079510
   ChildIds: 12626000991766525324
   ChildIds: 2476994093276404858
@@ -388,10 +390,10 @@ Objects {
   ChildIds: 4408898669606024723
   ChildIds: 8401882498207943588
   ChildIds: 1565464641385248782
-  ChildIds: 13198076503064189867
+  ChildIds: 6967245979273368503
   ChildIds: 11370801081527264678
-  ChildIds: 10501174933322157180
-  ChildIds: 4845491063382250992
+  ChildIds: 10071727287260726758
+  ChildIds: 5194953942467726179
   ChildIds: 13968697290377436458
   ChildIds: 10451941574186384660
   ChildIds: 5599728710173946182
@@ -13100,16 +13102,16 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4845491063382250992
+  Id: 5194953942467726179
   Name: "House  Foundation"
   Transform {
     Location {
-      X: 12167.54
-      Y: 17339.7773
-      Z: 5150
+      X: 3908.58594
+      Y: 7800.34863
+      Z: 2445.66309
     }
     Rotation {
-      Yaw: 55.7600098
+      Yaw: -124.239929
     }
     Scale {
       X: 0.61058867
@@ -13118,81 +13120,457 @@ Objects {
     }
   }
   ParentId: 2476994093276404858
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5990555953214484240
-      value {
-        Overrides {
-          Name: "Name"
-          String: "House  Foundation"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.61058867
-            Y: 0.61058867
-            Z: 0.61058867
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3908.58594
-            Y: 7800.34863
-            Z: 2445.66309
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -124.239929
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17216742387621580198
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1751.66846
-            Y: -1751.49243
-            Z: -227.749344
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 7.69274378
-            Y: 7.9342103
-            Z: 3.11111498
-          }
-        }
-        Overrides {
-          Name: "ma:Building_Foundation:id"
-          AssetReference {
-            Id: 12027912208478851697
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5606671959676962042
-    }
+  ChildIds: 17713978998841076181
+  ChildIds: 13931134235476435514
+  ChildIds: 13640384817173086291
+  ChildIds: 16397872134183096866
+  ChildIds: 15170299401873021170
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 5194953942467726179
+    SubobjectId: 5990555953214484240
+    InstanceId: 4845491063382250992
+    TemplateId: 5606671959676962042
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10501174933322157180
+  Id: 15170299401873021170
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: -555.006836
+      Y: -1785.55188
+      Z: -295.22757
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.83820534
+      Y: 5.86982822
+      Z: 2.91911364
+    }
+  }
+  ParentId: 5194953942467726179
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 17273777858994590707
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15170299401873021170
+    SubobjectId: 14536826979925687425
+    InstanceId: 4845491063382250992
+    TemplateId: 5606671959676962042
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16397872134183096866
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: 144.449493
+      Y: -1785.55188
+      Z: -295.22757
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.83820534
+      Y: 5.86982822
+      Z: 2.91911364
+    }
+  }
+  ParentId: 5194953942467726179
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 17273777858994590707
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 16397872134183096866
+    SubobjectId: 17918244172381042257
+    InstanceId: 4845491063382250992
+    TemplateId: 5606671959676962042
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13640384817173086291
+  Name: "Main Street Stairs 01 - 1.5m"
+  Transform {
+    Location {
+      X: 286.608673
+      Y: -2400.94751
+      Z: -268.035187
+    }
+    Rotation {
+      Yaw: 179.999954
+    }
+    Scale {
+      X: 2.45664573
+      Y: 1.63776386
+      Z: 1.63776386
+    }
+  }
+  ParentId: 5194953942467726179
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 17273777858994590707
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 17273777858994590707
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:utile"
+      Float: 6.53539562
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:vtile"
+      Float: 4.77792788
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1534350165316884423
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 13640384817173086291
+    SubobjectId: 11995043251515384864
+    InstanceId: 4845491063382250992
+    TemplateId: 5606671959676962042
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13931134235476435514
+  Name: "Main Street Stairs 01 - 1.5m"
+  Transform {
+    Location {
+      X: 286.608673
+      Y: -2079.37378
+    }
+    Rotation {
+      Yaw: 179.999985
+    }
+    Scale {
+      X: 2.45664573
+      Y: 1.63776386
+      Z: 1.63776386
+    }
+  }
+  ParentId: 5194953942467726179
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 12027912208478851697
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 12027912208478851697
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:utile"
+      Float: 6.53539562
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:vtile"
+      Float: 4.77792788
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1534350165316884423
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 13931134235476435514
+    SubobjectId: 15740011662987855433
+    InstanceId: 4845491063382250992
+    TemplateId: 5606671959676962042
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17713978998841076181
+  Name: "Main Street Landing 01 4m x 4m"
+  Transform {
+    Location {
+      X: -1751.66846
+      Y: -1751.49243
+      Z: -227.749344
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 7.69274378
+      Y: 7.9342103
+      Z: 3.11111498
+    }
+  }
+  ParentId: 5194953942467726179
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 12027912208478851697
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 17273777858994590707
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 4.2484231
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 5.69846249
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5623493893731406562
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 17713978998841076181
+    SubobjectId: 17216742387621580198
+    InstanceId: 4845491063382250992
+    TemplateId: 5606671959676962042
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10071727287260726758
   Name: "House  Foundation"
   Transform {
     Location {
-      X: 11411.3398
-      Y: 15584.0098
-      Z: 4567.90088
+      X: 5354.46387
+      Y: 7068.83301
+      Z: 2150
     }
     Rotation {
-      Yaw: -34.2398834
+      Yaw: 55.760025
     }
     Scale {
       X: 0.61058867
@@ -13201,69 +13579,445 @@ Objects {
     }
   }
   ParentId: 2476994093276404858
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5990555953214484240
-      value {
-        Overrides {
-          Name: "Name"
-          String: "House  Foundation"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.61058867
-            Y: 0.61058867
-            Z: 0.61058867
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 5354.46387
-            Y: 7068.83301
-            Z: 2150
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 55.760025
-          }
-        }
-      }
+  ChildIds: 3893761581110257488
+  ChildIds: 182551134099877055
+  ChildIds: 9120273255922323158
+  ChildIds: 2327560972464004263
+  ChildIds: 1250421123308541559
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 10071727287260726758
+    SubobjectId: 5990555953214484240
+    InstanceId: 10501174933322157180
+    TemplateId: 5606671959676962042
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1250421123308541559
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: -555.006836
+      Y: -1785.55188
+      Z: -295.22757
     }
-    ParameterOverrideMap {
-      key: 17216742387621580198
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1751.66846
-            Y: -1751.49243
-            Z: -227.749344
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 7.69274378
-            Y: 7.9342103
-            Z: 3.11111498
-          }
-        }
-        Overrides {
-          Name: "ma:Building_Foundation:id"
-          AssetReference {
-            Id: 12027912208478851697
-          }
-        }
-      }
+    Rotation {
     }
-    TemplateAsset {
-      Id: 5606671959676962042
+    Scale {
+      X: 2.83820534
+      Y: 5.86982822
+      Z: 2.91911364
     }
   }
+  ParentId: 10071727287260726758
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 17273777858994590707
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 1250421123308541559
+    SubobjectId: 14536826979925687425
+    InstanceId: 10501174933322157180
+    TemplateId: 5606671959676962042
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2327560972464004263
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: 144.449493
+      Y: -1785.55188
+      Z: -295.22757
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.83820534
+      Y: 5.86982822
+      Z: 2.91911364
+    }
+  }
+  ParentId: 10071727287260726758
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 17273777858994590707
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 2327560972464004263
+    SubobjectId: 17918244172381042257
+    InstanceId: 10501174933322157180
+    TemplateId: 5606671959676962042
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9120273255922323158
+  Name: "Main Street Stairs 01 - 1.5m"
+  Transform {
+    Location {
+      X: 286.608673
+      Y: -2400.94751
+      Z: -268.035187
+    }
+    Rotation {
+      Yaw: 179.999954
+    }
+    Scale {
+      X: 2.45664573
+      Y: 1.63776386
+      Z: 1.63776386
+    }
+  }
+  ParentId: 10071727287260726758
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 17273777858994590707
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 17273777858994590707
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:utile"
+      Float: 6.53539562
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:vtile"
+      Float: 4.77792788
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1534350165316884423
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 9120273255922323158
+    SubobjectId: 11995043251515384864
+    InstanceId: 10501174933322157180
+    TemplateId: 5606671959676962042
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 182551134099877055
+  Name: "Main Street Stairs 01 - 1.5m"
+  Transform {
+    Location {
+      X: 286.608673
+      Y: -2079.37378
+    }
+    Rotation {
+      Yaw: 179.999985
+    }
+    Scale {
+      X: 2.45664573
+      Y: 1.63776386
+      Z: 1.63776386
+    }
+  }
+  ParentId: 10071727287260726758
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 12027912208478851697
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 12027912208478851697
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:utile"
+      Float: 6.53539562
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:vtile"
+      Float: 4.77792788
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1534350165316884423
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 182551134099877055
+    SubobjectId: 15740011662987855433
+    InstanceId: 10501174933322157180
+    TemplateId: 5606671959676962042
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3893761581110257488
+  Name: "Main Street Landing 01 4m x 4m"
+  Transform {
+    Location {
+      X: -1751.66846
+      Y: -1751.49243
+      Z: -227.749344
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 7.69274378
+      Y: 7.9342103
+      Z: 3.11111498
+    }
+  }
+  ParentId: 10071727287260726758
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 12027912208478851697
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 17273777858994590707
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 4.2484231
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 5.69846249
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5623493893731406562
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 3893761581110257488
+    SubobjectId: 17216742387621580198
+    InstanceId: 10501174933322157180
+    TemplateId: 5606671959676962042
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 11370801081527264678
@@ -13725,16 +14479,16 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13198076503064189867
+  Id: 6967245979273368503
   Name: "House  Foundation"
   Transform {
     Location {
-      X: 4042.24902
-      Y: 17188.0215
-      Z: 3625
+      X: 4598.26367
+      Y: 5313.06543
+      Z: 1567.90088
     }
     Rotation {
-      Yaw: 3.54534912
+      Yaw: -34.2398682
     }
     Scale {
       X: 0.61058867
@@ -13743,42 +14497,445 @@ Objects {
     }
   }
   ParentId: 2476994093276404858
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5990555953214484240
-      value {
-        Overrides {
-          Name: "Name"
-          String: "House  Foundation"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.61058867
-            Y: 0.61058867
-            Z: 0.61058867
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 4598.26367
-            Y: 5313.06543
-            Z: 1567.90088
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -34.2398682
-          }
-        }
-      }
+  ChildIds: 15959697494002151681
+  ChildIds: 16860872948524612334
+  ChildIds: 10801021566174730375
+  ChildIds: 14643594412539824886
+  ChildIds: 18027685789086777382
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 6967245979273368503
+    SubobjectId: 5990555953214484240
+    InstanceId: 13198076503064189867
+    TemplateId: 5606671959676962042
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18027685789086777382
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: -555.006836
+      Y: -1785.55188
+      Z: -295.22757
     }
-    TemplateAsset {
-      Id: 5606671959676962042
+    Rotation {
+    }
+    Scale {
+      X: 2.83820534
+      Y: 5.86982822
+      Z: 2.91911364
     }
   }
+  ParentId: 6967245979273368503
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 17273777858994590707
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 18027685789086777382
+    SubobjectId: 14536826979925687425
+    InstanceId: 13198076503064189867
+    TemplateId: 5606671959676962042
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14643594412539824886
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: 144.449493
+      Y: -1785.55188
+      Z: -295.22757
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.83820534
+      Y: 5.86982822
+      Z: 2.91911364
+    }
+  }
+  ParentId: 6967245979273368503
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 17273777858994590707
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 14643594412539824886
+    SubobjectId: 17918244172381042257
+    InstanceId: 13198076503064189867
+    TemplateId: 5606671959676962042
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10801021566174730375
+  Name: "Main Street Stairs 01 - 1.5m"
+  Transform {
+    Location {
+      X: 286.608673
+      Y: -2400.94751
+      Z: -268.035187
+    }
+    Rotation {
+      Yaw: 179.999954
+    }
+    Scale {
+      X: 2.45664573
+      Y: 1.63776386
+      Z: 1.63776386
+    }
+  }
+  ParentId: 6967245979273368503
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 17273777858994590707
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 17273777858994590707
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:utile"
+      Float: 6.53539562
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:vtile"
+      Float: 4.77792788
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1534350165316884423
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 10801021566174730375
+    SubobjectId: 11995043251515384864
+    InstanceId: 13198076503064189867
+    TemplateId: 5606671959676962042
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16860872948524612334
+  Name: "Main Street Stairs 01 - 1.5m"
+  Transform {
+    Location {
+      X: 286.608673
+      Y: -2079.37378
+    }
+    Rotation {
+      Yaw: 179.999985
+    }
+    Scale {
+      X: 2.45664573
+      Y: 1.63776386
+      Z: 1.63776386
+    }
+  }
+  ParentId: 6967245979273368503
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 12027912208478851697
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 12027912208478851697
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:utile"
+      Float: 6.53539562
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:vtile"
+      Float: 4.77792788
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1534350165316884423
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 16860872948524612334
+    SubobjectId: 15740011662987855433
+    InstanceId: 13198076503064189867
+    TemplateId: 5606671959676962042
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15959697494002151681
+  Name: "Main Street Landing 01 4m x 4m"
+  Transform {
+    Location {
+      X: -1751.66846
+      Y: -1751.49243
+      Z: -227.749344
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 7.69274378
+      Y: 7.9342103
+      Z: 3.11111498
+    }
+  }
+  ParentId: 6967245979273368503
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Foundation:id"
+      AssetReference {
+        Id: 17273777858994590707
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 17273777858994590707
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Foundation:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:utile"
+      Float: 4.2484231
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:vtile"
+      Float: 5.69846249
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5623493893731406562
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15959697494002151681
+    SubobjectId: 17216742387621580198
+    InstanceId: 13198076503064189867
+    TemplateId: 5606671959676962042
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 1565464641385248782
@@ -38720,21 +39877,19 @@ Objects {
   Id: 8401882498207943588
   Name: "House  Foundation"
   Transform {
-    Location {
-      X: 13572.6494
-      Y: 6702.29102
-      Z: 3425
-    }
-    Rotation {
-      Yaw: -75.2047195
-    }
     Scale {
-      X: 0.61058867
-      Y: 0.61058867
-      Z: 0.61058867
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 2476994093276404858
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 5990555953214484240
@@ -38742,14 +39897,6 @@ Objects {
         Overrides {
           Name: "Name"
           String: "House  Foundation"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.61058867
-            Y: 0.61058867
-            Z: 0.61058867
-          }
         }
         Overrides {
           Name: "Position"
@@ -38776,21 +39923,19 @@ Objects {
   Id: 4408898669606024723
   Name: "House  Foundation"
   Transform {
-    Location {
-      X: 2704.10449
-      Y: 15383.373
-      Z: 3250
-    }
-    Rotation {
-      Yaw: -30.2045975
-    }
     Scale {
-      X: 0.61058867
-      Y: 0.61058867
-      Z: 0.61058867
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 2476994093276404858
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 5990555953214484240
@@ -38798,14 +39943,6 @@ Objects {
         Overrides {
           Name: "Name"
           String: "House  Foundation"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.61058867
-            Y: 0.61058867
-            Z: 0.61058867
-          }
         }
         Overrides {
           Name: "Position"
@@ -38832,21 +39969,19 @@ Objects {
   Id: 12689620002562621323
   Name: "House  Foundation"
   Transform {
-    Location {
-      X: -1110.8501
-      Y: 16388.0059
-      Z: 3250
-    }
-    Rotation {
-      Yaw: 37.2951813
-    }
     Scale {
-      X: 0.61058867
-      Y: 0.61058867
-      Z: 0.61058867
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 2476994093276404858
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 5990555953214484240
@@ -38854,14 +39989,6 @@ Objects {
         Overrides {
           Name: "Name"
           String: "House  Foundation"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.61058867
-            Y: 0.61058867
-            Z: 0.61058867
-          }
         }
         Overrides {
           Name: "Position"
@@ -38888,21 +40015,19 @@ Objects {
   Id: 4383043791296904117
   Name: "House  Foundation"
   Transform {
-    Location {
-      X: 1456.81055
-      Y: 15256.1445
-      Z: 3250
-    }
-    Rotation {
-      Yaw: 48.5454216
-    }
     Scale {
-      X: 0.61058867
-      Y: 0.61058867
-      Z: 0.61058867
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 2476994093276404858
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 5990555953214484240
@@ -38910,14 +40035,6 @@ Objects {
         Overrides {
           Name: "Name"
           String: "House  Foundation"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.61058867
-            Y: 0.61058867
-            Z: 0.61058867
-          }
         }
         Overrides {
           Name: "Position"
@@ -38944,21 +40061,19 @@ Objects {
   Id: 8658485242143201407
   Name: "House  Foundation"
   Transform {
-    Location {
-      X: 13572.6494
-      Y: 6702.29102
-      Z: 3425
-    }
-    Rotation {
-      Yaw: -75.2047195
-    }
     Scale {
-      X: 0.61058867
-      Y: 0.61058867
-      Z: 0.61058867
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 2476994093276404858
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 5990555953214484240
@@ -38966,14 +40081,6 @@ Objects {
         Overrides {
           Name: "Name"
           String: "House  Foundation"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.61058867
-            Y: 0.61058867
-            Z: 0.61058867
-          }
         }
         Overrides {
           Name: "Position"
@@ -38999,21 +40106,19 @@ Objects {
   Id: 6003883585158675355
   Name: "House  Foundation"
   Transform {
-    Location {
-      X: 1456.81055
-      Y: 15256.1445
-      Z: 3214.28906
-    }
-    Rotation {
-      Yaw: 48.5454216
-    }
     Scale {
-      X: 0.61058867
-      Y: 0.61058867
-      Z: 0.61058867
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 2476994093276404858
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 5990555953214484240
@@ -39021,14 +40126,6 @@ Objects {
         Overrides {
           Name: "Name"
           String: "House  Foundation"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.61058867
-            Y: 0.61058867
-            Z: 0.61058867
-          }
         }
         Overrides {
           Name: "Position"
@@ -39055,21 +40152,19 @@ Objects {
   Id: 10918806553903096825
   Name: "House  Foundation"
   Transform {
-    Location {
-      X: -282.841797
-      Y: 13099.1543
-      Z: 2715.38696
-    }
-    Rotation {
-      Yaw: 22.4999542
-    }
     Scale {
-      X: 0.61058867
-      Y: 0.61058867
-      Z: 0.61058867
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 2476994093276404858
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 5990555953214484240
@@ -39077,14 +40172,6 @@ Objects {
         Overrides {
           Name: "Name"
           String: "House  Foundation"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.61058867
-            Y: 0.61058867
-            Z: 0.61058867
-          }
         }
         Overrides {
           Name: "Position"
@@ -39111,20 +40198,19 @@ Objects {
   Id: 13202262903676417910
   Name: "House  Foundation"
   Transform {
-    Location {
-      X: -7175
-      Y: 1225
-    }
-    Rotation {
-      Yaw: 33.7500458
-    }
     Scale {
-      X: 0.61058867
-      Y: 0.61058867
-      Z: 0.61058867
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 2476994093276404858
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 5990555953214484240
@@ -39132,14 +40218,6 @@ Objects {
         Overrides {
           Name: "Name"
           String: "House  Foundation"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.61058867
-            Y: 0.61058867
-            Z: 0.61058867
-          }
         }
         Overrides {
           Name: "Position"
@@ -40253,6 +41331,86 @@ Objects {
       }
     }
     MaxLOD: 32
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10952045993512622073
+  Name: "Morituri_SK"
+  Transform {
+    Location {
+      X: 4932.12109
+      Y: 8268.90723
+      Z: 3137.67236
+    }
+    Rotation {
+      Yaw: -10.5243216
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Morituri_SK"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11760477838484950255
+  Name: "Mizvi"
+  Transform {
+    Location {
+      X: 4932.12109
+      Y: 8268.90723
+      Z: 3137.67236
+    }
+    Rotation {
+      Yaw: -10.5243368
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Mizvi"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
