@@ -188,9 +188,8 @@ Assets {
           Text {
             Label: "8"
             Color {
-              R: 1
-              G: 1
-              B: 1
+              R: 0.75
+              G: 0.5
               A: 1
             }
             Size: 40
@@ -334,9 +333,8 @@ Assets {
           Text {
             Label: "Furniture Friendly Name"
             Color {
-              R: 1
-              G: 1
-              B: 1
+              R: 0.75
+              G: 0.5
               A: 1
             }
             Size: 30

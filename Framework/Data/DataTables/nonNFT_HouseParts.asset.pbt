@@ -3,6 +3,7 @@ Assets {
   Name: "nonNFT_HouseParts"
   PlatformAssetType: 31
   SerializationVersion: 120
+  VirtualFolderPath: "HnH"
   DataTableAsset {
   }
 }

@@ -4724,6 +4724,5 @@ Assets {
     }
   }
   SerializationVersion: 120
-  VirtualFolderPath: "HouseParts"
-  VirtualFolderPath: "Roofs"
+  VirtualFolderPath: "HnH"
 }

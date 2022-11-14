@@ -3,6 +3,7 @@ Assets {
   Name: "NFT_HouseParts_Floors"
   PlatformAssetType: 31
   SerializationVersion: 120
+  VirtualFolderPath: "HnH"
   VirtualFolderPath: "NFT"
   DataTableAsset {
   }

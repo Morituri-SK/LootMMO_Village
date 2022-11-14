@@ -1,6 +1,654 @@
 Name: "PlayerHomes"
 RootId: 16071899597131385433
 Objects {
+  Id: 11568395246803052469
+  Name: "Default_PlayerLocalHome"
+  Transform {
+    Location {
+      X: 14519.2949
+      Y: 9489.28906
+      Z: 3810.17041
+    }
+    Rotation {
+      Yaw: -15.6053934
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16071899597131385433
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4090771675915827969
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5509141451826590301
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7981343225191856180
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11528552669760984993
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Default_PlayerLocalHome"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 10972.0371
+            Y: 18621.416
+            Z: 5450
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -34.2400208
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11728637275382638097
+      value {
+        Overrides {
+          Name: "ma:Shared_Trim:id"
+          AssetReference {
+            Id: 12027912208478851697
+          }
+        }
+        Overrides {
+          Name: "ma:Building_Foundation:id"
+          AssetReference {
+            Id: 17273777858994590707
+          }
+        }
+        Overrides {
+          Name: "ma:Building_Foundation:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:utile"
+          Float: 5.41033173
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:vtile"
+          Float: 9.33674812
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13163163404266392761
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16550294515031268176
+      value {
+        Overrides {
+          Name: "ma:Shared_Trim:id"
+          AssetReference {
+            Id: 12027912208478851697
+          }
+        }
+        Overrides {
+          Name: "ma:Building_Foundation:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:utile"
+          Float: 1.45457315
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:vtile"
+          Float: 0.294695139
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2283134758532537457
+    }
+  }
+}
+Objects {
+  Id: 14633946947637329095
+  Name: "Default_PlayerLocalHome"
+  Transform {
+    Location {
+      X: 14519.2949
+      Y: 9489.28906
+      Z: 3810.17041
+    }
+    Rotation {
+      Yaw: -15.605361
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16071899597131385433
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4090771675915827969
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5509141451826590301
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7981343225191856180
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11528552669760984993
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Default_PlayerLocalHome"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 12875.6777
+            Y: 17090.8691
+            Z: 5250
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 145.759979
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11728637275382638097
+      value {
+        Overrides {
+          Name: "ma:Shared_Trim:id"
+          AssetReference {
+            Id: 12027912208478851697
+          }
+        }
+        Overrides {
+          Name: "ma:Building_Foundation:id"
+          AssetReference {
+            Id: 17273777858994590707
+          }
+        }
+        Overrides {
+          Name: "ma:Building_Foundation:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:utile"
+          Float: 5.41033173
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:vtile"
+          Float: 9.33674812
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13163163404266392761
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16550294515031268176
+      value {
+        Overrides {
+          Name: "ma:Shared_Trim:id"
+          AssetReference {
+            Id: 12027912208478851697
+          }
+        }
+        Overrides {
+          Name: "ma:Building_Foundation:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:utile"
+          Float: 1.45457315
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:vtile"
+          Float: 0.294695139
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2283134758532537457
+    }
+  }
+}
+Objects {
+  Id: 127659244650693187
+  Name: "Default_PlayerLocalHome"
+  Transform {
+    Location {
+      X: 14519.2949
+      Y: 9489.28906
+      Z: 3810.17041
+    }
+    Rotation {
+      Yaw: -15.6053305
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16071899597131385433
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4090771675915827969
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5509141451826590301
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7981343225191856180
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11528552669760984993
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Default_PlayerLocalHome"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 9610.25586
+            Y: 16626.6426
+            Z: 4567.90088
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 55.760025
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11728637275382638097
+      value {
+        Overrides {
+          Name: "ma:Shared_Trim:id"
+          AssetReference {
+            Id: 12027912208478851697
+          }
+        }
+        Overrides {
+          Name: "ma:Building_Foundation:id"
+          AssetReference {
+            Id: 17273777858994590707
+          }
+        }
+        Overrides {
+          Name: "ma:Building_Foundation:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:utile"
+          Float: 5.41033173
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:vtile"
+          Float: 9.33674812
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13163163404266392761
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16550294515031268176
+      value {
+        Overrides {
+          Name: "ma:Shared_Trim:id"
+          AssetReference {
+            Id: 12027912208478851697
+          }
+        }
+        Overrides {
+          Name: "ma:Building_Foundation:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:utile"
+          Float: 1.45457315
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:vtile"
+          Float: 0.294695139
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2283134758532537457
+    }
+  }
+}
+Objects {
+  Id: 15728050986734794321
+  Name: "Default_PlayerLocalHome"
+  Transform {
+    Location {
+      X: 14519.2949
+      Y: 9489.28906
+      Z: 3810.17041
+    }
+    Rotation {
+      Yaw: -15.605299
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16071899597131385433
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4090771675915827969
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5509141451826590301
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7981343225191856180
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11528552669760984993
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Default_PlayerLocalHome"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 11267.3066
+            Y: 15376.4482
+            Z: 4567.90088
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 55.760025
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11728637275382638097
+      value {
+        Overrides {
+          Name: "ma:Shared_Trim:id"
+          AssetReference {
+            Id: 12027912208478851697
+          }
+        }
+        Overrides {
+          Name: "ma:Building_Foundation:id"
+          AssetReference {
+            Id: 17273777858994590707
+          }
+        }
+        Overrides {
+          Name: "ma:Building_Foundation:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:utile"
+          Float: 5.41033173
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:vtile"
+          Float: 9.33674812
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13163163404266392761
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16550294515031268176
+      value {
+        Overrides {
+          Name: "ma:Shared_Trim:id"
+          AssetReference {
+            Id: 12027912208478851697
+          }
+        }
+        Overrides {
+          Name: "ma:Building_Foundation:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:utile"
+          Float: 1.45457315
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:vtile"
+          Float: 0.294695139
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2283134758532537457
+    }
+  }
+}
+Objects {
   Id: 8854302465153638189
   Name: "Default_PlayerLocalHome"
   Transform {

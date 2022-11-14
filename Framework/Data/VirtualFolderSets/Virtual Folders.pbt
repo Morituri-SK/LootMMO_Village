@@ -370,10 +370,6 @@ Assets {
       PlatformAssetType: 5
     }
     Folders {
-      VirtualFolderPath: "nonNFT"
-      PlatformAssetType: 31
-    }
-    Folders {
       VirtualFolderPath: "HouseParts"
       PlatformAssetType: 5
     }
@@ -410,16 +406,30 @@ Assets {
       PlatformAssetType: 13
     }
     Folders {
-      VirtualFolderPath: "NFT"
-      PlatformAssetType: 31
-    }
-    Folders {
       VirtualFolderPath: "HnH_Materials"
       PlatformAssetType: 13
     }
     Folders {
       VirtualFolderPath: "Furniture"
       PlatformAssetType: 5
+    }
+    Folders {
+      VirtualFolderPath: "HnH"
+      PlatformAssetType: 5
+    }
+    Folders {
+      VirtualFolderPath: "HnH"
+      PlatformAssetType: 31
+    }
+    Folders {
+      VirtualFolderPath: "HnH"
+      VirtualFolderPath: "NFT"
+      PlatformAssetType: 31
+    }
+    Folders {
+      VirtualFolderPath: "HnH"
+      VirtualFolderPath: "nonNFT"
+      PlatformAssetType: 31
     }
   }
 }
