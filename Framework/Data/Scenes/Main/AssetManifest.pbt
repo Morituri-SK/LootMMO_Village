@@ -283,6 +283,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14914754800339828726
+  Name: "Helix - Double 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prim_helix_double_001_ref"
+  }
+}
+Assets {
   Id: 14862609072787733245
   Name: "GoldPack1"
   PlatformAssetType: 24
@@ -475,6 +484,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13406069273666592165
+  Name: "Horn - Corkscrew 100cm 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prim_horn_corkscrew_100cm_002_ref"
+  }
+}
+Assets {
   Id: 13304908840312358092
   Name: "Fantasy Castle Pillar 01 Top"
   PlatformAssetType: 1
@@ -490,6 +508,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_letters_001"
+  }
+}
+Assets {
+  Id: 12997470107562757952
+  Name: "Bush Leafy Tall 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_leafy_bush_001"
   }
 }
 Assets {
@@ -559,6 +586,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12416815806534727809
+  Name: "Kelp Bush 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_kelp_bush_01"
+  }
+}
+Assets {
   Id: 12369596735706014517
   Name: "Fantasy Scroll Rolled 01"
   PlatformAssetType: 1
@@ -601,6 +637,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_porch_001_post"
+  }
+}
+Assets {
+  Id: 11972672084376847955
+  Name: "Hill 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hill_003"
   }
 }
 Assets {
@@ -685,6 +730,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_chair_dining_001"
+  }
+}
+Assets {
+  Id: 11413865960121264733
+  Name: "Organic - Food - Pumpkin 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_org_food_pumpkin_001_ref"
   }
 }
 Assets {
@@ -897,6 +951,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9435981393071230363
+  Name: "Organic - Food - Pumpkin 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_org_food_pumpkin_002_ref"
+  }
+}
+Assets {
   Id: 9360906347466037585
   Name: "Self Boost Gold"
   PlatformAssetType: 24
@@ -1065,6 +1128,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8522862850213083371
+  Name: "Mushroom Cap 02 (Morel)"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_nat_mushroom_cap_002_uv_ref"
+  }
+}
+Assets {
   Id: 8492432699345975995
   Name: "Craftsman Wall 01 Corner"
   PlatformAssetType: 1
@@ -1124,6 +1196,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rock_generic_001"
+  }
+}
+Assets {
+  Id: 7828467413496210194
+  Name: "Grass and Soil"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_grass_003_uv"
   }
 }
 Assets {
@@ -1294,6 +1375,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_part_windowframe_002_ref"
+  }
+}
+Assets {
+  Id: 6570799477593546466
+  Name: "Organic - Food - Pumpkin 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_org_food_pumpkin_003_ref"
   }
 }
 Assets {
@@ -1675,6 +1765,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prism_octagon_001"
+  }
+}
+Assets {
+  Id: 1665981632890260849
+  Name: "Nature - Mushroom 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_nat_fun_mushroom_002_ref"
   }
 }
 Assets {
