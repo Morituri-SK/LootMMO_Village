@@ -159,7 +159,7 @@ Assets {
           Overrides {
             Name: "ma:Building_WallInner2:id"
             AssetReference {
-              Id: 4192834226328256445
+              Id: 841534158063459245
             }
           }
           Overrides {
@@ -325,7 +325,7 @@ Assets {
           Overrides {
             Name: "ma:Building_WallOuter:id"
             AssetReference {
-              Id: 4192834226328256445
+              Id: 841534158063459245
             }
           }
           Overrides {

@@ -1385,6 +1385,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5373945855805351340
+  Name: "Small False Window"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_false_window_001"
+  }
+}
+Assets {
   Id: 5351428073291024820
   Name: "Emissive Glow Opaque"
   PlatformAssetType: 2

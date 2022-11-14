@@ -1,4 +1,13 @@
 Assets {
+  Id: 17710441972337206680
+  Name: "Craftsman Wall 02 Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_002_half"
+  }
+}
+Assets {
   Id: 17683806647698883602
   Name: "Trim - Straight - 08m"
   PlatformAssetType: 1
@@ -39,12 +48,30 @@ Assets {
   }
 }
 Assets {
+  Id: 16897174201994685268
+  Name: "Craftsman Roof 01 Peak"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_roof_001_peak"
+  }
+}
+Assets {
   Id: 16845241941935487831
   Name: "Glass 01 (no distortion)"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_basic_glass_001"
+  }
+}
+Assets {
+  Id: 16799654450965442540
+  Name: "Craftsman Roof 01 Corner Out"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_roof_001_cornerOut"
   }
 }
 Assets {
@@ -291,6 +318,24 @@ Assets {
   }
 }
 Assets {
+  Id: 14577690937799007441
+  Name: "Craftsman Wall 03 Window"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_003_window"
+  }
+}
+Assets {
+  Id: 14525364215432239736
+  Name: "Decal Sci-fi Details 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_scf_details_001_ref"
+  }
+}
+Assets {
   Id: 14520136268689348175
   Name: "Wood 2x4 4m"
   PlatformAssetType: 1
@@ -345,12 +390,39 @@ Assets {
   }
 }
 Assets {
+  Id: 13913679398007785057
+  Name: "Craftsman Wall Interior 01 Corner"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_int_001_corner"
+  }
+}
+Assets {
+  Id: 13899058249000318401
+  Name: "Craftsman Wall 01 Half "
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_001_half"
+  }
+}
+Assets {
   Id: 13800436588944964225
   Name: "Bush 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bush_generic_002"
+  }
+}
+Assets {
+  Id: 13722218647841092016
+  Name: "Pyramid - 8-Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pyramid_eighsided_001"
   }
 }
 Assets {
@@ -443,6 +515,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12728337217389179065
+  Name: "Craftsman Wall 02 Corner"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_002_corner"
+  }
+}
+Assets {
   Id: 12588189623480869990
   Name: "Gem Pack 2"
   PlatformAssetType: 24
@@ -487,6 +568,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12186358290746139637
+  Name: "Craftsman Stairs 01 150cm"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_stairs_001_150cm"
+  }
+}
+Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -502,6 +592,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_crate_narrow_open_simple_160cm_001"
+  }
+}
+Assets {
+  Id: 11976559336949726522
+  Name: "Craftsman Porch Fence Post 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_porch_001_post"
+  }
+}
+Assets {
+  Id: 11892494746123028781
+  Name: "Cylinder - Chamfered Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_hq_002"
   }
 }
 Assets {
@@ -524,6 +632,15 @@ Assets {
         Value: "mc:enetreferencetype:creatorperk"
       }
     }
+  }
+}
+Assets {
+  Id: 11615716110344107020
+  Name: "Craftsman Wall Interior 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_int_001"
   }
 }
 Assets {
@@ -553,6 +670,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11476426231281021703
+  Name: "Craftsman Roof 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_roof_001"
+  }
+}
+Assets {
   Id: 11452126672691922020
   Name: "Craftsman Dining Chair"
   PlatformAssetType: 1
@@ -571,12 +697,30 @@ Assets {
   }
 }
 Assets {
+  Id: 11337413471323694429
+  Name: "Metal Gold 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_gold_001"
+  }
+}
+Assets {
   Id: 11261036391358393726
   Name: "Whitebox Stairs 01 Straight"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_stairs_001"
+  }
+}
+Assets {
+  Id: 11241146599138551813
+  Name: "Craftsman Roof 01 Eaves Corner"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_roof_eaves_001_corner"
   }
 }
 Assets {
@@ -653,6 +797,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_wood_planks_dark_001_uv"
+  }
+}
+Assets {
+  Id: 10567192068688216948
+  Name: "Craftsman Stairs 01 L"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_stairs_001_L"
   }
 }
 Assets {
@@ -757,6 +910,24 @@ Assets {
   }
 }
 Assets {
+  Id: 9338910762992902201
+  Name: "Craftsman Stairs 01 Railing"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_stairs_001_rail"
+  }
+}
+Assets {
+  Id: 9334719928121256012
+  Name: "Urban Fancy Fireplace 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_fireplace_fancy_001_ref"
+  }
+}
+Assets {
   Id: 9322991885775260177
   Name: "Premium 4"
   PlatformAssetType: 24
@@ -792,6 +963,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9223391083233434823
+  Name: "Cylinder - Chamfered Small Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_hq_003"
+  }
+}
+Assets {
   Id: 9199751096616988864
   Name: "Candle Flame VFX"
   PlatformAssetType: 1
@@ -823,6 +1003,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8972779060290890181
+  Name: "Craftsman Wall 01 Window 2x"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_001_window2x"
+  }
+}
+Assets {
   Id: 8892646755837011518
   Name: "Starter Pack"
   PlatformAssetType: 24
@@ -849,6 +1038,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8681899656752834670
+  Name: "Craftsman Wall Interior 01 Doorway"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_int_001_doorway"
+  }
+}
+Assets {
   Id: 8619830679695120720
   Name: "Prism - 6-Sided"
   PlatformAssetType: 1
@@ -867,12 +1065,30 @@ Assets {
   }
 }
 Assets {
+  Id: 8492432699345975995
+  Name: "Craftsman Wall 01 Corner"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_001_corner"
+  }
+}
+Assets {
   Id: 8475244315695859103
   Name: "Humanoid 2 Xavier"
   PlatformAssetType: 26
   PrimaryAsset {
     AssetType: "SkinnedMeshAssetRef"
     AssetId: "npc_human_guy_head_basic_006_ref"
+  }
+}
+Assets {
+  Id: 8466811635474481023
+  Name: "Craftsman Roof 01 Eaves End"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_roof_eaves_001_end"
   }
 }
 Assets {
@@ -911,6 +1127,24 @@ Assets {
   }
 }
 Assets {
+  Id: 7822473577673662489
+  Name: "Fantasy Castle Pillar 01 Mid"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_pillar_001_mid"
+  }
+}
+Assets {
+  Id: 7755721473406107898
+  Name: "Craftsman Floor 01 8m x 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_floor_001_8x8"
+  }
+}
+Assets {
   Id: 7754470856388882901
   Name: "Wood Raw"
   PlatformAssetType: 2
@@ -939,6 +1173,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_rounded_002"
+  }
+}
+Assets {
+  Id: 7648717670233836541
+  Name: "Craftsman Roof 01 Eaves"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_roof_eaves_001"
   }
 }
 Assets {
@@ -1027,12 +1270,30 @@ Assets {
   }
 }
 Assets {
+  Id: 6714200750135277437
+  Name: "Craftsman Part - Inside Upper Trim 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_part_intTrim_001_up"
+  }
+}
+Assets {
   Id: 6693051322045641436
   Name: "Rope"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_rope_001"
+  }
+}
+Assets {
+  Id: 6645541369262067888
+  Name: "Main Street Window Frame 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_part_windowframe_002_ref"
   }
 }
 Assets {
@@ -1102,6 +1363,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5821858993012936353
+  Name: "Craftsman Floor 01 4m x 4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_floor_001_4x4"
+  }
+}
+Assets {
   Id: 5713071896546235792
   Name: "Gold 1"
   PlatformAssetType: 24
@@ -1121,6 +1391,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_hemisphere_001"
+  }
+}
+Assets {
+  Id: 5469617673551445743
+  Name: "Japanese Common Chest Lid 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_jpn_chest_small_lid_001_ref"
+  }
+}
+Assets {
+  Id: 5373945855805351340
+  Name: "Small False Window"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_false_window_001"
   }
 }
 Assets {
@@ -1150,6 +1438,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5039051833507134363
+  Name: "Castle Part - Window 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_part_window_002_ref"
+  }
+}
+Assets {
   Id: 4860066908479684099
   Name: "Premium 3"
   PlatformAssetType: 24
@@ -1160,6 +1457,24 @@ Assets {
         Value: "mc:enetreferencetype:creatorperk"
       }
     }
+  }
+}
+Assets {
+  Id: 4809529976550021000
+  Name: "Metal Old Beaten Gold 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_gold_002"
+  }
+}
+Assets {
+  Id: 4594745531699986479
+  Name: "Craftsman Wall Interior 01 Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_int_001_half"
   }
 }
 Assets {
@@ -1191,6 +1506,24 @@ Assets {
         Value: "mc:enetreferencetype:creatorperk"
       }
     }
+  }
+}
+Assets {
+  Id: 4316658893749930966
+  Name: "Pyramid - 4-Sided Truncated Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pyramid_truncated_hq_001"
+  }
+}
+Assets {
+  Id: 4282920344287573610
+  Name: "Craftsman Wall 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_001"
   }
 }
 Assets {
@@ -1247,12 +1580,30 @@ Assets {
   }
 }
 Assets {
+  Id: 3583548753318299978
+  Name: "Craftsman Porch 01 Foundation"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_porch_001_foundation"
+  }
+}
+Assets {
   Id: 3575013281856575933
   Name: "Ring - Quarter Thick"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_quarter_torus_003"
+  }
+}
+Assets {
+  Id: 3522297156491387882
+  Name: "Craftsman Porch Fence Railing 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_porch_001_rail"
   }
 }
 Assets {
@@ -1266,6 +1617,33 @@ Assets {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
     }
+  }
+}
+Assets {
+  Id: 3033392269738934740
+  Name: "Craftsman Wall 03 Triangle Top"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_003_triTop"
+  }
+}
+Assets {
+  Id: 2981969016884961428
+  Name: "Craftsman Roof 01 Peak End"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_roof_001_peakEnd"
+  }
+}
+Assets {
+  Id: 2635330027741249494
+  Name: "Diamond - 6-Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_diamond_6_sided_001"
   }
 }
 Assets {
@@ -1288,6 +1666,15 @@ Assets {
         Value: "mc:enetreferencetype:creatorperk"
       }
     }
+  }
+}
+Assets {
+  Id: 1687528788148422459
+  Name: "Prism - 8-Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_octagon_001"
   }
 }
 Assets {
@@ -1430,6 +1817,15 @@ Assets {
         Value: "mc:enetreferencetype:creatorperk"
       }
     }
+  }
+}
+Assets {
+  Id: 453487308539368474
+  Name: "Craftsman Wall 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_002"
   }
 }
 Assets {
