@@ -6,6 +6,14 @@ Assets {
   CustomMaterialAsset {
     BaseMaterialId: 8968049792180087728
     ParameterOverrides {
+      Overrides {
+        Name: "u_tiles"
+        Float: 2
+      }
+      Overrides {
+        Name: "v_tiles"
+        Float: 2
+      }
     }
     Assets {
       Id: 8968049792180087728

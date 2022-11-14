@@ -38,7 +38,7 @@ Assets {
       }
       Overrides {
         Name: "b_invert_metallic_m1"
-        Bool: false
+        Bool: true
       }
       Overrides {
         Name: "desaturation_albedo_m1"

@@ -7,7 +7,7 @@ Assets {
       RootId: 9095888759251243611
       Objects {
         Id: 9095888759251243611
-        Name: "T_Grass_Roof_01"
+        Name: "T_HnH_Grass_Roof_01"
         Transform {
           Scale {
             X: 1
@@ -464,6 +464,12 @@ Assets {
               A: 1
             }
           }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -536,7 +542,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4191716501107198655
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -659,6 +665,12 @@ Assets {
               Id: 6937005782613619979
             }
           }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -759,6 +771,12 @@ Assets {
           }
           Overrides {
             Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
             AssetReference {
               Id: 6937005782613619979
             }
@@ -867,6 +885,12 @@ Assets {
               A: 1
             }
           }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -967,6 +991,12 @@ Assets {
           }
           Overrides {
             Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
             AssetReference {
               Id: 6937005782613619979
             }
@@ -1075,6 +1105,12 @@ Assets {
               Id: 6937005782613619979
             }
           }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1159,7 +1195,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4191716501107198655
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -1289,6 +1325,12 @@ Assets {
               Id: 6937005782613619979
             }
           }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1373,7 +1415,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4191716501107198655
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -1459,7 +1501,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4191716501107198655
+              Id: 6937005782613619979
             }
           }
         }
@@ -1522,7 +1564,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4191716501107198655
+              Id: 6937005782613619979
             }
           }
         }

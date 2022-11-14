@@ -7,7 +7,7 @@ Assets {
       RootId: 7118981251510251745
       Objects {
         Id: 7118981251510251745
-        Name: "T_Flower_Roof_05"
+        Name: "T_HnH_Flower_Roof_05"
         Transform {
           Scale {
             X: 1
@@ -98,6 +98,17 @@ Assets {
                   X: 1
                   Y: 1
                   Z: 1
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 11295967975686505102
+            value {
+              Overrides {
+                Name: "ma:Building_Roof:id"
+                AssetReference {
+                  Id: 6937005782613619979
                 }
               }
             }

@@ -7,7 +7,7 @@ Assets {
       RootId: 3463150971833678859
       Objects {
         Id: 3463150971833678859
-        Name: "Default_GlobalHome_1"
+        Name: "Default_GlobalHome_2"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1684258572076107921
+        ParentId: 5096290691370505534
         ChildIds: 10525439057977052176
         ChildIds: 2023122970290122379
         ChildIds: 16252348787783385946
@@ -27,11 +27,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:CostToRent"
-            Int: 1500
+            Int: 10
           }
           Overrides {
             Name: "cs:ResourceNeeded"
-            String: "Coins"
+            String: "TestCurrency"
           }
           Overrides {
             Name: "cs:CostToRent:isrep"
@@ -794,8 +794,11 @@ Assets {
           }
         }
         ParentId: 3463150971833678859
-        ChildIds: 952033659259162043
-        ChildIds: 5358234395654566138
+        ChildIds: 17533563474244193815
+        ChildIds: 13734022937478729071
+        ChildIds: 4505566904123306871
+        ChildIds: 14017198183270646804
+        ChildIds: 4672960573094255045
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -817,20 +820,21 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 952033659259162043
+        Id: 17533563474244193815
         Name: "Main Street Landing 01 4m x 4m"
         Transform {
           Location {
-            X: -1751.66943
-            Y: -1751.49231
+            X: -1772.9856
+            Y: -1767.10156
+            Z: -227.748337
           }
           Rotation {
-            Yaw: 89.9999924
+            Yaw: 89.9999619
           }
           Scale {
-            X: 7.6927433
-            Y: 7.93421
-            Z: 1.63776386
+            X: 7.69274378
+            Y: 7.9342103
+            Z: 3.11111546
           }
         }
         ParentId: 16252348787783385946
@@ -838,14 +842,30 @@ Assets {
           Overrides {
             Name: "ma:Building_Foundation:id"
             AssetReference {
-              Id: 12354242434331605292
+              Id: 17273777858994590707
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 1213324101088113781
+              Id: 17273777858994590707
             }
+          }
+          Overrides {
+            Name: "ma:Building_Foundation:smart"
+            Bool: true
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:utile"
+            Float: 4.2484231
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:vtile"
+            Float: 5.69846249
           }
         }
         Collidable_v2 {
@@ -885,15 +905,16 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 5358234395654566138
+        Id: 13734022937478729071
         Name: "Main Street Stairs 01 - 1.5m"
         Transform {
           Location {
-            X: 286.60849
-            Y: -2088.14746
+            X: 265.290619
+            Y: -2416.55518
+            Z: -268.034302
           }
           Rotation {
-            Yaw: 179.999985
+            Yaw: 179.999924
           }
           Scale {
             X: 2.45664573
@@ -906,14 +927,30 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 1213324101088113781
+              Id: 17273777858994590707
             }
           }
           Overrides {
             Name: "ma:Building_Foundation:id"
             AssetReference {
-              Id: 1213324101088113781
+              Id: 17273777858994590707
             }
+          }
+          Overrides {
+            Name: "ma:Building_Foundation:smart"
+            Bool: true
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Building_Foundation:utile"
+            Float: 6.53539562
+          }
+          Overrides {
+            Name: "ma:Building_Foundation:vtile"
+            Float: 4.77792788
           }
         }
         Collidable_v2 {
@@ -931,6 +968,217 @@ Assets {
         CoreMesh {
           MeshAsset {
             Id: 1534350165316884423
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 4505566904123306871
+        Name: "Main Street Stairs 01 - 1.5m"
+        Transform {
+          Location {
+            X: 265.29071
+            Y: -2094.98218
+            Z: 0.000799689384
+          }
+          Rotation {
+            Yaw: 179.999939
+          }
+          Scale {
+            X: 2.45664573
+            Y: 1.63776386
+            Z: 1.63776386
+          }
+        }
+        ParentId: 16252348787783385946
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 12027912208478851697
+            }
+          }
+          Overrides {
+            Name: "ma:Building_Foundation:id"
+            AssetReference {
+              Id: 12027912208478851697
+            }
+          }
+          Overrides {
+            Name: "ma:Building_Foundation:smart"
+            Bool: true
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Building_Foundation:utile"
+            Float: 6.53539562
+          }
+          Overrides {
+            Name: "ma:Building_Foundation:vtile"
+            Float: 4.77792788
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 1534350165316884423
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 14017198183270646804
+        Name: "Cube - Bottom-Aligned"
+        Transform {
+          Location {
+            X: 123.132309
+            Y: -1801.16064
+            Z: -295.226929
+          }
+          Rotation {
+            Yaw: -1.36603776e-05
+          }
+          Scale {
+            X: 2.83820581
+            Y: 5.86982918
+            Z: 2.91911411
+          }
+        }
+        ParentId: 16252348787783385946
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17273777858994590707
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 198353679974341757
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 4672960573094255045
+        Name: "Cube - Bottom-Aligned"
+        Transform {
+          Location {
+            X: -576.324402
+            Y: -1801.1604
+            Z: -295.226929
+          }
+          Rotation {
+            Yaw: -1.36603776e-05
+          }
+          Scale {
+            X: 2.83820581
+            Y: 5.86982918
+            Z: 2.91911411
+          }
+        }
+        ParentId: 16252348787783385946
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17273777858994590707
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 198353679974341757
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1917,30 +2165,21 @@ Assets {
       }
     }
     Assets {
-      Id: 12354242434331605292
-      Name: "Stone Foundation 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_stone_foundation_001_uv_ref"
-      }
-    }
-    Assets {
-      Id: 1213324101088113781
-      Name: "Stone Basic"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "stone_001"
-      }
-    }
-    Assets {
       Id: 1534350165316884423
       Name: "Main Street Stairs 01 - 1.5m"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_ts_urb_dtn_mst_stairs_001_150cm_ref"
+      }
+    }
+    Assets {
+      Id: 198353679974341757
+      Name: "Cube - Bottom-Aligned"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cube_001"
       }
     }
     Assets {

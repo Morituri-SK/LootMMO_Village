@@ -18,8 +18,6 @@ Assets {
         ParentId: 4781671109827199097
         ChildIds: 12670877780549113533
         ChildIds: 10095202121539871182
-        ChildIds: 9318501366800096182
-        ChildIds: 12174129218489704739
         ChildIds: 7106258909542216525
         ChildIds: 17970479468693156566
         ChildIds: 233074718602828267
@@ -41,6 +39,11 @@ Assets {
         ChildIds: 11680324492507476049
         ChildIds: 13577053797915503670
         ChildIds: 10187065594468223225
+        ChildIds: 13200284459204051070
+        ChildIds: 9520422968688827266
+        ChildIds: 12903073732256936281
+        ChildIds: 16030511692306352792
+        ChildIds: 9035909531478396046
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -216,144 +219,6 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 9318501366800096182
-        Name: "Whitebox Wall 01 Triangle"
-        Transform {
-          Location {
-            X: 628.307861
-            Y: -1051.74292
-            Z: 949.999695
-          }
-          Rotation {
-            Yaw: -179.999954
-          }
-          Scale {
-            X: -0.5
-            Y: 1.75000012
-            Z: 0.5
-          }
-        }
-        ParentId: 5291764398190439650
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Building_WallInner:id"
-            AssetReference {
-              Id: 17354166242325908483
-            }
-          }
-          Overrides {
-            Name: "ma:Building_WallInner2:id"
-            AssetReference {
-              Id: 17354166242325908483
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9448016139925936771
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 12174129218489704739
-        Name: "Whitebox Wall 01 Triangle"
-        Transform {
-          Location {
-            X: -918.087402
-            Y: -1055.07471
-            Z: 950
-          }
-          Rotation {
-            Yaw: 179.999908
-          }
-          Scale {
-            X: 0.5
-            Y: 1.75000012
-            Z: 0.5
-          }
-        }
-        ParentId: 5291764398190439650
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Building_WallInner:id"
-            AssetReference {
-              Id: 17354166242325908483
-            }
-          }
-          Overrides {
-            Name: "ma:Building_WallInner2:id"
-            AssetReference {
-              Id: 17354166242325908483
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9448016139925936771
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
         Id: 7106258909542216525
         Name: "Whitebox Roof 01 Peak"
         Transform {
@@ -397,7 +262,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -484,7 +349,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -609,13 +474,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
         }
@@ -719,13 +584,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
         }
@@ -812,7 +677,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -835,7 +700,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
         }
@@ -939,13 +804,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
         }
@@ -1047,7 +912,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -1142,7 +1007,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -1448,7 +1313,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4191716501107198655
+              Id: 6937005782613619979
             }
           }
         }
@@ -1511,7 +1376,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4191716501107198655
+              Id: 6937005782613619979
             }
           }
         }
@@ -1810,7 +1675,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -1902,7 +1767,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -5593,6 +5458,457 @@ Assets {
         }
         IsReplicationEnabledByDefault: true
       }
+      Objects {
+        Id: 13200284459204051070
+        Name: "Group"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5291764398190439650
+        ChildIds: 9318501366800096182
+        ChildIds: 12174129218489704739
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 9318501366800096182
+        Name: "Whitebox Wall 01 Triangle"
+        Transform {
+          Location {
+            X: 628.307861
+            Y: -1051.74316
+            Z: 949.999756
+          }
+          Rotation {
+            Yaw: -179.999954
+          }
+          Scale {
+            X: -0.5
+            Y: 1.75000012
+            Z: 0.5
+          }
+        }
+        ParentId: 13200284459204051070
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Building_WallInner:id"
+            AssetReference {
+              Id: 17354166242325908483
+            }
+          }
+          Overrides {
+            Name: "ma:Building_WallInner2:id"
+            AssetReference {
+              Id: 17354166242325908483
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9448016139925936771
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 12174129218489704739
+        Name: "Whitebox Wall 01 Triangle"
+        Transform {
+          Location {
+            X: -918.087402
+            Y: -1055.07422
+            Z: 950
+          }
+          Rotation {
+            Yaw: 179.999893
+          }
+          Scale {
+            X: 0.5
+            Y: 1.75000012
+            Z: 0.5
+          }
+        }
+        ParentId: 13200284459204051070
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Building_WallInner:id"
+            AssetReference {
+              Id: 17354166242325908483
+            }
+          }
+          Overrides {
+            Name: "ma:Building_WallInner2:id"
+            AssetReference {
+              Id: 17354166242325908483
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9448016139925936771
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 9520422968688827266
+        Name: "Cube - Bottom-Aligned"
+        Transform {
+          Location {
+            X: -904.927246
+            Y: -1489.96484
+            Z: 709.190918
+          }
+          Rotation {
+            Pitch: 135
+            Yaw: 90
+            Roll: 90
+          }
+          Scale {
+            X: 1.5
+            Y: 2
+            Z: 2.5
+          }
+        }
+        ParentId: 5291764398190439650
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6698552273386116191
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 12903073732256936281
+        Name: "Cube - Bottom-Aligned"
+        Transform {
+          Location {
+            X: -904.927246
+            Y: -1564.96484
+            Z: 309.190918
+          }
+          Rotation {
+            Pitch: 3.52450728
+            Yaw: -98.4413147
+            Roll: -91.0281372
+          }
+          Scale {
+            X: 1.49999559
+            Y: 1.99999976
+            Z: 5.99873543
+          }
+        }
+        ParentId: 5291764398190439650
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6698552273386116191
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 16030511692306352792
+        Name: "Cube - Bottom-Aligned"
+        Transform {
+          Location {
+            X: 491.553711
+            Y: -1489.96484
+            Z: 709.190918
+          }
+          Rotation {
+            Pitch: 45
+            Yaw: -87.0797119
+            Roll: -90
+          }
+          Scale {
+            X: 1.5
+            Y: 2
+            Z: 2.5
+          }
+        }
+        ParentId: 5291764398190439650
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6698552273386116191
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 9035909531478396046
+        Name: "Cube - Bottom-Aligned"
+        Transform {
+          Location {
+            X: 515.555176
+            Y: -1564.96484
+            Z: 458.645508
+          }
+          Rotation {
+            Pitch: -3.9670105
+            Yaw: -81.7556763
+            Roll: 91.9940491
+          }
+          Scale {
+            X: 1.49999559
+            Y: 1.99999976
+            Z: 5.99873543
+          }
+        }
+        ParentId: 5291764398190439650
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6698552273386116191
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
     }
     Assets {
       Id: 3178514333854400133
@@ -5601,15 +5917,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_ts_jpn_tem_roof_003_wall_01_ref"
-      }
-    }
-    Assets {
-      Id: 9448016139925936771
-      Name: "Whitebox Wall 01 Triangle"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_ts_gen_whitebox_wall_001_tri"
       }
     }
     Assets {
@@ -5664,6 +5971,24 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_grass_generic_002"
+      }
+    }
+    Assets {
+      Id: 9448016139925936771
+      Name: "Whitebox Wall 01 Triangle"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_ts_gen_whitebox_wall_001_tri"
+      }
+    }
+    Assets {
+      Id: 6698552273386116191
+      Name: "Nature Plank 02"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_prop_nat_plank_002_ref"
       }
     }
     PrimaryAssetId {

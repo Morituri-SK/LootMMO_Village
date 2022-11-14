@@ -1124,15 +1124,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5623493893731406562
-  Name: "Main Street Landing 01 4m x 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_landing_001_4x4_ref"
-  }
-}
-Assets {
   Id: 5240045292533111116
   Name: "Premium 2"
   PlatformAssetType: 24

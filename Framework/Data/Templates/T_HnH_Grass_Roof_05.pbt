@@ -7,7 +7,7 @@ Assets {
       RootId: 2410053398674178967
       Objects {
         Id: 2410053398674178967
-        Name: "T_Grass_Roof_05"
+        Name: "T_HnH_Grass_Roof_05"
         Transform {
           Scale {
             X: 1
@@ -81,6 +81,17 @@ Assets {
         ParentId: 2410053398674178967
         TemplateInstance {
           ParameterOverrideMap {
+            key: 228941021801473265
+            value {
+              Overrides {
+                Name: "ma:Shared_BaseMaterial:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
             key: 583500153499119669
             value {
               Overrides {
@@ -103,6 +114,72 @@ Assets {
                   X: 1
                   Y: 1
                   Z: 1
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 1909425521328244022
+            value {
+              Overrides {
+                Name: "ma:Building_Roof:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 2895411758209368368
+            value {
+              Overrides {
+                Name: "ma:Shared_BaseMaterial:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 9645217603270640120
+            value {
+              Overrides {
+                Name: "ma:Shared_Detail1:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 11769028927495840526
+            value {
+              Overrides {
+                Name: "ma:Shared_Trim:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 12723136081810138732
+            value {
+              Overrides {
+                Name: "ma:Shared_Detail1:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 17607265156634561548
+            value {
+              Overrides {
+                Name: "ma:Shared_Trim:id"
+                AssetReference {
+                  Id: 6937005782613619979
                 }
               }
             }

@@ -7,7 +7,7 @@ Assets {
       RootId: 12437660176009168969
       Objects {
         Id: 12437660176009168969
-        Name: "T_Troll_Roof_05"
+        Name: "T_HnH_Troll_Roof_05"
         Transform {
           Scale {
             X: 1
@@ -81,6 +81,61 @@ Assets {
         ParentId: 12437660176009168969
         TemplateInstance {
           ParameterOverrideMap {
+            key: 304165581472913687
+            value {
+              Overrides {
+                Name: "ma:Shared_Trim:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 2924224487281535161
+            value {
+              Overrides {
+                Name: "ma:Shared_Trim:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 2975469670637588230
+            value {
+              Overrides {
+                Name: "ma:Shared_Trim:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 6414864316698355632
+            value {
+              Overrides {
+                Name: "ma:Shared_Trim:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 9097432659402039300
+            value {
+              Overrides {
+                Name: "ma:Shared_Trim:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
             key: 9367490379706899517
             value {
               Overrides {
@@ -98,6 +153,61 @@ Assets {
                   X: 1
                   Y: 1
                   Z: 1
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 9901391529064093631
+            value {
+              Overrides {
+                Name: "ma:Shared_Trim:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 12667168443288914813
+            value {
+              Overrides {
+                Name: "ma:Shared_Trim:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 14056084973299172625
+            value {
+              Overrides {
+                Name: "ma:Shared_Trim:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 14285323743267494901
+            value {
+              Overrides {
+                Name: "ma:Shared_Trim:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 15766916492059431879
+            value {
+              Overrides {
+                Name: "ma:Shared_Trim:id"
+                AssetReference {
+                  Id: 6937005782613619979
                 }
               }
             }

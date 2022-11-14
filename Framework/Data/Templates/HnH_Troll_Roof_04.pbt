@@ -99,6 +99,7 @@ Assets {
         ChildIds: 3699588586292807356
         ChildIds: 462240547562369533
         ChildIds: 14684653973246144457
+        ChildIds: 958286337094500765
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -254,7 +255,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -364,7 +365,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -457,7 +458,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -584,7 +585,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -765,7 +766,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -875,7 +876,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -968,7 +969,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -1095,7 +1096,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -1185,7 +1186,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -1277,7 +1278,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -1369,7 +1370,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -1378,6 +1379,12 @@ Assets {
               R: 0.109375
               G: 0.0366077572
               A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 6937005782613619979
             }
           }
         }
@@ -1561,7 +1568,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
         }
@@ -1653,7 +1660,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
         }
@@ -1745,7 +1752,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 6937005782613619979
             }
           }
         }
@@ -1837,7 +1850,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
         }
@@ -6835,8 +6848,6 @@ Assets {
           }
         }
         ParentId: 16379444743738187355
-        ChildIds: 10051630284300041872
-        ChildIds: 1125091864299963650
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6858,24 +6869,61 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 10051630284300041872
+        Id: 958286337094500765
+        Name: "Group"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16379444743738187355
+        ChildIds: 12548404436677373702
+        ChildIds: 12103693335824861390
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 12548404436677373702
         Name: "Whitebox Wall 01 Triangle"
         Transform {
           Location {
-            X: -931.542969
-            Y: -1053.49414
-            Z: 952.646729
+            X: 628.307861
+            Y: -1051.74316
+            Z: 949.999756
           }
           Rotation {
-            Yaw: 179.999924
+            Yaw: -179.999954
           }
           Scale {
-            X: 0.501393
-            Y: 1.75487578
-            Z: 0.501393
+            X: -0.5
+            Y: 1.75000012
+            Z: 0.5
           }
         }
-        ParentId: 14684653973246144457
+        ParentId: 958286337094500765
         UnregisteredParameters {
           Overrides {
             Name: "ma:Building_WallInner:id"
@@ -6927,24 +6975,24 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 1125091864299963650
+        Id: 12103693335824861390
         Name: "Whitebox Wall 01 Triangle"
         Transform {
           Location {
-            X: 630.057617
-            Y: -1052.73096
-            Z: 952.64624
+            X: -918.087402
+            Y: -1055.07422
+            Z: 950
           }
           Rotation {
-            Yaw: -179.999893
+            Yaw: 179.999893
           }
           Scale {
-            X: -0.501393
-            Y: 1.75487578
-            Z: 0.501393
+            X: 0.5
+            Y: 1.75000012
+            Z: 0.5
           }
         }
-        ParentId: 14684653973246144457
+        ParentId: 958286337094500765
         UnregisteredParameters {
           Overrides {
             Name: "ma:Building_WallInner:id"

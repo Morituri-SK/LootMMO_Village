@@ -153,7 +153,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -263,7 +263,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -356,7 +356,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -483,7 +483,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -731,7 +731,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -841,7 +841,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -934,7 +934,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -1061,7 +1061,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -1274,7 +1274,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4612780888667249886
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -1366,7 +1366,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 10373577859092754191
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -4945,21 +4945,21 @@ Assets {
       }
     }
     Assets {
-      Id: 10373577859092754191
-      Name: "Bone Raw"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_bone_raw_001_uv_ref"
-      }
-    }
-    Assets {
       Id: 9229199904602472614
       Name: "Craftsman Roof 01 Cap"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_urb_sub_craftsman_roof_001_cap"
+      }
+    }
+    Assets {
+      Id: 10373577859092754191
+      Name: "Bone Raw"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_bone_raw_001_uv_ref"
       }
     }
     Assets {

@@ -25,6 +25,7 @@ Assets {
         ChildIds: 9509766791544063108
         ChildIds: 14074883978593424925
         ChildIds: 1752271505249530450
+        ChildIds: 4687887960155234243
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -70,16 +71,20 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13351079512586394193
+              Id: 7635491117382043560
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:utile"
-            Float: 0.346713781
+            Float: 0.353479028
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 0.576797485
+            Float: 0.913840711
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -143,7 +148,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13351079512586394193
+              Id: 7635491117382043560
             }
           }
           Overrides {
@@ -153,6 +158,10 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
             Float: 1.21366692
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -215,16 +224,20 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13351079512586394193
+              Id: 7635491117382043560
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:utile"
-            Float: 0.353568166
+            Float: 0.277359337
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
             Float: 0.853224695
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -554,7 +567,7 @@ Assets {
           Overrides {
             Name: "ma:Building_WallInner:id"
             AssetReference {
-              Id: 13351079512586394193
+              Id: 7635491117382043560
             }
           }
           Overrides {
@@ -562,6 +575,14 @@ Assets {
             AssetReference {
               Id: 13351079512586394193
             }
+          }
+          Overrides {
+            Name: "ma:Building_WallInner:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Building_WallInner:utile"
+            Float: 1.36900568
           }
         }
         Collidable_v2 {
@@ -623,8 +644,16 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 13351079512586394193
+              Id: 7635491117382043560
             }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:utile"
+            Float: 1.4254725
           }
         }
         Collidable_v2 {
@@ -663,6 +692,81 @@ Assets {
         }
         IsReplicationEnabledByDefault: true
       }
+      Objects {
+        Id: 4687887960155234243
+        Name: "Fantasy Fireplace 01"
+        Transform {
+          Location {
+            X: -168.214844
+            Y: 1350
+            Z: 2850
+          }
+          Rotation {
+            Yaw: 180
+          }
+          Scale {
+            X: 3
+            Y: 2.25
+            Z: 3.75
+          }
+        }
+        ParentId: 13178257214187386896
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 7635491117382043560
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 1.81668544
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 1.07419813
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 4950747283988678936
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
     }
     Assets {
       Id: 13642204757580273705
@@ -671,6 +775,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_cube_hq_003"
+      }
+    }
+    Assets {
+      Id: 7635491117382043560
+      Name: "Brick Multicolor 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_brick_multicolor_old_001_uv"
       }
     }
     Assets {
@@ -707,6 +820,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_prop_fan_fireplace_001_ref"
+      }
+    }
+    Assets {
+      Id: 4950747283988678936
+      Name: "Craftsman Porch 01 End Block"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_urb_sub_craftsman_porch_001_block"
       }
     }
     PrimaryAssetId {

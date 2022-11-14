@@ -7,7 +7,7 @@ Assets {
       RootId: 6766300587669967919
       Objects {
         Id: 6766300587669967919
-        Name: "T_Flower_Roof_04"
+        Name: "T_HnH_Flower_Roof_04"
         Transform {
           Scale {
             X: 1
@@ -80,6 +80,176 @@ Assets {
         }
         ParentId: 6766300587669967919
         TemplateInstance {
+          ParameterOverrideMap {
+            key: 676505809674440823
+            value {
+              Overrides {
+                Name: "ma:Building_Roof:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+              Overrides {
+                Name: "ma:Shared_Detail1:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 954572790398662699
+            value {
+              Overrides {
+                Name: "ma:Building_Roof:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+              Overrides {
+                Name: "ma:Shared_Detail1:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 3089637086925041539
+            value {
+              Overrides {
+                Name: "ma:Building_Roof:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+              Overrides {
+                Name: "ma:Shared_Detail1:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 4298234862453795838
+            value {
+              Overrides {
+                Name: "ma:Building_Roof:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+              Overrides {
+                Name: "ma:Shared_Detail1:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 5770782517304793345
+            value {
+              Overrides {
+                Name: "ma:Building_Roof:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+              Overrides {
+                Name: "ma:Shared_Detail1:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 7269351056920933895
+            value {
+              Overrides {
+                Name: "ma:Building_Roof:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+              Overrides {
+                Name: "ma:Shared_Detail1:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 7732414957028583466
+            value {
+              Overrides {
+                Name: "ma:Building_Roof:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+              Overrides {
+                Name: "ma:Shared_Detail1:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 8245542385799525819
+            value {
+              Overrides {
+                Name: "ma:Building_Roof:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+              Overrides {
+                Name: "ma:Shared_Detail1:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 13848885979101352908
+            value {
+              Overrides {
+                Name: "ma:Building_Roof:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+              Overrides {
+                Name: "ma:Shared_Detail1:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 17902338531303644131
+            value {
+              Overrides {
+                Name: "ma:Building_Roof:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+              Overrides {
+                Name: "ma:Shared_Detail1:id"
+                AssetReference {
+                  Id: 6937005782613619979
+                }
+              }
+            }
+          }
           ParameterOverrideMap {
             key: 18443400316069682758
             value {

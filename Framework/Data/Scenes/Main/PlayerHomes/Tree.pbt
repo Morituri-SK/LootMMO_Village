@@ -27,6 +27,37 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 4090771675915827969
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5509141451826590301
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7981343225191856180
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11528552669760984993
       value {
         Overrides {
@@ -44,16 +75,85 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 14565.9219
-            Y: 9303.83496
+            X: 14519.2949
+            Y: 9489.28711
             Z: 3810.17041
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -105.605362
+            Yaw: -15.6052856
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11728637275382638097
+      value {
+        Overrides {
+          Name: "ma:Shared_Trim:id"
+          AssetReference {
+            Id: 12027912208478851697
+          }
+        }
+        Overrides {
+          Name: "ma:Building_Foundation:id"
+          AssetReference {
+            Id: 17273777858994590707
+          }
+        }
+        Overrides {
+          Name: "ma:Building_Foundation:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:utile"
+          Float: 5.41033173
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:vtile"
+          Float: 9.33674812
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13163163404266392761
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16550294515031268176
+      value {
+        Overrides {
+          Name: "ma:Shared_Trim:id"
+          AssetReference {
+            Id: 12027912208478851697
+          }
+        }
+        Overrides {
+          Name: "ma:Building_Foundation:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:utile"
+          Float: 1.45457315
+        }
+        Overrides {
+          Name: "ma:Shared_Trim:vtile"
+          Float: 0.294695139
         }
       }
     }
@@ -89,6 +189,37 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 4090771675915827969
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5509141451826590301
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7981343225191856180
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11528552669760984993
       value {
         Overrides {
@@ -106,16 +237,25 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 4042.25195
-            Y: 17188.0195
+            X: 4055.57471
+            Y: 16772.2
             Z: 3625
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 3.54533696
+            Yaw: 82.2952652
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13163163404266392761
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
         }
       }
     }
@@ -151,6 +291,37 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 4090771675915827969
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5509141451826590301
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7981343225191856180
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11528552669760984993
       value {
         Overrides {
@@ -168,16 +339,25 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 224.61615
-            Y: 17332.5859
+            X: 92.2424316
+            Y: 17090.5703
             Z: 3400
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 26.0450478
+            Yaw: 121.36557
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13163163404266392761
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
         }
       }
     }
@@ -213,6 +393,64 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 1941583907064207216
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -614.604797
+            Y: -1773.08655
+            Z: -295.227325
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -6.10351562e-05
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.83820629
+            Y: 5.86982918
+            Z: 2.91911411
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4090771675915827969
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5509141451826590301
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7981343225191856180
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11528552669760984993
       value {
         Overrides {
@@ -230,15 +468,77 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1697.20117
-            Y: 15416.126
-            Z: 2875
+            X: -1737.81702
+            Y: 15297.8916
+            Z: 2945.44312
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 71.0451202
+            Yaw: 161.045
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12368895383433441023
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 227.010025
+            Y: -2066.90747
+            Z: 0.000399844692
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13163163404266392761
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15558737523730636215
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 227.009628
+            Y: -2388.48071
+            Z: -268.034698
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 18234352107026564051
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 84.8516388
+            Y: -1773.08435
+            Z: -295.227325
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -6.10351562e-05
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.83820629
+            Y: 5.86982918
+            Z: 2.91911411
           }
         }
       }
@@ -275,6 +575,37 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 4090771675915827969
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5509141451826590301
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7981343225191856180
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11528552669760984993
       value {
         Overrides {
@@ -292,16 +623,25 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 7419.82
-            Y: 5478.3042
+            X: 7047.2
+            Y: 5907.3
             Z: 3000
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 138.545059
+            Yaw: -63.9549255
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13163163404266392761
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
         }
       }
     }
@@ -337,6 +677,37 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 4090771675915827969
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5509141451826590301
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7981343225191856180
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11528552669760984993
       value {
         Overrides {
@@ -354,7 +725,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 13572.6494
+            X: 13572.6504
             Y: 6702.2876
             Z: 3425
           }
@@ -362,8 +733,17 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -75.2047272
+            Yaw: 14.7952785
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13163163404266392761
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
         }
       }
     }
@@ -399,6 +779,37 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 4090771675915827969
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5509141451826590301
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7981343225191856180
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11528552669760984993
       value {
         Overrides {
@@ -416,16 +827,25 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 2704.10693
-            Y: 15383.3711
-            Z: 3250
+            X: 9178.54492
+            Y: 6301.45557
+            Z: 3019.97314
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -30.2046051
+            Yaw: -81.5742188
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13163163404266392761
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
         }
       }
     }
@@ -453,6 +873,37 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 4090771675915827969
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5509141451826590301
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner2:id"
+          AssetReference {
+            Id: 17354166242325908483
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7981343225191856180
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11528552669760984993
       value {
         Overrides {
@@ -460,26 +911,27 @@ Objects {
           String: "Default_PlayerLocalHome"
         }
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
           Name: "Position"
           Vector {
-            X: -1574.99805
-            Y: 12829.4268
+            X: -1415.98828
+            Y: 12874.2939
             Z: 2658.99878
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 106.261841
+            Yaw: -163.738144
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13163163404266392761
+      value {
+        Overrides {
+          Name: "ma:Building_Roof:smart"
+          Bool: false
         }
       }
     }

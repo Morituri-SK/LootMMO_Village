@@ -37,6 +37,17 @@ Assets {
         ChildIds: 1282547693414063297
         ChildIds: 11210496384245349007
         ChildIds: 8998528975569859154
+        ChildIds: 9485502632672534739
+        ChildIds: 10192955418158215833
+        ChildIds: 6511348026447620778
+        ChildIds: 4151004890068094738
+        ChildIds: 6918375840228821882
+        ChildIds: 11297579384095026763
+        ChildIds: 18022931131545735497
+        ChildIds: 9083658613957798300
+        ChildIds: 6846718417884086329
+        ChildIds: 12547830397816741310
+        ChildIds: 3399548315051632010
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -397,6 +408,12 @@ Assets {
               A: 1
             }
           }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -469,7 +486,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4191716501107198655
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -592,6 +609,12 @@ Assets {
               Id: 6937005782613619979
             }
           }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -692,6 +715,12 @@ Assets {
           }
           Overrides {
             Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
             AssetReference {
               Id: 6937005782613619979
             }
@@ -800,6 +829,12 @@ Assets {
               A: 1
             }
           }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -900,6 +935,12 @@ Assets {
           }
           Overrides {
             Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
             AssetReference {
               Id: 6937005782613619979
             }
@@ -1008,6 +1049,12 @@ Assets {
               Id: 6937005782613619979
             }
           }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1092,7 +1139,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4191716501107198655
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -1222,6 +1269,12 @@ Assets {
               Id: 6937005782613619979
             }
           }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1306,7 +1359,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4191716501107198655
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -1392,7 +1445,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4191716501107198655
+              Id: 6937005782613619979
             }
           }
         }
@@ -1455,7 +1508,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4191716501107198655
+              Id: 6937005782613619979
             }
           }
         }
@@ -1658,7 +1711,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4191716501107198655
+              Id: 6937005782613619979
             }
           }
           Overrides {
@@ -4491,6 +4544,701 @@ Assets {
         }
         IsReplicationEnabledByDefault: true
       }
+      Objects {
+        Id: 9485502632672534739
+        Name: "Bone Human Spine 01"
+        Transform {
+          Location {
+            X: -914.702148
+            Y: -1218.59863
+            Z: 1480.24707
+          }
+          Rotation {
+            Pitch: -10.0212393
+            Yaw: -77.3645706
+            Roll: 41.2258835
+          }
+          Scale {
+            X: -15.7204027
+            Y: 15.7203979
+            Z: 18.5025501
+          }
+        }
+        ParentId: 8199610977739513942
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 14322091523152053562
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 10192955418158215833
+        Name: "Bone Human Spine 01"
+        Transform {
+          Location {
+            X: 569.194824
+            Y: -1217.03711
+            Z: 1550.55811
+          }
+          Rotation {
+            Pitch: 10.0212393
+            Yaw: 77.3646088
+            Roll: 41.225872
+          }
+          Scale {
+            X: 14.4255152
+            Y: 14.4255018
+            Z: 18.742712
+          }
+        }
+        ParentId: 8199610977739513942
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 14322091523152053562
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 6511348026447620778
+        Name: "Bone Human Skull Pile 01"
+        Transform {
+          Location {
+            X: -1144.92285
+            Y: -1220.26855
+            Z: 1356.04639
+          }
+          Rotation {
+            Roll: -31.1716595
+          }
+          Scale {
+            X: 5.83526278
+            Y: 5.83526278
+            Z: 5.83526278
+          }
+        }
+        ParentId: 8199610977739513942
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 11058146311617096099
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 4151004890068094738
+        Name: "Bone Human Skull Pile 01"
+        Transform {
+          Location {
+            X: -276.273926
+            Y: -1220.26855
+            Z: 2313.58594
+          }
+          Rotation {
+            Roll: -62.4873199
+          }
+          Scale {
+            X: 8.73512363
+            Y: 8.73512363
+            Z: 8.73512363
+          }
+        }
+        ParentId: 8199610977739513942
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 11058146311617096099
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 6918375840228821882
+        Name: "Chain Tile 01"
+        Transform {
+          Location {
+            X: 1168.96973
+            Y: -1212.84668
+            Z: 599.424805
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8199610977739513942
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 10771108408610196052
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 11297579384095026763
+        Name: "Bone Human Skull Pile 02"
+        Transform {
+          Location {
+            X: 1154.54541
+            Y: -1209.65332
+            Z: 444.771
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3.91095
+            Y: 3.91095
+            Z: 3.91095
+          }
+        }
+        ParentId: 8199610977739513942
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 15027472455272926433
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 18022931131545735497
+        Name: "Bone Human Hand 01"
+        Transform {
+          Location {
+            X: 1153.52637
+            Y: -1145.74316
+            Z: 515.847412
+          }
+          Rotation {
+            Pitch: 47.6490707
+            Yaw: 95.8285904
+            Roll: 140.185211
+          }
+          Scale {
+            X: 2.47737217
+            Y: 1.06259215
+            Z: 7.37222815
+          }
+        }
+        ParentId: 8199610977739513942
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10184847056121543272
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              G: 0.669999957
+              B: 0.656688929
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12653513781032396062
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 9083658613957798300
+        Name: "Bone Human Hand 01"
+        Transform {
+          Location {
+            X: 1212.89307
+            Y: -1223.94336
+            Z: 515.847412
+          }
+          Rotation {
+            Pitch: -45.0712128
+            Roll: 27.432272
+          }
+          Scale {
+            X: 3.13729286
+            Y: 0.727937758
+            Z: 8.55903149
+          }
+        }
+        ParentId: 8199610977739513942
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10184847056121543272
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.86
+              B: 0.632185
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12653513781032396062
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 6846718417884086329
+        Name: "Bone Human Hand 01"
+        Transform {
+          Location {
+            X: 1153.52637
+            Y: -1145.74316
+            Z: 515.847412
+          }
+          Rotation {
+            Pitch: 47.054863
+            Yaw: 79.6385727
+            Roll: 118.296982
+          }
+          Scale {
+            X: 2.47737217
+            Y: 1.06259215
+            Z: 7.37222815
+          }
+        }
+        ParentId: 8199610977739513942
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10184847056121543272
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              G: 0.669999957
+              B: 0.656688929
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12653513781032396062
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 12547830397816741310
+        Name: "Bone Human Hand 01"
+        Transform {
+          Location {
+            X: 1146.16357
+            Y: -1199.66016
+            Z: 515.847412
+          }
+          Rotation {
+            Pitch: 11.1275587
+            Yaw: 37.7268715
+            Roll: -7.73683214
+          }
+          Scale {
+            X: 3.13729286
+            Y: 0.727937758
+            Z: 8.55903149
+          }
+        }
+        ParentId: 8199610977739513942
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10184847056121543272
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.840000033
+              G: 0.567417264
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12653513781032396062
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 3399548315051632010
+        Name: "Bone Human Hand 01"
+        Transform {
+          Location {
+            X: 1146.16357
+            Y: -1199.66016
+            Z: 515.847412
+          }
+          Rotation {
+            Pitch: 20.4172039
+            Yaw: 39.8401031
+          }
+          Scale {
+            X: 3.13729286
+            Y: 0.727937758
+            Z: 8.55903149
+          }
+        }
+        ParentId: 8199610977739513942
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10184847056121543272
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.840000033
+              G: 0.567417264
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12653513781032396062
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
     }
     Assets {
       Id: 3178514333854400133
@@ -4562,6 +5310,60 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_grass_generic_002"
+      }
+    }
+    Assets {
+      Id: 14322091523152053562
+      Name: "Bone Human Spine 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_bones_human_spine_01_ref"
+      }
+    }
+    Assets {
+      Id: 11058146311617096099
+      Name: "Bone Human Skull Pile 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_bones_human_skull_pile_01_ref"
+      }
+    }
+    Assets {
+      Id: 10771108408610196052
+      Name: "Chain Tile 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_chain_001"
+      }
+    }
+    Assets {
+      Id: 15027472455272926433
+      Name: "Bone Human Skull Pile 02"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_bones_human_skull_pile_02_ref"
+      }
+    }
+    Assets {
+      Id: 12653513781032396062
+      Name: "Bone Human Hand 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_bones_human_hand_01_ref"
+      }
+    }
+    Assets {
+      Id: 10184847056121543272
+      Name: "Basic Material"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_basic_pbr_material_001"
       }
     }
     PrimaryAssetId {
