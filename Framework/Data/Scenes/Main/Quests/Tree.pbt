@@ -7627,12 +7627,12 @@ Objects {
   Name: "Spawn Point - Village1"
   Transform {
     Location {
-      X: -1550.11572
-      Y: 10832.5986
-      Z: 42811.5
+      X: 6537.08447
+      Y: 11081.7637
+      Z: 43394.8789
     }
     Rotation {
-      Yaw: -0.733459473
+      Yaw: -128.863617
     }
     Scale {
       X: 1
@@ -7672,12 +7672,12 @@ Objects {
   Name: "Spawn Point - Village1"
   Transform {
     Location {
-      X: -1659.9541
-      Y: 10775.459
-      Z: 42811.5
+      X: 6559.96045
+      Y: 11203.4453
+      Z: 43394.8789
     }
     Rotation {
-      Yaw: -0.733459473
+      Yaw: -128.863617
     }
     Scale {
       X: 1
@@ -7717,12 +7717,12 @@ Objects {
   Name: "Spawn Point - Village1"
   Transform {
     Location {
-      X: -1658.47559
-      Y: 10890.9307
-      Z: 42811.5
+      X: 6649.87695
+      Y: 11130.9844
+      Z: 43394.8789
     }
     Rotation {
-      Yaw: -0.733459473
+      Yaw: -128.863617
     }
     Scale {
       X: 1
@@ -7762,12 +7762,12 @@ Objects {
   Name: "Spawn Point - Village1"
   Transform {
     Location {
-      X: -1548.63867
-      Y: 10947.9785
-      Z: 42811.5
+      X: 6626.93262
+      Y: 11009.3613
+      Z: 43394.8789
     }
     Rotation {
-      Yaw: -0.733459473
+      Yaw: -128.863617
     }
     Scale {
       X: 1
@@ -7807,12 +7807,12 @@ Objects {
   Name: "Spawn Point - Village1"
   Transform {
     Location {
-      X: -1551.60938
-      Y: 10715.9482
-      Z: 42811.5
+      X: 6446.25342
+      Y: 11154.9658
+      Z: 43394.8789
     }
     Rotation {
-      Yaw: -0.733459473
+      Yaw: -128.863617
     }
     Scale {
       X: 1

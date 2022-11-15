@@ -17,12 +17,30 @@ Assets {
   }
 }
 Assets {
+  Id: 15384402554823903533
+  Name: "Fantasy Frame 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Frame_002"
+  }
+}
+Assets {
   Id: 15111121232164291161
   Name: "Triangle Sign"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Racing_Icon_023"
+  }
+}
+Assets {
+  Id: 14060330023043759337
+  Name: "BG Flat 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_020"
   }
 }
 Assets {
@@ -62,6 +80,33 @@ Assets {
   }
 }
 Assets {
+  Id: 11336346532215892341
+  Name: "Germania One"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "GermaniaOneRegular_ref"
+  }
+}
+Assets {
+  Id: 10810772426047749573
+  Name: "Fantasy Frame 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Frame_001"
+  }
+}
+Assets {
+  Id: 10356841617077490685
+  Name: "Adult 01 Vocal Efforts Exclamation Positive Haha Boasty Lon 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_vo_efforts_male_adult_1_exclamation_positive_haha_boasty_lon_01a_Cue_ref"
+  }
+}
+Assets {
   Id: 10067297865473811114
   Name: "Center Circle 001"
   PlatformAssetType: 9
@@ -80,12 +125,30 @@ Assets {
   }
 }
 Assets {
+  Id: 8643205952937730457
+  Name: "Abstract Frame 02"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Core_UI_AbstractPack_Cframe_002"
+  }
+}
+Assets {
   Id: 7542904062235710665
   Name: "Frame Outline Thin 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "FrameOutline_020"
+  }
+}
+Assets {
+  Id: 5489541460318143251
+  Name: "Icon Checkmark"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Checkmark"
   }
 }
 Assets {
