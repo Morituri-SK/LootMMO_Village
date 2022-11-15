@@ -1,6 +1,6 @@
 Assets {
   Id: 3995659991638143854
-  Name: "TestingRandomHouses"
+  Name: "BuildTheHouse"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {
@@ -26,6 +26,10 @@ Assets {
         AssetReference {
           Id: 841534158063459245
         }
+      }
+      Overrides {
+        Name: "cs:DebugRandom"
+        Bool: false
       }
       Overrides {
         Name: "cs:HouseGeometryRoot:isrep"

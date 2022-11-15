@@ -20,7 +20,7 @@ local CONTROL_SCRIPT
 function SpawnChatBubble()
     CHAT_BUBBLE = World.SpawnAsset(HELPER_DIALOG_BOX, {parent = DIALOGS_PANEL})
     CONTROL_SCRIPT = CHAT_BUBBLE:GetCustomProperty("ControlScript"):WaitForObject()
-    CONTROL_SCRIPT.context.SetupTarget(bubblePos, ICON_TO_SHOW_STRING, TIMEOUT, EVENT_STRING, IS_CLIENT_EVENT)
+    CONTROL_SCRIPT.context.SetupTarget(bubblePos, ICON_TO_SHOW_STRING, TIMEOUT, EVENT_STRING, IS_CLIENT_EVENT, TRIGGER)
     HELLO_SOUND:Play()
     SHOPKEEPER_MESH:PlayAnimation(HELLO_ANIMATION)
 end
@@ -36,6 +36,7 @@ function OnEndOverlap(trig,other)
         CONTROL_SCRIPT.context.DestroyPending()
         CHAT_BUBBLE.lifeSpan = .25
     end
+    Events.Broadcast("Shopkeeper.OFF")
 end
 
 TRIGGER.beginOverlapEvent:Connect(OnBeginOverlap)

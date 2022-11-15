@@ -20,6 +20,33 @@ Assets {
         ChildIds: 16307954428462303523
         ChildIds: 1771666875423683426
         ChildIds: 16776298061281553503
+        ChildIds: 1443757880305240011
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:DailyFreeText"
+            ObjectReference {
+              SubObjectId: 1443757880305240011
+            }
+          }
+          Overrides {
+            Name: "cs:SelectedIcon"
+            ObjectReference {
+              SubObjectId: 16776298061281553503
+            }
+          }
+          Overrides {
+            Name: "cs:SelectButton"
+            ObjectReference {
+              SubObjectId: 1771666875423683426
+            }
+          }
+          Overrides {
+            Name: "cs:NFT_Image"
+            ObjectReference {
+              SubObjectId: 8989164093787733343
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -35,6 +62,7 @@ Assets {
         Control {
           Width: 180
           Height: 180
+          UIX: 20
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -93,8 +121,8 @@ Assets {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
         Control {
-          Width: -10
-          Height: -10
+          Width: -30
+          Height: -30
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -105,11 +133,11 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
+              Id: 16565689527445500785
             }
             Color {
               R: 1
-              G: 1
-              B: 1
+              G: 0.67954272
               A: 1
             }
             TeamSettings {
@@ -118,6 +146,8 @@ Assets {
               A: 1
             }
             ShadowOffset {
+              X: 3
+              Y: 3
             }
             ScreenshotIndex: 1
           }
@@ -192,6 +222,8 @@ Assets {
               A: 1
             }
             ShadowOffset {
+              X: 2
+              Y: 2
             }
             ScreenshotIndex: 1
           }
@@ -456,6 +488,101 @@ Assets {
         }
         IsReplicationEnabledByDefault: true
       }
+      Objects {
+        Id: 1443757880305240011
+        Name: "DailyFreeText"
+        Transform {
+          Location {
+            X: -380.743103
+            Y: 652.603394
+            Z: -498.196289
+          }
+          Rotation {
+            Yaw: 58.5200691
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 347021744794725615
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Control {
+          Width: 250
+          Height: 60
+          RotationAngle: -30
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "Daily Free"
+            Color {
+              R: 0.31
+              G: 0.739536285
+              B: 1
+              A: 1
+            }
+            Size: 20
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            Font {
+              Id: 11336346532215892341
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
+            ShadowColor {
+              A: 1
+            }
+            ShadowOffset {
+            }
+            ScaleToFit: true
+            OutlineColor {
+              G: 0.0258277692
+              B: 0.39
+              A: 1
+            }
+            OutlineSize: 1
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+        IsReplicationEnabledByDefault: true
+      }
+    }
+    Assets {
+      Id: 16565689527445500785
+      Name: "House"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Urban_Icon_011"
+      }
     }
     Assets {
       Id: 10810772426047749573
@@ -482,6 +609,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "Core_UI_AbstractPack_Cframe_002"
+      }
+    }
+    Assets {
+      Id: 11336346532215892341
+      Name: "Germania One"
+      PlatformAssetType: 28
+      PrimaryAsset {
+        AssetType: "FontAssetRef"
+        AssetId: "GermaniaOneRegular_ref"
       }
     }
     PrimaryAssetId {

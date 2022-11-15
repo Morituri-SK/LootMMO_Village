@@ -16,6 +16,7 @@ Assets {
           }
         }
         ParentId: 16071899597131385433
+        ChildIds: 14126919033792561164
         ChildIds: 4459671840896542650
         ChildIds: 12961820942465402145
         ChildIds: 5654764088997816560
@@ -45,8 +46,104 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
+        Id: 14126919033792561164
+        Name: "ClientContext"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11528552669760984993
+        ChildIds: 13812269186390250764
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        NetworkContext {
+          MinDetailLevel {
+            Value: "mc:edetaillevel:low"
+          }
+          MaxDetailLevel {
+            Value: "mc:edetaillevel:ultra"
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 13812269186390250764
+        Name: "HouseSelectionCamera"
+        Transform {
+          Location {
+            X: -2415.61987
+            Y: 1434.86267
+            Z: 2107.90894
+          }
+          Rotation {
+            Pitch: -24.0043335
+            Yaw: -31.3172913
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14126919033792561164
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:alwaysvisible"
+        }
+        Camera {
+          MinDistance: 300
+          MaxDistance: 600
+          PositionOffset {
+          }
+          RotationOffset {
+          }
+          FieldOfView: 90
+          ViewWidth: 1200
+          RotationMode {
+            Value: "mc:erotationmode:default"
+          }
+          MinPitch: -89
+          MaxPitch: 89
+          AudioListenerOffset {
+          }
+          IsCameraCollisionEnabled: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
         Id: 4459671840896542650
-        Name: "TestingRandomHouses"
+        Name: "BuildTheHouse"
         Transform {
           Location {
           }
@@ -316,6 +413,17 @@ Assets {
         }
         TemplateInstance {
           ParameterOverrideMap {
+            key: 1978508556008943740
+            value {
+              Overrides {
+                Name: "ma:Building_WallInner2:id"
+                AssetReference {
+                  Id: 17354166242325908483
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
             key: 3970254568565496600
             value {
               Overrides {
@@ -330,6 +438,17 @@ Assets {
               Overrides {
                 Name: "Rotation"
                 Rotator {
+                }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 8053600314626554144
+            value {
+              Overrides {
+                Name: "ma:Building_WallInner2:id"
+                AssetReference {
+                  Id: 17354166242325908483
                 }
               }
             }
@@ -508,6 +627,24 @@ Assets {
                   Y: 1
                   Z: 1
                 }
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 8098082112842116394
+            value {
+              Overrides {
+                Name: "ma:Building_Roof:smart"
+                Bool: false
+              }
+            }
+          }
+          ParameterOverrideMap {
+            key: 12109533954715523495
+            value {
+              Overrides {
+                Name: "ma:Building_Roof:smart"
+                Bool: false
               }
             }
           }

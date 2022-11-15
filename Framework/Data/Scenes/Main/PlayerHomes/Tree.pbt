@@ -1223,50 +1223,11 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 4090771675915827969
-      value {
-        Overrides {
-          Name: "ma:Building_WallInner2:id"
-          AssetReference {
-            Id: 17354166242325908483
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5509141451826590301
-      value {
-        Overrides {
-          Name: "ma:Building_WallInner2:id"
-          AssetReference {
-            Id: 17354166242325908483
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7981343225191856180
-      value {
-        Overrides {
-          Name: "ma:Building_Roof:smart"
-          Bool: false
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 11528552669760984993
       value {
         Overrides {
           Name: "Name"
           String: "Default_PlayerLocalHome"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
         }
         Overrides {
           Name: "Position"
@@ -1281,15 +1242,6 @@ Objects {
           Rotator {
             Yaw: -63.9549255
           }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13163163404266392761
-      value {
-        Overrides {
-          Name: "ma:Building_Roof:smart"
-          Bool: false
         }
       }
     }
@@ -1521,37 +1473,6 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 4090771675915827969
-      value {
-        Overrides {
-          Name: "ma:Building_WallInner2:id"
-          AssetReference {
-            Id: 17354166242325908483
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5509141451826590301
-      value {
-        Overrides {
-          Name: "ma:Building_WallInner2:id"
-          AssetReference {
-            Id: 17354166242325908483
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7981343225191856180
-      value {
-        Overrides {
-          Name: "ma:Building_Roof:smart"
-          Bool: false
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 11528552669760984993
       value {
         Overrides {
@@ -1571,15 +1492,6 @@ Objects {
           Rotator {
             Yaw: -163.738144
           }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13163163404266392761
-      value {
-        Overrides {
-          Name: "ma:Building_Roof:smart"
-          Bool: false
         }
       }
     }

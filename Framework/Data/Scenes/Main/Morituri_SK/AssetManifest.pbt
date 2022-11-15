@@ -35,12 +35,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14060330023043759337
-  Name: "BG Flat 001"
+  Id: 13462854128336502995
+  Name: "Center Circle 001 Outline"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundNoOutline_020"
+    AssetId: "CenterCircle_001Outline"
   }
 }
 Assets {
@@ -80,24 +80,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11336346532215892341
-  Name: "Germania One"
-  PlatformAssetType: 28
-  PrimaryAsset {
-    AssetType: "FontAssetRef"
-    AssetId: "GermaniaOneRegular_ref"
-  }
-}
-Assets {
-  Id: 10810772426047749573
-  Name: "Fantasy Frame 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Frame_001"
-  }
-}
-Assets {
   Id: 10356841617077490685
   Name: "Adult 01 Vocal Efforts Exclamation Positive Haha Boasty Lon 01 SFX"
   PlatformAssetType: 7
@@ -125,15 +107,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8643205952937730457
-  Name: "Abstract Frame 02"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "Core_UI_AbstractPack_Cframe_002"
-  }
-}
-Assets {
   Id: 7542904062235710665
   Name: "Frame Outline Thin 001"
   PlatformAssetType: 9
@@ -143,12 +116,12 @@ Assets {
   }
 }
 Assets {
-  Id: 5489541460318143251
-  Name: "Icon Checkmark"
+  Id: 5236535358397511382
+  Name: "BG Flat 011"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_Checkmark"
+    AssetId: "BackgroundNoOutline_28"
   }
 }
 Assets {
