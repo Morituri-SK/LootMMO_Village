@@ -5867,6 +5867,12 @@ Objects {
         SelfId: 15381656668813772737
       }
     }
+    Overrides {
+      Name: "cs:AsyncBlockchain"
+      AssetReference {
+        Id: 2979189229387007512
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -6140,6 +6146,12 @@ Objects {
     }
   }
   ParentId: 10043882049894405331
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:DebugPrint"
+      Bool: false
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

@@ -5,10 +5,14 @@ Assets {
   TextAsset {
     CustomParameters {
       Overrides {
-        Name: "cs:AsyncBlockchain"
+        Name: "cs:AsyncBlockchain_ForPlayer"
         AssetReference {
-          Id: 2979189229387007512
+          Id: 3585229734615150969
         }
+      }
+      Overrides {
+        Name: "cs:DebugPrint"
+        Bool: false
       }
     }
   }

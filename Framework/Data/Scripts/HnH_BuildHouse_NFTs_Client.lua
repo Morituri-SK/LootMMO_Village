@@ -8,6 +8,9 @@ local NFT_HN_H_ICON = script:GetCustomProperty("NFT_HnH_Icon")
 ---@type UIButton
 local CLOSE_BUTTON = script:GetCustomProperty("CloseButton"):WaitForObject()
 
+local ASYNC_BLOCKCHAIN = require(script:GetCustomProperty("AsyncBlockchain"))
+local HnH_ContractAddress = "0xb5478a0933a7e6cba08d655d2c7fad3984002188"
+
 local cameraOverrideTime = 1
 local HomesData = {}
 local LOCAL_PLAYER = Game.GetLocalPlayer()
@@ -20,6 +23,32 @@ for _,child in ipairs(PLAYER_HOMES:GetChildren())do
     dataToAdd.houseID = child.id
     dataToAdd.camera = child:FindDescendantByType("Camera")
     table.insert(HomesData,dataToAdd)
+end
+
+function SaveLocalPlayerTokens(tokens)
+    PlayerHnH_NFT_Data = {}
+    for _,t in ipairs(tokens) do
+        print("token type",type(t.tokenId))
+        print("LOCAL tokenId",t.tokenId)
+        print("LOCAL name",t.name)
+        print("LOCAL description",t.description)
+        print("LOCAL rawMetadata",t.rawMetadata)
+        print("LOCAL Attributes:")
+        PlayerHnH_NFT_Data[t.tokenId] = {}
+        for _,attributeData in pairs(t:GetAttributes())do
+            print ("LOCAL ",attributeData.name..":",attributeData:GetValue())
+            PlayerHnH_NFT_Data[t.tokenId][attributeData.name] = attributeData:GetValue()
+        end
+    end
+end
+
+function RefreshLocalPlayerTokens()
+    ASYNC_BLOCKCHAIN.GetTokensForPlayer(LOCAL_PLAYER,{contractAddress = HnH_ContractAddress},SaveLocalPlayerTokens)
+    Task.Wait(5)
+    print("Token 0")
+    for key,val in pairs(PlayerHnH_NFT_Data["0"])do
+        print(key,val)
+    end
 end
 
 function SetupIcon(isDefault,isFree,nftDataKey)
@@ -105,3 +134,5 @@ Events.Connect("houseSetup",OnHouseSetup)
 Events.Connect("Shopkeeper.OFF",OnPlayerWalksAway)
 
 CLOSE_BUTTON.clickedEvent:Connect(OnPlayerWalksAway)
+
+RefreshLocalPlayerTokens()
