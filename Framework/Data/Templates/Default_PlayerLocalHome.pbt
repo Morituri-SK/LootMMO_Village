@@ -61,6 +61,7 @@ Assets {
         }
         ParentId: 11528552669760984993
         ChildIds: 13812269186390250764
+        ChildIds: 9500152196594091122
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -142,6 +143,45 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
+        Id: 9500152196594091122
+        Name: "HnH_Event_SpiderAndWebbings"
+        Transform {
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14126919033792561164
+        TemplateInstance {
+          ParameterOverrideMap {
+            key: 10713501161168169345
+            value {
+              Overrides {
+                Name: "Name"
+                String: "HnH_Event_SpiderAndWebbings"
+              }
+              Overrides {
+                Name: "Position"
+                Vector {
+                  X: -0.00402343087
+                  Y: 0.000156366848
+                }
+              }
+              Overrides {
+                Name: "Rotation"
+                Rotator {
+                  Yaw: -1.53679193e-05
+                }
+              }
+            }
+          }
+          TemplateAsset {
+            Id: 6257643016270726042
+          }
+        }
+      }
+      Objects {
         Id: 4459671840896542650
         Name: "BuildTheHouse"
         Transform {
@@ -180,6 +220,24 @@ Assets {
             Name: "cs:TrimMaterials"
             AssetReference {
               Id: 15796140379150701342
+            }
+          }
+          Overrides {
+            Name: "cs:NFT_HouseParts"
+            AssetReference {
+              Id: 3529546890604028601
+            }
+          }
+          Overrides {
+            Name: "cs:NFT_Trims"
+            AssetReference {
+              Id: 15622722885134104529
+            }
+          }
+          Overrides {
+            Name: "cs:NFT_Walls"
+            AssetReference {
+              Id: 14846151990680839684
             }
           }
         }

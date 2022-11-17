@@ -2111,6 +2111,7 @@ Objects {
   ChildIds: 9529460498154835723
   ChildIds: 14394927645120037909
   ChildIds: 9778782045081635064
+  ChildIds: 1521203275379720244
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2148,6 +2149,92 @@ Objects {
       TargetAnchor {
         Anchor {
           Value: "mc:euianchor:bottomcenter"
+        }
+      }
+    }
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1521203275379720244
+  Name: "LoadingText"
+  Transform {
+    Location {
+      X: 5317.94141
+      Y: -2257.19434
+      Z: 12.7548828
+    }
+    Rotation {
+      Yaw: -13.6925497
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13625504509015962836
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    Width: 200
+    Height: 60
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    UseParentHeight: true
+    Text {
+      Label: "LOADING ..."
+      Color {
+        R: 1
+        G: 0.67954272
+        A: 1
+      }
+      Size: 50
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 11336346532215892341
+      }
+      VerticalJustification {
+        Value: "mc:everticaljustification:center"
+      }
+      ShadowColor {
+        A: 1
+      }
+      ShadowOffset {
+        X: 2
+        Y: 2
+      }
+      OutlineColor {
+        A: 1
+      }
+      OutlineSize: 2
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
@@ -6167,9 +6254,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:AsyncBlockchain"
+      Name: "cs:AsyncBlockchain_ForPlayer"
       AssetReference {
-        Id: 2979189229387007512
+        Id: 3585229734615150969
       }
     }
     Overrides {
@@ -6182,6 +6269,12 @@ Objects {
       Name: "cs:NFT_Preview_Image"
       ObjectReference {
         SelfId: 10244880384822722702
+      }
+    }
+    Overrides {
+      Name: "cs:LoadingText"
+      ObjectReference {
+        SelfId: 1521203275379720244
       }
     }
   }
@@ -6460,7 +6553,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:DebugPrint"
-      Bool: false
+      Bool: true
     }
   }
   Collidable_v2 {

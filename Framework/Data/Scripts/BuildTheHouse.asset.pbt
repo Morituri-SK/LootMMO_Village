@@ -32,6 +32,48 @@ Assets {
         Bool: false
       }
       Overrides {
+        Name: "cs:NFT_Walls"
+        AssetReference {
+          Id: 14846151990680839684
+        }
+      }
+      Overrides {
+        Name: "cs:NFT_Trims"
+        AssetReference {
+          Id: 15622722885134104529
+        }
+      }
+      Overrides {
+        Name: "cs:NFT_HouseParts_Doors"
+        AssetReference {
+          Id: 14471319049904796994
+        }
+      }
+      Overrides {
+        Name: "cs:NFT_HouseParts_Fireplaces"
+        AssetReference {
+          Id: 2384266529692688419
+        }
+      }
+      Overrides {
+        Name: "cs:NFT_HouseParts_Floors"
+        AssetReference {
+          Id: 497864425728415896
+        }
+      }
+      Overrides {
+        Name: "cs:NFT_HouseParts_Roofs"
+        AssetReference {
+          Id: 8215756593252554065
+        }
+      }
+      Overrides {
+        Name: "cs:NFT_HouseParts_Walls"
+        AssetReference {
+          Id: 13666163961973979550
+        }
+      }
+      Overrides {
         Name: "cs:HouseGeometryRoot:isrep"
         Bool: false
       }

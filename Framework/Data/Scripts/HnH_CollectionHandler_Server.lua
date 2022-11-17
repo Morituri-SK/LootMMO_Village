@@ -6,11 +6,12 @@ local DEBUG_PRINT = script:GetCustomProperty("DebugPrint")
 local HnH_Tokens_Data = {}
 
 function SetTokensResults(tokens,player)
-    --TODO remove refreshing?? stupid idea
+    --TODO remove refreshing?? stupid idea?
     if tokens == nil then warn("player "..player.name.." do own no HnH tokens _ SERVER") return end
     player:SetPrivateNetworkedData("RefreshingHnH",true)
     if DEBUG_PRINT then print("HnH test results #1 for ",player.name) end
     HnH_Tokens_Data[player.id] = {}
+    local savedIDs = {} --to pass the available IDs to client for UI
     for _,t in ipairs(tokens) do
         local tempTokenData = {}
         if DEBUG_PRINT then print("tokenId",t.tokenId) end
@@ -25,7 +26,9 @@ function SetTokensResults(tokens,player)
             tempTokenData.Attributes.name = attributeData:GetValue()
         end
         table.insert(HnH_Tokens_Data[player.id],tempTokenData)
+        table.insert(savedIDs, t.tokenId)
     end
+    player:SetPrivateNetworkedData("HnH_IDs",savedIDs)
     Task.Wait(.1) --fake timeout for clients to show the loading in the ui in case of fast callback
     if Object.IsValid(player) ~= true then return end
     player:SetPrivateNetworkedData("RefreshingHnH",false)

@@ -3,8 +3,27 @@ local HOUSE_GEOMETRY_ROOT = script:GetCustomProperty("HouseGeometryRoot"):WaitFo
 local HOUSE_PARTS = require(script:GetCustomProperty("HouseParts"))
 local WALL_MATERIALS = require(script:GetCustomProperty("WallMaterials"))
 local TRIM_MATERIALS = require(script:GetCustomProperty("TrimMaterials"))
+
+local NFT_WALLS = require(script:GetCustomProperty("NFT_Walls"))
+local NFT_TRIMS = require(script:GetCustomProperty("NFT_Trims"))
+local NFT_HOUSE_PARTS_DOORS = require(script:GetCustomProperty("NFT_HouseParts_Doors"))
+local NFT_HOUSE_PARTS_FIREPLACES = require(script:GetCustomProperty("NFT_HouseParts_Fireplaces"))
+local NFT_HOUSE_PARTS_FLOORS = require(script:GetCustomProperty("NFT_HouseParts_Floors"))
+local NFT_HOUSE_PARTS_ROOFS = require(script:GetCustomProperty("NFT_HouseParts_Roofs"))
+local NFT_HOUSE_PARTS_WALLS = require(script:GetCustomProperty("NFT_HouseParts_Walls"))
+
 local DEBUG_RANDOM = script:GetCustomProperty("DebugRandom")
 
+--preload nft tables
+local NFT_WallsMaterial = {}
+local NFT_TrimMaterial = {}
+local NFT_RoofsGeo = {}
+local NFT_WindowsGeo = {}
+local NFT_FireplaceGeo = {}
+local NFT_DoorGeo = {}
+local NFT_FloorsGeo = {}
+
+--TODO load picture
 --for NFT houses
 ---@type WorldText
 local HOUSE_FLAVOR = script:GetCustomProperty("HouseFlavor")
@@ -25,6 +44,66 @@ function CleanupHouse()
         obj:Destroy()
     end
 end
+
+------------------------------
+--NFT PART
+------------------------------
+
+--preload NFT trim and wall materials
+for _,rowdata in ipairs(NFT_TRIMS)do
+    NFT_TrimMaterial[rowdata.AttributeValue] = rowdata.Material
+end
+for _,rowdata in ipairs(NFT_WALLS)do
+    NFT_WallsMaterial[rowdata.AttributeValue] = rowdata.Material
+end
+--preload NFT Geo to table
+for _,rowdata in ipairs(NFT_HOUSE_PARTS_DOORS)do
+    NFT_DoorGeo[rowdata.AttributeValue] = rowdata.Material
+end
+for _,rowdata in ipairs(NFT_HOUSE_PARTS_FIREPLACES)do
+    NFT_FireplaceGeo[rowdata.AttributeValue] = rowdata.Material
+end
+for _,rowdata in ipairs(NFT_HOUSE_PARTS_FLOORS)do
+    NFT_FloorsGeo[rowdata.AttributeValue] = rowdata.Material
+end
+for _,rowdata in ipairs(NFT_HOUSE_PARTS_ROOFS)do
+    NFT_RoofsGeo[rowdata.AttributeValue] = rowdata.Material
+end
+for _,rowdata in ipairs(NFT_HOUSE_PARTS_WALLS)do
+    NFT_WindowsGeo[rowdata.AttributeValue] = rowdata.Material
+end
+--testtest
+print("NFT_TrimMaterial.red: ",NFT_TrimMaterial.red)
+print("NFT_WallsMaterial.yellow: ",NFT_WallsMaterial.yellow)
+print("NFT_FireplaceGeo.common: ",NFT_FireplaceGeo.common)
+--print("NFT_FireplaceGeo[rainbow planks]: ",NFT_FireplaceGeo[rainbow planks])
+
+
+function AssembleHouse_NFT_Geo(houseData)
+    CleanupHouse()
+    local selectedTemplates = {}
+
+    selectedTrim = NFT_TrimMaterial[houseData.Trim]
+    selectedWalls = NFT_WallsMaterial[houseData.walls]
+
+    table.insert(selectedTemplates,NFT_RoofsGeo[houseData.Roof])
+    table.insert(selectedTemplates,NFT_WindowsGeo[houseData.Windows])
+    table.insert(selectedTemplates,NFT_FireplaceGeo[houseData.Fireplace])
+    table.insert(selectedTemplates,NFT_DoorGeo[houseData.Door])
+    table.insert(selectedTemplates,NFT_FloorsGeo[houseData.Floors])
+
+    for _,selectedGeo in ipairs(selectedTemplates)do
+        local part = World.SpawnAsset(selectedGeo, {parent = HOUSE_GEOMETRY_ROOT})
+        part:SetCustomProperty("WallMat",selectedWalls)
+        part:SetCustomProperty("TrimMat",selectedTrim)
+        part:ForceReplication()
+    end
+
+end
+
+------------------------------
+--NON NFT PART
+------------------------------
 
 function ResetFlavorText()
     if Object.IsValid(HOUSE_FLAVOR) ~= true then return end
@@ -53,6 +132,7 @@ function SelectMaterials(randomNumber)
     trimString = TRIM_MATERIALS[randomTrimId].FlavorText
 end
 
+--this will spawn a semirandom NON-NFT house, seed based on the player ID
 function SpawnHouseForPlayerID(playerID)
     --convert first 6 chars of a player id to decimal number
     local seedID = tonumber(string.sub(playerID,1,6),16)
@@ -85,12 +165,14 @@ function SpawnRandomHouse()
     end
 end
 
---init random house
+--init random house (on server start)
 CleanupHouse()
 SelectMaterials()
 SpawnRandomHouse()
 AdjustFlavorText()
 
+
+--this will cycle house geometry for geo combinations debug
 while DEBUG_RANDOM do
     CleanupHouse()
     SelectMaterials()

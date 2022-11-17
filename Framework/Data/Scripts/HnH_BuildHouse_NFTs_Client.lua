@@ -11,8 +11,9 @@ local CLOSE_BUTTON = script:GetCustomProperty("CloseButton"):WaitForObject()
 local NFT_PREVIEW_PANEL = script:GetCustomProperty("NFT_Preview_Panel"):WaitForObject()
 ---@type UIImage
 local NFT_PREVIEW_IMAGE = script:GetCustomProperty("NFT_Preview_Image"):WaitForObject()
+local LOADING_TEXT = script:GetCustomProperty("LoadingText"):WaitForObject()
 
-local ASYNC_BLOCKCHAIN = require(script:GetCustomProperty("AsyncBlockchain"))
+local ASYNC_BLOCKCHAIN_FOR_PLAYER = require(script:GetCustomProperty("AsyncBlockchain_ForPlayer"))
 local HnH_ContractAddress = "0xb5478a0933a7e6cba08d655d2c7fad3984002188"
 
 local cameraOverrideTime = 1
@@ -22,6 +23,7 @@ local IconData = {}
 local PlayerHnH_NFT_Data = {}
 local NFT_button_handles = {}
 local LAST_SELECTED_NFT_ID = nil
+local LOADING_TOKENS = false
 
 --init needed homes data
 for _,child in ipairs(PLAYER_HOMES:GetChildren())do
@@ -56,7 +58,7 @@ function SaveLocalPlayerTokens(tokens)
 end
 
 function RefreshLocalPlayerTokens()
-    ASYNC_BLOCKCHAIN.GetTokensForPlayer(LOCAL_PLAYER,{contractAddress = HnH_ContractAddress},SaveLocalPlayerTokens)
+    --ASYNC_BLOCKCHAIN_FOR_PLAYER.GetTokensForPlayer(LOCAL_PLAYER,{contractAddress = HnH_ContractAddress},SaveLocalPlayerTokens)
     --[[Task.Wait(5)
     print("Token 3")
     for key,val in pairs(PlayerHnH_NFT_Data["3"])do
@@ -65,6 +67,26 @@ function RefreshLocalPlayerTokens()
     Task.Wait(5)
     print("getting token data 3")
     ASYNC_BLOCKCHAIN.GetToken(HnH_ContractAddress, "3", SaveLocalPlayerTokens)]]
+end
+
+function SaveTokenToLocalTable(token)
+    print("got token")
+    table.insert(PlayerHnH_NFT_Data,token)
+end
+
+function LoadTokens(tokenIDs)
+    LOADING_TOKENS = true
+    PlayerHnH_NFT_Data = {}
+    for _,id in ipairs(tokenIDs)do
+        print("getting token or id "..id)
+        --TODO rework, this yelds A LOT!
+        ASYNC_BLOCKCHAIN_FOR_PLAYER.GetToken(HnH_ContractAddress, id, SaveTokenToLocalTable)
+        --update UI to show the "loading ...""
+        UpdateNFT_UI()
+    end
+    print("LOADING COMPLETED")
+    LOADING_TOKENS = false
+    UpdateNFT_UI()
 end
 
 ---------------------------
@@ -119,10 +141,10 @@ function SetupIcon(isDefault,isFree,nftDataKey)
         end
         --TODO get nft data and set the icon up
         IconData[icon].dailyFreeText.text = ""
-        IconData[icon].NFT_image:SetBlockchainToken(PlayerHnH_NFT_Data[nftDataKey].token)
+        IconData[icon].NFT_image:SetBlockchainToken(PlayerHnH_NFT_Data[nftDataKey])
         --setup the hover handles
         NFT_button_handles[#NFT_button_handles + 1] = IconData[icon].selectButton.hoveredEvent:Connect(function ()
-            ShowNFTpreviewImage(PlayerHnH_NFT_Data[nftDataKey].token)
+            ShowNFTpreviewImage(PlayerHnH_NFT_Data[nftDataKey])
         end)
         NFT_button_handles[#NFT_button_handles + 1] = IconData[icon].selectButton.unhoveredEvent:Connect(HideNFTprevievImage)
         --setup the click handle
@@ -171,6 +193,23 @@ function PopulateHnH_NFTs()
     end
 end
 
+function UpdateNFT_UI()
+    --update the UI if visible
+    if HOUSE_SETUP_PANEL.visibility ~= Visibility.INHERIT then return end
+    if LOADING_TOKENS then
+        local length = string.len(LOADING_TEXT.text)
+        if length < 7 or length > 10 then LOADING_TEXT.text = "LOADING"
+        else LOADING_TEXT.text = LOADING_TEXT.text .."." end
+        NFTS_ICONS_SCROLL_PANEL.visibility = Visibility.FORCE_OFF
+        return
+    end
+    LOADING_TEXT.text = ""
+    NFTS_ICONS_SCROLL_PANEL.visibility = Visibility.INHERIT
+    --depopulation of the icons happens inside the populate function as a failsafe
+    PopulateHnH_NFTs()
+    ShowNFTpanel()
+end
+
 function OnPlayerWalksAway()
     HideNFTpanel()
     DepopulateHnH_NFTs()
@@ -194,13 +233,12 @@ function OnHouseSetup()
 end
 
 function OnPNDchanged(player,key)
+    if key == "HnH_IDs" then
+        LoadTokens(LOCAL_PLAYER:GetPrivateNetworkedData(key))
+    end
     if key ~= "LastHnH_ID" then return end
     LAST_SELECTED_NFT_ID = LOCAL_PLAYER:GetPrivateNetworkedData(key)
-    --update the UI if visible
-    if HOUSE_SETUP_PANEL.visibility ~= Visibility.INHERIT then return end
-    --depopulation of the icons happens inside the populate function as a failsafe
-    PopulateHnH_NFTs()
-    ShowNFTpanel()
+    UpdateNFT_UI()
 end
 
 Events.Connect("houseSetup",OnHouseSetup)
