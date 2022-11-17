@@ -375,8 +375,6 @@ Assets {
         Control {
           Width: 40
           Height: 40
-          UIX: -10
-          UIY: -10
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -387,8 +385,7 @@ Assets {
               Id: 5489541460318143251
             }
             Color {
-              R: 0.157483414
-              G: 0.580000043
+              G: 1
               A: 1
             }
             TeamSettings {
@@ -397,6 +394,8 @@ Assets {
               A: 1
             }
             ShadowOffset {
+              X: 2
+              Y: 2
             }
             ScreenshotIndex: 1
           }
@@ -445,8 +444,10 @@ Assets {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
         Control {
-          Width: 20
-          Height: 20
+          Width: 15
+          Height: 15
+          UIX: 2
+          UIY: -1
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -457,11 +458,10 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 8643205952937730457
+              Id: 7560200871688997904
             }
             Color {
-              R: 0.157483414
-              G: 0.580000043
+              G: 1
               A: 1
             }
             TeamSettings {
@@ -470,6 +470,8 @@ Assets {
               A: 1
             }
             ShadowOffset {
+              X: 2
+              Y: 2
             }
             ScreenshotIndex: 1
           }
@@ -603,12 +605,12 @@ Assets {
       }
     }
     Assets {
-      Id: 8643205952937730457
-      Name: "Abstract Frame 02"
+      Id: 7560200871688997904
+      Name: "Frame Outlined Thick 006"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "Core_UI_AbstractPack_Cframe_002"
+        AssetId: "FrameFlat_015"
       }
     }
     Assets {

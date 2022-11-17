@@ -7,25 +7,60 @@ local HnH_Tokens_Data = {}
 
 function SetTokensResults(tokens,player)
     --TODO remove refreshing?? stupid idea
+    if tokens == nil then warn("player "..player.name.." do own no HnH tokens _ SERVER") return end
     player:SetPrivateNetworkedData("RefreshingHnH",true)
     if DEBUG_PRINT then print("HnH test results #1 for ",player.name) end
     HnH_Tokens_Data[player.id] = {}
     for _,t in ipairs(tokens) do
+        local tempTokenData = {}
         if DEBUG_PRINT then print("tokenId",t.tokenId) end
-        HnH_Tokens_Data[player.id].tokenId = t.tokenId
+        tempTokenData.tokenId = t.tokenId
         if DEBUG_PRINT then print("name",t.name) end
         if DEBUG_PRINT then print("description",t.description) end
         if DEBUG_PRINT then print("rawMetadata",t.rawMetadata) end
         if DEBUG_PRINT then print("Attributes:") end
-        HnH_Tokens_Data[player.id].Attributes = {}
+        tempTokenData.Attributes = {}
         for _,attributeData in pairs(t:GetAttributes())do
             if DEBUG_PRINT then print(attributeData.name..":",attributeData:GetValue()) end
-            HnH_Tokens_Data[player.id].Attributes.name = attributeData:GetValue()
+            tempTokenData.Attributes.name = attributeData:GetValue()
         end
+        table.insert(HnH_Tokens_Data[player.id],tempTokenData)
     end
     Task.Wait(.1) --fake timeout for clients to show the loading in the ui in case of fast callback
     if Object.IsValid(player) ~= true then return end
     player:SetPrivateNetworkedData("RefreshingHnH",false)
+end
+
+function IsPlayerOwnerOfNFT(player,lookForId)
+    for _,tokenData in pairs(HnH_Tokens_Data[player.id])do
+        if tokenData.tokenId == lookForId then
+            return true
+        end
+    end
+    return false
+end
+
+function SpawnHomeForPlayer(player, tokenIDToSpawn)
+    print("spawning house for player "..player.name..": "..tokenIDToSpawn)
+    SavePlayerSelectedHouseID(player,tokenIDToSpawn)
+end
+
+function OnGiefHomeRequest(player,tokenId)
+    local tokenIDToSpawn = nil
+    --TODO check the tokenID == random_for_today
+    if tokenId == "def" then
+        tokenIDToSpawn = "def"
+    elseif tokenId == "rng" then
+        tokenIDToSpawn = "rng"
+    elseif IsPlayerOwnerOfNFT(player,tokenId) then
+        --player has to own the token, server check
+        --(as client could possibly hack-send any tokenID)
+        tokenIDToSpawn = tokenId
+    end
+    --spawn the house for the player
+    if tokenIDToSpawn ~= nil then
+        SpawnHomeForPlayer(player, tokenIDToSpawn)
+    end
 end
 
 function Get_HnH_TokensForPlayer(player)
@@ -75,3 +110,4 @@ Game.playerJoinedEvent:Connect(OnPlayerJoined)
 Game.playerLeftEvent:Connect(OnPlayerLeft)
 
 Events.ConnectForPlayer("RefreshTokens",Get_HnH_TokensForPlayer)
+Events.ConnectForPlayer("GiefHouse",OnGiefHomeRequest)

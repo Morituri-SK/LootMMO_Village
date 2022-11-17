@@ -7,6 +7,10 @@ local NFTS_ICONS_SCROLL_PANEL = script:GetCustomProperty("NFTsIconsScrollPanel")
 local NFT_HN_H_ICON = script:GetCustomProperty("NFT_HnH_Icon")
 ---@type UIButton
 local CLOSE_BUTTON = script:GetCustomProperty("CloseButton"):WaitForObject()
+---@type UIPanel
+local NFT_PREVIEW_PANEL = script:GetCustomProperty("NFT_Preview_Panel"):WaitForObject()
+---@type UIImage
+local NFT_PREVIEW_IMAGE = script:GetCustomProperty("NFT_Preview_Image"):WaitForObject()
 
 local ASYNC_BLOCKCHAIN = require(script:GetCustomProperty("AsyncBlockchain"))
 local HnH_ContractAddress = "0xb5478a0933a7e6cba08d655d2c7fad3984002188"
@@ -16,6 +20,8 @@ local HomesData = {}
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local IconData = {}
 local PlayerHnH_NFT_Data = {}
+local NFT_button_handles = {}
+local LAST_SELECTED_NFT_ID = nil
 
 --init needed homes data
 for _,child in ipairs(PLAYER_HOMES:GetChildren())do
@@ -24,31 +30,53 @@ for _,child in ipairs(PLAYER_HOMES:GetChildren())do
     dataToAdd.camera = child:FindDescendantByType("Camera")
     table.insert(HomesData,dataToAdd)
 end
-
+---------------------------
+--NFT LOAD FUNCTIONS
+---------------------------
 function SaveLocalPlayerTokens(tokens)
+    if tokens == nil then warn("player "..LOCAL_PLAYER.name.." do own no HnH tokens _ CLIENT") end
     PlayerHnH_NFT_Data = {}
     for _,t in ipairs(tokens) do
-        print("token type",type(t.tokenId))
+        --[[print("token type",type(t.tokenId))
         print("LOCAL tokenId",t.tokenId)
         print("LOCAL name",t.name)
         print("LOCAL description",t.description)
         print("LOCAL rawMetadata",t.rawMetadata)
-        print("LOCAL Attributes:")
+        print("LOCAL Attributes:")]]
         PlayerHnH_NFT_Data[t.tokenId] = {}
+        PlayerHnH_NFT_Data[t.tokenId].token = t
+        local hasAttributes = false
         for _,attributeData in pairs(t:GetAttributes())do
-            print ("LOCAL ",attributeData.name..":",attributeData:GetValue())
+            hasAttributes = true
+            --print ("LOCAL attrib: ",attributeData.name..":",attributeData:GetValue())
             PlayerHnH_NFT_Data[t.tokenId][attributeData.name] = attributeData:GetValue()
         end
+        if not hasAttributes then PlayerHnH_NFT_Data[t.tokenId] = nil end --failsafe
     end
 end
 
 function RefreshLocalPlayerTokens()
     ASYNC_BLOCKCHAIN.GetTokensForPlayer(LOCAL_PLAYER,{contractAddress = HnH_ContractAddress},SaveLocalPlayerTokens)
-    Task.Wait(5)
-    print("Token 0")
-    for key,val in pairs(PlayerHnH_NFT_Data["0"])do
+    --[[Task.Wait(5)
+    print("Token 3")
+    for key,val in pairs(PlayerHnH_NFT_Data["3"])do
         print(key,val)
     end
+    Task.Wait(5)
+    print("getting token data 3")
+    ASYNC_BLOCKCHAIN.GetToken(HnH_ContractAddress, "3", SaveLocalPlayerTokens)]]
+end
+
+---------------------------
+--PLAYER UI FUNCTIONS
+---------------------------
+function ShowNFTpreviewImage(token)
+    NFT_PREVIEW_IMAGE:SetBlockchainToken(token)
+    NFT_PREVIEW_PANEL.visibility = Visibility.INHERIT
+end
+
+function HideNFTprevievImage()
+    NFT_PREVIEW_PANEL.visibility = Visibility.FORCE_OFF
 end
 
 function SetupIcon(isDefault,isFree,nftDataKey)
@@ -62,17 +90,46 @@ function SetupIcon(isDefault,isFree,nftDataKey)
     IconData[icon].selectButton = icon:GetCustomProperty("SelectButton"):WaitForObject()
     ---@type UIImage
     IconData[icon].NFT_image = icon:GetCustomProperty("NFT_Image"):WaitForObject()
-    --TODO persistent NFT selection
-    IconData[icon].selectedIcon.visibility = Visibility.FORCE_OFF
+    --selected icon
+    if isDefault and LAST_SELECTED_NFT_ID == "def"
+        or isFree and LAST_SELECTED_NFT_ID == "rng"
+        or nftDataKey == LAST_SELECTED_NFT_ID then
+        IconData[icon].selectedIcon.visibility = Visibility.INHERIT
+    else
+        IconData[icon].selectedIcon.visibility = Visibility.FORCE_OFF
+    end
+    --setup icons and button handles
     if isDefault then
         IconData[icon].dailyFreeText.text = "DEFAULT"
+        NFT_button_handles[#NFT_button_handles + 1] = IconData[icon].selectButton.clickedEvent:Connect(function ()
+            Events.BroadcastToServer("GiefHouse","def")
+        end)
     elseif isFree then
-        --TODO get random nft for today and set up
+        --TODO get random NFT id
         IconData[icon].dailyFreeText.text = "Daily Free"
-    elseif nftDataKey ~= 0 then
-        if PlayerHnH_NFT_Data[nftDataKey] == nil then warn("unknown NFT table key??") return end
+        NFT_button_handles[#NFT_button_handles + 1] = IconData[icon].selectButton.clickedEvent:Connect(function ()
+            Events.BroadcastToServer("GiefHouse","rng")
+        end)
+    else
+        --failsafe
+        if PlayerHnH_NFT_Data[nftDataKey] == nil then
+            warn("unknown NFT table key??")
+            icon:Destroy()
+            return
+        end
         --TODO get nft data and set the icon up
         IconData[icon].dailyFreeText.text = ""
+        IconData[icon].NFT_image:SetBlockchainToken(PlayerHnH_NFT_Data[nftDataKey].token)
+        --setup the hover handles
+        NFT_button_handles[#NFT_button_handles + 1] = IconData[icon].selectButton.hoveredEvent:Connect(function ()
+            ShowNFTpreviewImage(PlayerHnH_NFT_Data[nftDataKey].token)
+        end)
+        NFT_button_handles[#NFT_button_handles + 1] = IconData[icon].selectButton.unhoveredEvent:Connect(HideNFTprevievImage)
+        --setup the click handle
+        NFT_button_handles[#NFT_button_handles + 1] = IconData[icon].selectButton.clickedEvent:Connect(function ()
+            HideNFTprevievImage()
+            Events.BroadcastToServer("GiefHouse",nftDataKey)
+        end)
     end
     --align the icon
     local totalIcons = #NFTS_ICONS_SCROLL_PANEL:GetChildren()
@@ -92,10 +149,13 @@ end
 
 function DepopulateHnH_NFTs()
     for _,icon in ipairs(NFTS_ICONS_SCROLL_PANEL:GetChildren())do
-        --TODO IconData[icon].handle:Disconnect()
         icon:Destroy()
     end
-    IconButtonHandles = {}
+    --disconnect handles
+    for _,h in ipairs(NFT_button_handles)do
+        h:Disconnect()
+    end
+    NFT_button_handles = {}
 end
 
 function PopulateHnH_NFTs()
@@ -106,6 +166,9 @@ function PopulateHnH_NFTs()
     --free nft icon
     SetupIcon(false,true,0)
     --owned icons
+    for tokenKey,_ in pairs(PlayerHnH_NFT_Data)do
+        SetupIcon(false,false,tokenKey)
+    end
 end
 
 function OnPlayerWalksAway()
@@ -130,9 +193,19 @@ function OnHouseSetup()
     ShowNFTpanel()
 end
 
+function OnPNDchanged(player,key)
+    if key ~= "LastHnH_ID" then return end
+    LAST_SELECTED_NFT_ID = LOCAL_PLAYER:GetPrivateNetworkedData(key)
+    --update the UI if visible
+    if HOUSE_SETUP_PANEL.visibility ~= Visibility.INHERIT then return end
+    --depopulation of the icons happens inside the populate function as a failsafe
+    PopulateHnH_NFTs()
+    ShowNFTpanel()
+end
+
 Events.Connect("houseSetup",OnHouseSetup)
 Events.Connect("Shopkeeper.OFF",OnPlayerWalksAway)
 
 CLOSE_BUTTON.clickedEvent:Connect(OnPlayerWalksAway)
-
+LOCAL_PLAYER.privateNetworkedDataChangedEvent:Connect(OnPNDchanged)
 RefreshLocalPlayerTokens()

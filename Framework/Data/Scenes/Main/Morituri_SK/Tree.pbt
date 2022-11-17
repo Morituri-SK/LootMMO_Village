@@ -2110,6 +2110,7 @@ Objects {
   ChildIds: 5293870306414624533
   ChildIds: 9529460498154835723
   ChildIds: 14394927645120037909
+  ChildIds: 9778782045081635064
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2125,6 +2126,7 @@ Objects {
   Control {
     Width: 1250
     Height: 250
+    UIX: -100
     UIY: -50
     RenderTransformPivot {
       Anchor {
@@ -2146,6 +2148,296 @@ Objects {
       TargetAnchor {
         Anchor {
           Value: "mc:euianchor:bottomcenter"
+        }
+      }
+    }
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9778782045081635064
+  Name: "NFT_Preview_Panel"
+  Transform {
+    Location {
+      X: 9777.57324
+      Y: 4106.31641
+      Z: 1148.71387
+    }
+    Rotation {
+      Yaw: 13.5349417
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13625504509015962836
+  ChildIds: 8152797365909389833
+  ChildIds: 10244880384822722702
+  ChildIds: 906045956365709749
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    Width: 550
+    Height: 550
+    UIX: 50
+    UIY: -100
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Panel {
+      Opacity: 1
+      OpacityMaskBrush {
+        Id: 841534158063459245
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 906045956365709749
+  Name: "UI Image"
+  Transform {
+    Location {
+      X: 0.00366524793
+      Y: -0.00743172457
+    }
+    Rotation {
+      Yaw: -3.4150944e-06
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9778782045081635064
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    Width: -30
+    Height: -30
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    Image {
+      Brush {
+        Id: 10810772426047749573
+      }
+      Color {
+        R: 1
+        G: 0.67954272
+        A: 1
+      }
+      TeamSettings {
+      }
+      ShadowColor {
+        A: 1
+      }
+      ShadowOffset {
+        X: 2
+        Y: 2
+      }
+      ScreenshotIndex: 1
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10244880384822722702
+  Name: "NFT_Preview_Image"
+  Transform {
+    Location {
+      X: -6511.26758
+      Y: 8010.4751
+      Z: -3542.96
+    }
+    Rotation {
+      Yaw: -108.747993
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9778782045081635064
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    Width: -85
+    Height: -85
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    Image {
+      Brush {
+        Id: 16565689527445500785
+      }
+      Color {
+        R: 1
+        G: 0.67954272
+        A: 1
+      }
+      TeamSettings {
+      }
+      ShadowColor {
+        A: 1
+      }
+      ShadowOffset {
+        X: 3
+        Y: 3
+      }
+      ScreenshotIndex: 1
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8152797365909389833
+  Name: "bg"
+  Transform {
+    Location {
+      X: 0.00686564343
+      Y: -0.00375985634
+    }
+    Rotation {
+      Yaw: -6.83018879e-06
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9778782045081635064
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    Width: -65
+    Height: -65
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    Image {
+      Brush {
+        Id: 5236535358397511382
+      }
+      Color {
+        A: 0.5
+      }
+      TeamSettings {
+      }
+      ShadowColor {
+        A: 1
+      }
+      ShadowOffset {
+      }
+      ScreenshotIndex: 1
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
@@ -2190,10 +2482,8 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 380
-    Height: 280
-    UIX: 100
-    UIY: -10
+    Width: 200
+    Height: 200
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2208,12 +2498,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:middleleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:middleright"
+          Value: "mc:euianchor:bottomright"
         }
       }
     }
@@ -2256,9 +2546,9 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: -90
-    Height: 70
-    UIY: 190
+    Width: -40
+    Height: 40
+    UIY: 120
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2498,13 +2788,16 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 240
-    Height: 60
+    Width: -43
+    Height: -5
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
     Text {
       Label: "Everyone"
       Color {
@@ -2512,7 +2805,7 @@ Objects {
         G: 0.67954272
         A: 1
       }
-      Size: 30
+      Size: 18
       Justification {
         Value: "mc:etextjustify:left"
       }
@@ -2527,13 +2820,13 @@ Objects {
         A: 1
       }
       ShadowOffset {
-        X: 2
-        Y: 2
+        X: 1
+        Y: 1
       }
       OutlineColor {
         A: 1
       }
-      OutlineSize: 2
+      OutlineSize: 1
     }
     AnchorLayout {
       SelfAnchor {
@@ -2656,8 +2949,8 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 40
-    Height: 40
+    Width: 30
+    Height: 30
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2806,9 +3099,9 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: -90
-    Height: 70
-    UIY: 110
+    Width: -40
+    Height: 40
+    UIY: 80
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -3048,13 +3341,16 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 240
-    Height: 60
+    Width: -43
+    Height: -5
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
     Text {
       Label: "Friends"
       Color {
@@ -3062,7 +3358,7 @@ Objects {
         G: 0.67954272
         A: 1
       }
-      Size: 30
+      Size: 18
       Justification {
         Value: "mc:etextjustify:left"
       }
@@ -3077,13 +3373,13 @@ Objects {
         A: 1
       }
       ShadowOffset {
-        X: 2
-        Y: 2
+        X: 1
+        Y: 1
       }
       OutlineColor {
         A: 1
       }
-      OutlineSize: 2
+      OutlineSize: 1
     }
     AnchorLayout {
       SelfAnchor {
@@ -3206,8 +3502,8 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 40
-    Height: 40
+    Width: 30
+    Height: 30
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -3356,9 +3652,9 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: -90
-    Height: 70
-    UIY: 30
+    Width: -40
+    Height: 40
+    UIY: 40
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -3598,13 +3894,16 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 240
-    Height: 60
+    Width: -43
+    Height: -5
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
     Text {
       Label: "Only me"
       Color {
@@ -3612,7 +3911,7 @@ Objects {
         G: 0.67954272
         A: 1
       }
-      Size: 30
+      Size: 18
       Justification {
         Value: "mc:etextjustify:left"
       }
@@ -3627,13 +3926,13 @@ Objects {
         A: 1
       }
       ShadowOffset {
-        X: 2
-        Y: 2
+        X: 1
+        Y: 1
       }
       OutlineColor {
         A: 1
       }
-      OutlineSize: 2
+      OutlineSize: 1
     }
     AnchorLayout {
       SelfAnchor {
@@ -3756,8 +4055,8 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 40
-    Height: 40
+    Width: 30
+    Height: 30
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -3918,7 +4217,7 @@ Objects {
         G: 0.67954272
         A: 1
       }
-      Size: 33
+      Size: 24
       Justification {
         Value: "mc:etextjustify:center"
       }
@@ -5871,6 +6170,18 @@ Objects {
       Name: "cs:AsyncBlockchain"
       AssetReference {
         Id: 2979189229387007512
+      }
+    }
+    Overrides {
+      Name: "cs:NFT_Preview_Panel"
+      ObjectReference {
+        SelfId: 9778782045081635064
+      }
+    }
+    Overrides {
+      Name: "cs:NFT_Preview_Image"
+      ObjectReference {
+        SelfId: 10244880384822722702
       }
     }
   }

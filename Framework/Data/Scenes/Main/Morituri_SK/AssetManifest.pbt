@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16565689527445500785
+  Name: "House"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Urban_Icon_011"
+  }
+}
+Assets {
   Id: 15895911216899816748
   Name: "Dummy Object"
   PlatformAssetType: 6
@@ -86,6 +95,15 @@ Assets {
   PrimaryAsset {
     AssetType: "FontAssetRef"
     AssetId: "GermaniaOneRegular_ref"
+  }
+}
+Assets {
+  Id: 10810772426047749573
+  Name: "Fantasy Frame 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Frame_001"
   }
 }
 Assets {
