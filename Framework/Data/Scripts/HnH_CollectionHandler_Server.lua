@@ -3,6 +3,9 @@ local ASYNC_BLOCKCHAIN_FOR_PLAYER = require(script:GetCustomProperty("AsyncBlock
 local HnH_ContractAddress = "0xb5478a0933a7e6cba08d655d2c7fad3984002188"
 local DEBUG_PRINT = script:GetCustomProperty("DebugPrint")
 
+---@type Script
+local FURNITURE_SERVER = script:GetCustomProperty("Furniture_Server"):WaitForObject()
+
 local HnH_Tokens_Data = {}
 
 function SetTokensResults(tokens,player)
@@ -23,7 +26,7 @@ function SetTokensResults(tokens,player)
         tempTokenData.Attributes = {}
         for _,attributeData in pairs(t:GetAttributes())do
             if DEBUG_PRINT then print(attributeData.name..":",attributeData:GetValue()) end
-            tempTokenData.Attributes.name = attributeData:GetValue()
+            tempTokenData.Attributes[attributeData.name] = attributeData:GetValue()
         end
         table.insert(HnH_Tokens_Data[player.id],tempTokenData)
         table.insert(savedIDs, t.tokenId)
@@ -34,10 +37,11 @@ function SetTokensResults(tokens,player)
     player:SetPrivateNetworkedData("RefreshingHnH",false)
 end
 
-function IsPlayerOwnerOfNFT(player,lookForId)
-    for _,tokenData in pairs(HnH_Tokens_Data[player.id])do
-        if tokenData.tokenId == lookForId then
-            return true
+function GetTableKeyForPlayerOwnedNFT(player,lookForId)
+    for key,tokenData in pairs(HnH_Tokens_Data[player.id])do
+        print("check ownership",tokenData.tokenId,"==",lookForId," -> ",tokenData.tokenId == lookForId)
+        if tostring(tokenData.tokenId) == tostring(lookForId) then
+            return key
         end
     end
     return false
@@ -46,18 +50,35 @@ end
 function SpawnHomeForPlayer(player, tokenIDToSpawn)
     print("spawning house for player "..player.name..": "..tokenIDToSpawn)
     SavePlayerSelectedHouseID(player,tokenIDToSpawn)
+    --setup the correct target
+    local playerHouse = FURNITURE_SERVER.context.GetPlayerHomeObject(player)
+    local controlScript = playerHouse:FindChildByName("BuildTheHouse")
+    --call the correct script
+    if tokenIDToSpawn == "def"then
+        controlScript.context.SpawnHouseForPlayerID(player.id)
+    elseif tokenIDToSpawn == "rng"then
+        --TODO proper random NFT ID
+    else
+        --player has to own the token, server check
+        --(as client could possibly hack-send any tokenID)
+        local key = GetTableKeyForPlayerOwnedNFT(player,tokenIDToSpawn)
+        if key == false then warn("Player "..player.name.." is not the owner of the requested NFT HnH token") return end
+        for k,v in pairs(HnH_Tokens_Data[player.id][key].Attributes)do
+            print(k,v)
+        end
+        controlScript.context.AssembleHouse_NFT_Geo(HnH_Tokens_Data[player.id][key].Attributes)
+    end
 end
 
 function OnGiefHomeRequest(player,tokenId)
+    print("Gief token",tokenId,"event triggered")
     local tokenIDToSpawn = nil
     --TODO check the tokenID == random_for_today
     if tokenId == "def" then
         tokenIDToSpawn = "def"
     elseif tokenId == "rng" then
         tokenIDToSpawn = "rng"
-    elseif IsPlayerOwnerOfNFT(player,tokenId) then
-        --player has to own the token, server check
-        --(as client could possibly hack-send any tokenID)
+    else
         tokenIDToSpawn = tokenId
     end
     --spawn the house for the player
@@ -77,10 +98,12 @@ end
 function LoadPlayerLastUsedHouseID(player)
     local data = Storage.GetPlayerData(player)
     local lastID = data.LastHnH_ID or ""
+    --TODO check if the player still owns the token
     player:SetPrivateNetworkedData("LastHnH_ID",lastID)
 end
 
 function SavePlayerSelectedHouseID(player,selectedID)
+    print("saving player LastHnH_ID",selectedID)
     --set the PND
     player:SetPrivateNetworkedData("LastHnH_ID",selectedID)
     --save set ID
@@ -101,8 +124,8 @@ function OnPlayerJoined(player)
     LoadPlayerLastUsedHouseID(player)
     --testtest
     print("LastHnH_ID:",player:GetPrivateNetworkedData("LastHnH_ID"))
-    SavePlayerSelectedHouseID(player,"rng")
     if DEBUG_PRINT then print("player HnH token load done") end
+    --TODO build player house based on this value
 end
 
 function OnPlayerLeft(player)

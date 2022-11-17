@@ -35,40 +35,6 @@ end
 ---------------------------
 --NFT LOAD FUNCTIONS
 ---------------------------
-function SaveLocalPlayerTokens(tokens)
-    if tokens == nil then warn("player "..LOCAL_PLAYER.name.." do own no HnH tokens _ CLIENT") end
-    PlayerHnH_NFT_Data = {}
-    for _,t in ipairs(tokens) do
-        --[[print("token type",type(t.tokenId))
-        print("LOCAL tokenId",t.tokenId)
-        print("LOCAL name",t.name)
-        print("LOCAL description",t.description)
-        print("LOCAL rawMetadata",t.rawMetadata)
-        print("LOCAL Attributes:")]]
-        PlayerHnH_NFT_Data[t.tokenId] = {}
-        PlayerHnH_NFT_Data[t.tokenId].token = t
-        local hasAttributes = false
-        for _,attributeData in pairs(t:GetAttributes())do
-            hasAttributes = true
-            --print ("LOCAL attrib: ",attributeData.name..":",attributeData:GetValue())
-            PlayerHnH_NFT_Data[t.tokenId][attributeData.name] = attributeData:GetValue()
-        end
-        if not hasAttributes then PlayerHnH_NFT_Data[t.tokenId] = nil end --failsafe
-    end
-end
-
-function RefreshLocalPlayerTokens()
-    --ASYNC_BLOCKCHAIN_FOR_PLAYER.GetTokensForPlayer(LOCAL_PLAYER,{contractAddress = HnH_ContractAddress},SaveLocalPlayerTokens)
-    --[[Task.Wait(5)
-    print("Token 3")
-    for key,val in pairs(PlayerHnH_NFT_Data["3"])do
-        print(key,val)
-    end
-    Task.Wait(5)
-    print("getting token data 3")
-    ASYNC_BLOCKCHAIN.GetToken(HnH_ContractAddress, "3", SaveLocalPlayerTokens)]]
-end
-
 function SaveTokenToLocalTable(token)
     print("got token")
     table.insert(PlayerHnH_NFT_Data,token)
@@ -80,6 +46,7 @@ function LoadTokens(tokenIDs)
     for _,id in ipairs(tokenIDs)do
         print("getting token or id "..id)
         --TODO rework, this yelds A LOT!
+        --TODO grab the whole collection at once and arrange tokens by owneraddress == LOCAL_PLAYER wallets
         ASYNC_BLOCKCHAIN_FOR_PLAYER.GetToken(HnH_ContractAddress, id, SaveTokenToLocalTable)
         --update UI to show the "loading ...""
         UpdateNFT_UI()
@@ -101,7 +68,7 @@ function HideNFTprevievImage()
     NFT_PREVIEW_PANEL.visibility = Visibility.FORCE_OFF
 end
 
-function SetupIcon(isDefault,isFree,nftDataKey)
+function SetupIcon(isDefault,isFree,dataTableKey,nftDataKey)
     local icon = World.SpawnAsset(NFT_HN_H_ICON, {parent = NFTS_ICONS_SCROLL_PANEL})
     IconData[icon] = {}
     ---@type UIText
@@ -113,9 +80,10 @@ function SetupIcon(isDefault,isFree,nftDataKey)
     ---@type UIImage
     IconData[icon].NFT_image = icon:GetCustomProperty("NFT_Image"):WaitForObject()
     --selected icon
-    if isDefault and LAST_SELECTED_NFT_ID == "def"
-        or isFree and LAST_SELECTED_NFT_ID == "rng"
+    if (isDefault and LAST_SELECTED_NFT_ID == "def")
+        or (isFree and LAST_SELECTED_NFT_ID == "rng")
         or nftDataKey == LAST_SELECTED_NFT_ID then
+        print("setting selected icon ON for",LAST_SELECTED_NFT_ID)
         IconData[icon].selectedIcon.visibility = Visibility.INHERIT
     else
         IconData[icon].selectedIcon.visibility = Visibility.FORCE_OFF
@@ -134,24 +102,23 @@ function SetupIcon(isDefault,isFree,nftDataKey)
         end)
     else
         --failsafe
-        if PlayerHnH_NFT_Data[nftDataKey] == nil then
-            warn("unknown NFT table key??")
+        if PlayerHnH_NFT_Data[dataTableKey].tokenId ~= nftDataKey then
+            warn("table and tokens mismatch key??")
             icon:Destroy()
             return
         end
-        --TODO get nft data and set the icon up
         IconData[icon].dailyFreeText.text = ""
-        IconData[icon].NFT_image:SetBlockchainToken(PlayerHnH_NFT_Data[nftDataKey])
-        --setup the hover handles
-        NFT_button_handles[#NFT_button_handles + 1] = IconData[icon].selectButton.hoveredEvent:Connect(function ()
-            ShowNFTpreviewImage(PlayerHnH_NFT_Data[nftDataKey])
-        end)
-        NFT_button_handles[#NFT_button_handles + 1] = IconData[icon].selectButton.unhoveredEvent:Connect(HideNFTprevievImage)
+        IconData[icon].NFT_image:SetBlockchainToken(PlayerHnH_NFT_Data[dataTableKey])
         --setup the click handle
         NFT_button_handles[#NFT_button_handles + 1] = IconData[icon].selectButton.clickedEvent:Connect(function ()
             HideNFTprevievImage()
             Events.BroadcastToServer("GiefHouse",nftDataKey)
         end)
+        --setup the hover handles to show the NFT images
+        NFT_button_handles[#NFT_button_handles + 1] = IconData[icon].selectButton.hoveredEvent:Connect(function ()
+            ShowNFTpreviewImage(PlayerHnH_NFT_Data[dataTableKey])
+        end)
+        NFT_button_handles[#NFT_button_handles + 1] = IconData[icon].selectButton.unhoveredEvent:Connect(HideNFTprevievImage)
     end
     --align the icon
     local totalIcons = #NFTS_ICONS_SCROLL_PANEL:GetChildren()
@@ -160,12 +127,13 @@ function SetupIcon(isDefault,isFree,nftDataKey)
 end
 
 function ShowNFTpanel()
+    if HOUSE_SETUP_PANEL.visibility ~= Visibility.INHERIT then _G.CursorStack.Enable() end
     HOUSE_SETUP_PANEL.visibility = Visibility.INHERIT
-    _G.CursorStack.Enable()
+    print("enabling cursor")
 end
 
 function HideNFTpanel()
-    _G.CursorStack.Disable()
+    if HOUSE_SETUP_PANEL.visibility ~= Visibility.FORCE_OFF then _G.CursorStack.Disable() end
     HOUSE_SETUP_PANEL.visibility = Visibility.FORCE_OFF
 end
 
@@ -184,12 +152,13 @@ function PopulateHnH_NFTs()
     --always a cleanup
     DepopulateHnH_NFTs()
     --default icon
-    SetupIcon(true,false,0)
+    SetupIcon(true,false,0,0)
     --free nft icon
-    SetupIcon(false,true,0)
+    SetupIcon(false,true,0,0)
     --owned icons
-    for tokenKey,_ in pairs(PlayerHnH_NFT_Data)do
-        SetupIcon(false,false,tokenKey)
+    for key,token in pairs(PlayerHnH_NFT_Data)do
+        print("setup icon with token id",token.tokenId)
+        SetupIcon(false,false,key,token.tokenId)
     end
 end
 
@@ -246,4 +215,3 @@ Events.Connect("Shopkeeper.OFF",OnPlayerWalksAway)
 
 CLOSE_BUTTON.clickedEvent:Connect(OnPlayerWalksAway)
 LOCAL_PLAYER.privateNetworkedDataChangedEvent:Connect(OnPNDchanged)
-RefreshLocalPlayerTokens()

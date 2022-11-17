@@ -45,6 +45,19 @@ local defaultFurnitueInventory = {
 }
 
 -------------------------------
+--Context calls for NFT functions
+-------------------------------
+
+function GetPlayerHomeObject(player)
+    for key,data in ipairs (PLAYER_HIDEOUTS) do
+        if data.ownerID == player.id and data.isGlobal ~= true then
+            return data.object
+        end
+    end
+    return nil
+end
+
+-------------------------------
 --Initial setup of house tables
 -------------------------------
 function SetupHideoutsTable(hideoutsTable,isGlobal)

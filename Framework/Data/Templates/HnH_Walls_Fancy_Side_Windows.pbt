@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 17238577806941659270
         ChildIds: 12679301952779380236
         ChildIds: 2290313425075531382
         ChildIds: 1282019422918520641
@@ -64,10 +64,18 @@ Assets {
         ChildIds: 5597954367951552208
         ChildIds: 7773757898537622062
         ChildIds: 8553525215778044625
-        ChildIds: 16764973121565724185
-        ChildIds: 3345505700640663896
-        ChildIds: 349942546950484163
-        ChildIds: 12958812087591470935
+        ChildIds: 13243774693506323762
+        ChildIds: 10997006551227599408
+        ChildIds: 15282625708388938251
+        ChildIds: 15930311512814044526
+        ChildIds: 9306852536547569369
+        ChildIds: 15217077377511345635
+        ChildIds: 1160275430750330052
+        ChildIds: 11732945232614429224
+        ChildIds: 6329005744524182463
+        ChildIds: 12682086477655656476
+        ChildIds: 17593407884894136220
+        ChildIds: 11308558407140941608
         ChildIds: 2549160361294387246
         ChildIds: 16058518407481051205
         ChildIds: 7583666540708790214
@@ -3722,412 +3730,16 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 16764973121565724185
+        Id: 13243774693506323762
         Name: "Group"
         Transform {
           Location {
-            X: -1706.06055
-            Y: 699.938
-            Z: 93.909668
+            X: -1706.51465
+            Y: -518.061035
+            Z: 112.744385
           }
           Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4483833426392096968
-        ChildIds: 12682086477655656476
-        ChildIds: 17593407884894136220
-        ChildIds: 11308558407140941608
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Folder {
-          IsGroup: true
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 12682086477655656476
-        Name: "Group"
-        Transform {
-          Location {
-            X: -0.454101562
-            Y: -1.03173828
-            Z: 18.8347778
-          }
-          Rotation {
-            Yaw: 50.142395
-          }
-          Scale {
-            X: 1.99181449
-            Y: 1.99181449
-            Z: 1.99181449
-          }
-        }
-        ParentId: 16764973121565724185
-        ChildIds: 6084492051681974600
-        ChildIds: 14983483741502493843
-        ChildIds: 4994839476082142121
-        ChildIds: 2410709278575724550
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Folder {
-          IsGroup: true
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 6084492051681974600
-        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
-        Transform {
-          Location {
-            X: 49.6977539
-            Y: 44.34375
-          }
-          Rotation {
-            Yaw: 41.7414169
-          }
-          Scale {
-            X: 1.24352217
-            Y: 1.24352217
-            Z: 4.53107595
-          }
-        }
-        ParentId: 12682086477655656476
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6937005782613619979
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 2274301322849382469
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 14983483741502493843
-        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
-        Transform {
-          Location {
-            X: -49.6977539
-            Y: -44.3435059
-          }
-          Rotation {
-            Yaw: 41.741436
-          }
-          Scale {
-            X: -1.24352217
-            Y: 1.24352217
-            Z: 4.53107595
-          }
-        }
-        ParentId: 12682086477655656476
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6937005782613619979
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 2274301322849382469
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 4994839476082142121
-        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
-        Transform {
-          Location {
-            X: 49.6977539
-            Y: 44.34375
-          }
-          Rotation {
-            Pitch: 17.4084167
-            Yaw: 41.7417412
-          }
-          Scale {
-            X: 1.24352217
-            Y: 1.24352217
-            Z: 4.53107595
-          }
-        }
-        ParentId: 12682086477655656476
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6937005782613619979
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 2274301322849382469
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 2410709278575724550
-        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
-        Transform {
-          Location {
-            X: -49.6977539
-            Y: -44.3435059
-          }
-          Rotation {
-            Pitch: -19.2892323
-            Yaw: 41.7417526
-            Roll: 1.8091049e-06
-          }
-          Scale {
-            X: -1.24352217
-            Y: 1.24352217
-            Z: 4.53107595
-          }
-        }
-        ParentId: 12682086477655656476
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6937005782613619979
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 2274301322849382469
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 17593407884894136220
-        Name: "Cube - Bottom-Aligned"
-        Transform {
-          Location {
-            X: 0.911132812
-            Y: 2.0625
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.331953168
-            Y: 3.87549853
-            Z: 0.181651607
-          }
-        }
-        ParentId: 16764973121565724185
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 881271677500578206
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 198353679974341757
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 11308558407140941608
-        Name: "Group"
-        Transform {
-          Location {
-            X: -0.454101562
-            Y: -1.03173828
-            Z: 18.8347778
-          }
-          Rotation {
-            Yaw: 50.142395
+            Yaw: 50.1424103
           }
           Scale {
             X: 2.47348332
@@ -4135,11 +3747,11 @@ Assets {
             Z: 2.47348332
           }
         }
-        ParentId: 16764973121565724185
-        ChildIds: 7405838886710488880
-        ChildIds: 399157230936906001
-        ChildIds: 8277637750371763606
-        ChildIds: 5484980449114982996
+        ParentId: 4483833426392096968
+        ChildIds: 16934843494029943630
+        ChildIds: 15019409613657763655
+        ChildIds: 5263785886762854161
+        ChildIds: 11120091636296512638
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4161,7 +3773,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 7405838886710488880
+        Id: 16934843494029943630
         Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
         Transform {
           Location {
@@ -4177,7 +3789,7 @@ Assets {
             Z: 4.53107595
           }
         }
-        ParentId: 11308558407140941608
+        ParentId: 13243774693506323762
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -4223,7 +3835,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 399157230936906001
+        Id: 15019409613657763655
         Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
         Transform {
           Location {
@@ -4239,7 +3851,7 @@ Assets {
             Z: 4.53107595
           }
         }
-        ParentId: 11308558407140941608
+        ParentId: 13243774693506323762
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -4285,7 +3897,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 8277637750371763606
+        Id: 5263785886762854161
         Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
         Transform {
           Location {
@@ -4302,7 +3914,7 @@ Assets {
             Z: 4.53107595
           }
         }
-        ParentId: 11308558407140941608
+        ParentId: 13243774693506323762
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -4348,7 +3960,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 5484980449114982996
+        Id: 11120091636296512638
         Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
         Transform {
           Location {
@@ -4366,7 +3978,7 @@ Assets {
             Z: 4.53107595
           }
         }
-        ParentId: 11308558407140941608
+        ParentId: 13243774693506323762
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -4412,57 +4024,16 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 3345505700640663896
+        Id: 10997006551227599408
         Name: "Group"
         Transform {
           Location {
-            X: 1328.11523
-            Y: 648.197754
-            Z: 93.909668
+            X: -1706.51465
+            Y: -518.061035
+            Z: 112.744385
           }
           Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4483833426392096968
-        ChildIds: 1160275430750330052
-        ChildIds: 11732945232614429224
-        ChildIds: 6329005744524182463
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Folder {
-          IsGroup: true
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 1160275430750330052
-        Name: "Group"
-        Transform {
-          Location {
-            X: -0.454101562
-            Y: -1.03173828
-            Z: 18.8347778
-          }
-          Rotation {
-            Yaw: 50.142395
+            Yaw: 50.1424103
           }
           Scale {
             X: 1.99181449
@@ -4470,658 +4041,11 @@ Assets {
             Z: 1.99181449
           }
         }
-        ParentId: 3345505700640663896
-        ChildIds: 16333961992273721049
-        ChildIds: 1149286703253976744
-        ChildIds: 269996909028210577
-        ChildIds: 2013934517376100249
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Folder {
-          IsGroup: true
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 16333961992273721049
-        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
-        Transform {
-          Location {
-            X: 49.6977539
-            Y: 44.34375
-          }
-          Rotation {
-            Yaw: 41.7414169
-          }
-          Scale {
-            X: 1.24352217
-            Y: 1.24352217
-            Z: 4.53107595
-          }
-        }
-        ParentId: 1160275430750330052
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6937005782613619979
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 2274301322849382469
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 1149286703253976744
-        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
-        Transform {
-          Location {
-            X: -49.6977539
-            Y: -44.3435059
-          }
-          Rotation {
-            Yaw: 41.741436
-          }
-          Scale {
-            X: -1.24352217
-            Y: 1.24352217
-            Z: 4.53107595
-          }
-        }
-        ParentId: 1160275430750330052
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6937005782613619979
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 2274301322849382469
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 269996909028210577
-        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
-        Transform {
-          Location {
-            X: 49.6977539
-            Y: 44.34375
-          }
-          Rotation {
-            Pitch: 17.4084167
-            Yaw: 41.7417412
-          }
-          Scale {
-            X: 1.24352217
-            Y: 1.24352217
-            Z: 4.53107595
-          }
-        }
-        ParentId: 1160275430750330052
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6937005782613619979
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 2274301322849382469
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 2013934517376100249
-        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
-        Transform {
-          Location {
-            X: -49.6977539
-            Y: -44.3435059
-          }
-          Rotation {
-            Pitch: -19.2892323
-            Yaw: 41.7417526
-            Roll: 1.8091049e-06
-          }
-          Scale {
-            X: -1.24352217
-            Y: 1.24352217
-            Z: 4.53107595
-          }
-        }
-        ParentId: 1160275430750330052
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6937005782613619979
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 2274301322849382469
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 11732945232614429224
-        Name: "Cube - Bottom-Aligned"
-        Transform {
-          Location {
-            X: 0.911132812
-            Y: 2.0625
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.331953168
-            Y: 3.87549853
-            Z: 0.181651607
-          }
-        }
-        ParentId: 3345505700640663896
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 881271677500578206
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 198353679974341757
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 6329005744524182463
-        Name: "Group"
-        Transform {
-          Location {
-            X: -0.454101562
-            Y: -1.03173828
-            Z: 18.8347778
-          }
-          Rotation {
-            Yaw: 50.142395
-          }
-          Scale {
-            X: 2.47348332
-            Y: 2.47348332
-            Z: 2.47348332
-          }
-        }
-        ParentId: 3345505700640663896
-        ChildIds: 13098565495353474984
-        ChildIds: 15349395950085293418
-        ChildIds: 4222046591608515382
-        ChildIds: 6586453966928085646
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Folder {
-          IsGroup: true
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 13098565495353474984
-        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
-        Transform {
-          Location {
-            X: 49.6977539
-            Y: 44.34375
-          }
-          Rotation {
-            Yaw: 41.7414169
-          }
-          Scale {
-            X: 1.24352217
-            Y: 1.24352217
-            Z: 4.53107595
-          }
-        }
-        ParentId: 6329005744524182463
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6937005782613619979
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 2274301322849382469
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 15349395950085293418
-        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
-        Transform {
-          Location {
-            X: -49.6977539
-            Y: -44.3435059
-          }
-          Rotation {
-            Yaw: 41.741436
-          }
-          Scale {
-            X: -1.24352217
-            Y: 1.24352217
-            Z: 4.53107595
-          }
-        }
-        ParentId: 6329005744524182463
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6937005782613619979
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 2274301322849382469
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 4222046591608515382
-        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
-        Transform {
-          Location {
-            X: 49.6977539
-            Y: 44.34375
-          }
-          Rotation {
-            Pitch: 17.4084167
-            Yaw: 41.7417412
-          }
-          Scale {
-            X: 1.24352217
-            Y: 1.24352217
-            Z: 4.53107595
-          }
-        }
-        ParentId: 6329005744524182463
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6937005782613619979
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 2274301322849382469
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 6586453966928085646
-        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
-        Transform {
-          Location {
-            X: -49.6977539
-            Y: -44.3435059
-          }
-          Rotation {
-            Pitch: -19.2892323
-            Yaw: 41.7417526
-            Roll: 1.8091049e-06
-          }
-          Scale {
-            X: -1.24352217
-            Y: 1.24352217
-            Z: 4.53107595
-          }
-        }
-        ParentId: 6329005744524182463
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6937005782613619979
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 2274301322849382469
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 349942546950484163
-        Name: "Group"
-        Transform {
-          Location {
-            X: 1328.11523
-            Y: -574.346191
-            Z: 93.909668
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
         ParentId: 4483833426392096968
-        ChildIds: 15282625708388938251
-        ChildIds: 15930311512814044526
-        ChildIds: 9306852536547569369
+        ChildIds: 16735464046805606231
+        ChildIds: 11509576609506946075
+        ChildIds: 1186237894467776296
+        ChildIds: 887107501702976636
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -5136,6 +4060,257 @@ Assets {
         }
         Folder {
           IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 16735464046805606231
+        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
+        Transform {
+          Location {
+            X: 49.6977539
+            Y: 44.34375
+          }
+          Rotation {
+            Yaw: 41.7414169
+          }
+          Scale {
+            X: 1.24352217
+            Y: 1.24352217
+            Z: 4.53107595
+          }
+        }
+        ParentId: 10997006551227599408
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2274301322849382469
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 11509576609506946075
+        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
+        Transform {
+          Location {
+            X: -49.6977539
+            Y: -44.3435059
+          }
+          Rotation {
+            Yaw: 41.741436
+          }
+          Scale {
+            X: -1.24352217
+            Y: 1.24352217
+            Z: 4.53107595
+          }
+        }
+        ParentId: 10997006551227599408
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2274301322849382469
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 1186237894467776296
+        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
+        Transform {
+          Location {
+            X: 49.6977539
+            Y: 44.34375
+          }
+          Rotation {
+            Pitch: 17.4084167
+            Yaw: 41.7417412
+          }
+          Scale {
+            X: 1.24352217
+            Y: 1.24352217
+            Z: 4.53107595
+          }
+        }
+        ParentId: 10997006551227599408
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2274301322849382469
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 887107501702976636
+        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
+        Transform {
+          Location {
+            X: -49.6977539
+            Y: -44.3435059
+          }
+          Rotation {
+            Pitch: -19.2892323
+            Yaw: 41.7417526
+            Roll: 1.8091049e-06
+          }
+          Scale {
+            X: -1.24352217
+            Y: 1.24352217
+            Z: 4.53107595
+          }
+        }
+        ParentId: 10997006551227599408
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2274301322849382469
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
@@ -5147,12 +4322,12 @@ Assets {
         Name: "Group"
         Transform {
           Location {
-            X: -0.454101562
-            Y: -1.03173828
-            Z: 18.8347778
+            X: 1327.66113
+            Y: -575.37793
+            Z: 112.744385
           }
           Rotation {
-            Yaw: 50.142395
+            Yaw: 50.1424103
           }
           Scale {
             X: 1.99181449
@@ -5160,7 +4335,7 @@ Assets {
             Z: 1.99181449
           }
         }
-        ParentId: 349942546950484163
+        ParentId: 4483833426392096968
         ChildIds: 2147325024830973441
         ChildIds: 2020136049598039733
         ChildIds: 10110315029379025538
@@ -5441,8 +4616,9 @@ Assets {
         Name: "Cube - Bottom-Aligned"
         Transform {
           Location {
-            X: 0.911132812
-            Y: 2.0625
+            X: 1329.02637
+            Y: -572.283691
+            Z: 93.909668
           }
           Rotation {
           }
@@ -5452,7 +4628,7 @@ Assets {
             Z: 0.181651607
           }
         }
-        ParentId: 349942546950484163
+        ParentId: 4483833426392096968
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -5502,12 +4678,12 @@ Assets {
         Name: "Group"
         Transform {
           Location {
-            X: -0.454101562
-            Y: -1.03173828
-            Z: 18.8347778
+            X: 1327.66113
+            Y: -575.37793
+            Z: 112.744385
           }
           Rotation {
-            Yaw: 50.142395
+            Yaw: 50.1424103
           }
           Scale {
             X: 2.47348332
@@ -5515,7 +4691,7 @@ Assets {
             Z: 2.47348332
           }
         }
-        ParentId: 349942546950484163
+        ParentId: 4483833426392096968
         ChildIds: 6073312928677389723
         ChildIds: 16429222117691470651
         ChildIds: 17847582845525862452
@@ -5792,347 +4968,13 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 12958812087591470935
-        Name: "Group"
-        Transform {
-          Location {
-            X: -1706.06055
-            Y: -517.029297
-            Z: 93.909668
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4483833426392096968
-        ChildIds: 10997006551227599408
-        ChildIds: 15217077377511345635
-        ChildIds: 13243774693506323762
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Folder {
-          IsGroup: true
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 10997006551227599408
-        Name: "Group"
-        Transform {
-          Location {
-            X: -0.454101562
-            Y: -1.03173828
-            Z: 18.8347778
-          }
-          Rotation {
-            Yaw: 50.142395
-          }
-          Scale {
-            X: 1.99181449
-            Y: 1.99181449
-            Z: 1.99181449
-          }
-        }
-        ParentId: 12958812087591470935
-        ChildIds: 16735464046805606231
-        ChildIds: 11509576609506946075
-        ChildIds: 1186237894467776296
-        ChildIds: 887107501702976636
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Folder {
-          IsGroup: true
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 16735464046805606231
-        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
-        Transform {
-          Location {
-            X: 49.6977539
-            Y: 44.34375
-          }
-          Rotation {
-            Yaw: 41.7414169
-          }
-          Scale {
-            X: 1.24352217
-            Y: 1.24352217
-            Z: 4.53107595
-          }
-        }
-        ParentId: 10997006551227599408
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6937005782613619979
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 2274301322849382469
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 11509576609506946075
-        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
-        Transform {
-          Location {
-            X: -49.6977539
-            Y: -44.3435059
-          }
-          Rotation {
-            Yaw: 41.741436
-          }
-          Scale {
-            X: -1.24352217
-            Y: 1.24352217
-            Z: 4.53107595
-          }
-        }
-        ParentId: 10997006551227599408
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6937005782613619979
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 2274301322849382469
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 1186237894467776296
-        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
-        Transform {
-          Location {
-            X: 49.6977539
-            Y: 44.34375
-          }
-          Rotation {
-            Pitch: 17.4084167
-            Yaw: 41.7417412
-          }
-          Scale {
-            X: 1.24352217
-            Y: 1.24352217
-            Z: 4.53107595
-          }
-        }
-        ParentId: 10997006551227599408
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6937005782613619979
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 2274301322849382469
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 887107501702976636
-        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
-        Transform {
-          Location {
-            X: -49.6977539
-            Y: -44.3435059
-          }
-          Rotation {
-            Pitch: -19.2892323
-            Yaw: 41.7417526
-            Roll: 1.8091049e-06
-          }
-          Scale {
-            X: -1.24352217
-            Y: 1.24352217
-            Z: 4.53107595
-          }
-        }
-        ParentId: 10997006551227599408
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6937005782613619979
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 2274301322849382469
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
         Id: 15217077377511345635
         Name: "Cube - Bottom-Aligned"
         Transform {
           Location {
-            X: 0.911132812
-            Y: 2.0625
+            X: -1705.14941
+            Y: -514.966797
+            Z: 93.909668
           }
           Rotation {
           }
@@ -6142,7 +4984,7 @@ Assets {
             Z: 0.181651607
           }
         }
-        ParentId: 12958812087591470935
+        ParentId: 4483833426392096968
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -6188,28 +5030,28 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 13243774693506323762
+        Id: 1160275430750330052
         Name: "Group"
         Transform {
           Location {
-            X: -0.454101562
-            Y: -1.03173828
-            Z: 18.8347778
+            X: 1327.66113
+            Y: 647.166
+            Z: 112.744385
           }
           Rotation {
-            Yaw: 50.142395
+            Yaw: 50.1424103
           }
           Scale {
-            X: 2.47348332
-            Y: 2.47348332
-            Z: 2.47348332
+            X: 1.99181449
+            Y: 1.99181449
+            Z: 1.99181449
           }
         }
-        ParentId: 12958812087591470935
-        ChildIds: 16934843494029943630
-        ChildIds: 15019409613657763655
-        ChildIds: 5263785886762854161
-        ChildIds: 11120091636296512638
+        ParentId: 4483833426392096968
+        ChildIds: 16333961992273721049
+        ChildIds: 1149286703253976744
+        ChildIds: 269996909028210577
+        ChildIds: 2013934517376100249
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6231,7 +5073,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 16934843494029943630
+        Id: 16333961992273721049
         Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
         Transform {
           Location {
@@ -6247,7 +5089,7 @@ Assets {
             Z: 4.53107595
           }
         }
-        ParentId: 13243774693506323762
+        ParentId: 1160275430750330052
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -6293,7 +5135,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 15019409613657763655
+        Id: 1149286703253976744
         Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
         Transform {
           Location {
@@ -6309,7 +5151,7 @@ Assets {
             Z: 4.53107595
           }
         }
-        ParentId: 13243774693506323762
+        ParentId: 1160275430750330052
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -6355,7 +5197,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 5263785886762854161
+        Id: 269996909028210577
         Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
         Transform {
           Location {
@@ -6372,7 +5214,7 @@ Assets {
             Z: 4.53107595
           }
         }
-        ParentId: 13243774693506323762
+        ParentId: 1160275430750330052
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -6418,7 +5260,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 11120091636296512638
+        Id: 2013934517376100249
         Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
         Transform {
           Location {
@@ -6436,7 +5278,1013 @@ Assets {
             Z: 4.53107595
           }
         }
-        ParentId: 13243774693506323762
+        ParentId: 1160275430750330052
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2274301322849382469
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 11732945232614429224
+        Name: "Cube - Bottom-Aligned"
+        Transform {
+          Location {
+            X: 1329.02637
+            Y: 650.260254
+            Z: 93.909668
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.331953168
+            Y: 3.87549853
+            Z: 0.181651607
+          }
+        }
+        ParentId: 4483833426392096968
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 881271677500578206
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 198353679974341757
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 6329005744524182463
+        Name: "Group"
+        Transform {
+          Location {
+            X: 1327.66113
+            Y: 647.166
+            Z: 112.744385
+          }
+          Rotation {
+            Yaw: 50.1424103
+          }
+          Scale {
+            X: 2.47348332
+            Y: 2.47348332
+            Z: 2.47348332
+          }
+        }
+        ParentId: 4483833426392096968
+        ChildIds: 13098565495353474984
+        ChildIds: 15349395950085293418
+        ChildIds: 4222046591608515382
+        ChildIds: 6586453966928085646
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 13098565495353474984
+        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
+        Transform {
+          Location {
+            X: 49.6977539
+            Y: 44.34375
+          }
+          Rotation {
+            Yaw: 41.7414169
+          }
+          Scale {
+            X: 1.24352217
+            Y: 1.24352217
+            Z: 4.53107595
+          }
+        }
+        ParentId: 6329005744524182463
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2274301322849382469
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 15349395950085293418
+        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
+        Transform {
+          Location {
+            X: -49.6977539
+            Y: -44.3435059
+          }
+          Rotation {
+            Yaw: 41.741436
+          }
+          Scale {
+            X: -1.24352217
+            Y: 1.24352217
+            Z: 4.53107595
+          }
+        }
+        ParentId: 6329005744524182463
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2274301322849382469
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 4222046591608515382
+        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
+        Transform {
+          Location {
+            X: 49.6977539
+            Y: 44.34375
+          }
+          Rotation {
+            Pitch: 17.4084167
+            Yaw: 41.7417412
+          }
+          Scale {
+            X: 1.24352217
+            Y: 1.24352217
+            Z: 4.53107595
+          }
+        }
+        ParentId: 6329005744524182463
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2274301322849382469
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 6586453966928085646
+        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
+        Transform {
+          Location {
+            X: -49.6977539
+            Y: -44.3435059
+          }
+          Rotation {
+            Pitch: -19.2892323
+            Yaw: 41.7417526
+            Roll: 1.8091049e-06
+          }
+          Scale {
+            X: -1.24352217
+            Y: 1.24352217
+            Z: 4.53107595
+          }
+        }
+        ParentId: 6329005744524182463
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2274301322849382469
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 12682086477655656476
+        Name: "Group"
+        Transform {
+          Location {
+            X: -1706.51465
+            Y: 698.90625
+            Z: 112.744385
+          }
+          Rotation {
+            Yaw: 50.1424103
+          }
+          Scale {
+            X: 1.99181449
+            Y: 1.99181449
+            Z: 1.99181449
+          }
+        }
+        ParentId: 4483833426392096968
+        ChildIds: 6084492051681974600
+        ChildIds: 14983483741502493843
+        ChildIds: 4994839476082142121
+        ChildIds: 2410709278575724550
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 6084492051681974600
+        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
+        Transform {
+          Location {
+            X: 49.6977539
+            Y: 44.34375
+          }
+          Rotation {
+            Yaw: 41.7414169
+          }
+          Scale {
+            X: 1.24352217
+            Y: 1.24352217
+            Z: 4.53107595
+          }
+        }
+        ParentId: 12682086477655656476
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2274301322849382469
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 14983483741502493843
+        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
+        Transform {
+          Location {
+            X: -49.6977539
+            Y: -44.3435059
+          }
+          Rotation {
+            Yaw: 41.741436
+          }
+          Scale {
+            X: -1.24352217
+            Y: 1.24352217
+            Z: 4.53107595
+          }
+        }
+        ParentId: 12682086477655656476
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2274301322849382469
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 4994839476082142121
+        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
+        Transform {
+          Location {
+            X: 49.6977539
+            Y: 44.34375
+          }
+          Rotation {
+            Pitch: 17.4084167
+            Yaw: 41.7417412
+          }
+          Scale {
+            X: 1.24352217
+            Y: 1.24352217
+            Z: 4.53107595
+          }
+        }
+        ParentId: 12682086477655656476
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2274301322849382469
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 2410709278575724550
+        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
+        Transform {
+          Location {
+            X: -49.6977539
+            Y: -44.3435059
+          }
+          Rotation {
+            Pitch: -19.2892323
+            Yaw: 41.7417526
+            Roll: 1.8091049e-06
+          }
+          Scale {
+            X: -1.24352217
+            Y: 1.24352217
+            Z: 4.53107595
+          }
+        }
+        ParentId: 12682086477655656476
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2274301322849382469
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 17593407884894136220
+        Name: "Cube - Bottom-Aligned"
+        Transform {
+          Location {
+            X: -1705.14941
+            Y: 702.000488
+            Z: 93.909668
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.331953168
+            Y: 3.87549853
+            Z: 0.181651607
+          }
+        }
+        ParentId: 4483833426392096968
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 881271677500578206
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 198353679974341757
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 11308558407140941608
+        Name: "Group"
+        Transform {
+          Location {
+            X: -1706.51465
+            Y: 698.90625
+            Z: 112.744385
+          }
+          Rotation {
+            Yaw: 50.1424103
+          }
+          Scale {
+            X: 2.47348332
+            Y: 2.47348332
+            Z: 2.47348332
+          }
+        }
+        ParentId: 4483833426392096968
+        ChildIds: 7405838886710488880
+        ChildIds: 399157230936906001
+        ChildIds: 8277637750371763606
+        ChildIds: 5484980449114982996
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 7405838886710488880
+        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
+        Transform {
+          Location {
+            X: 49.6977539
+            Y: 44.34375
+          }
+          Rotation {
+            Yaw: 41.7414169
+          }
+          Scale {
+            X: 1.24352217
+            Y: 1.24352217
+            Z: 4.53107595
+          }
+        }
+        ParentId: 11308558407140941608
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2274301322849382469
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 399157230936906001
+        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
+        Transform {
+          Location {
+            X: -49.6977539
+            Y: -44.3435059
+          }
+          Rotation {
+            Yaw: 41.741436
+          }
+          Scale {
+            X: -1.24352217
+            Y: 1.24352217
+            Z: 4.53107595
+          }
+        }
+        ParentId: 11308558407140941608
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2274301322849382469
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 8277637750371763606
+        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
+        Transform {
+          Location {
+            X: 49.6977539
+            Y: 44.34375
+          }
+          Rotation {
+            Pitch: 17.4084167
+            Yaw: 41.7417412
+          }
+          Scale {
+            X: 1.24352217
+            Y: 1.24352217
+            Z: 4.53107595
+          }
+        }
+        ParentId: 11308558407140941608
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2274301322849382469
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 5484980449114982996
+        Name: "Modern Weapon - Recurve Bow 01 - Arm 01"
+        Transform {
+          Location {
+            X: -49.6977539
+            Y: -44.3435059
+          }
+          Rotation {
+            Pitch: -19.2892323
+            Yaw: 41.7417526
+            Roll: 1.8091049e-06
+          }
+          Scale {
+            X: -1.24352217
+            Y: 1.24352217
+            Z: 4.53107595
+          }
+        }
+        ParentId: 11308558407140941608
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"

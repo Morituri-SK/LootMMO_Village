@@ -20,16 +20,26 @@ function ChangeWallsAndTrimsMaterials(part)
     local children = part:GetChildren()
     if #children == 0 then return end
     for _,child in ipairs(children)do
-        --get materials slots
-        local allSlots = nil
-        if child:IsA("StaticMesh") then allSlots = child:GetMaterialSlots() end
-        if allSlots ~= nil then
-            --enumerate slots for replaceable material
-            for _,slot in ipairs(allSlots)do
-                if slot.materialAssetName == REPLACE_WALL_MATERIAL_NAME then
-                    child:SetMaterialForSlot(WALL_MAT, slot.slotName)
-                elseif slot.materialAssetName == REPLACE_TRIM_MATERIAL_NAME then
-                    child:SetMaterialForSlot(TRIM_MAT, slot.slotName)
+        --override for Group objects
+        local arrayToCheck = {}
+        if child:IsA("Folder") then
+            arrayToCheck = child:GetChildren()
+        else
+            arrayToCheck = {child}
+        end
+        --replace materials in the arrayToCheck
+        for _,objToReplaceMats in ipairs(arrayToCheck)do
+           --get materials slots
+            local allSlots = nil
+            if objToReplaceMats:IsA("StaticMesh") then allSlots = objToReplaceMats:GetMaterialSlots() end
+            if allSlots ~= nil then
+                --enumerate slots for replaceable material
+                for _,slot in ipairs(allSlots)do
+                    if slot.materialAssetName == REPLACE_WALL_MATERIAL_NAME then
+                        objToReplaceMats:SetMaterialForSlot(WALL_MAT, slot.slotName)
+                    elseif slot.materialAssetName == REPLACE_TRIM_MATERIAL_NAME then
+                        objToReplaceMats:SetMaterialForSlot(TRIM_MAT, slot.slotName)
+                    end
                 end
             end
         end

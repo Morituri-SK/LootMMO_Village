@@ -2178,7 +2178,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -6554,6 +6554,12 @@ Objects {
     Overrides {
       Name: "cs:DebugPrint"
       Bool: true
+    }
+    Overrides {
+      Name: "cs:Furniture_Server"
+      ObjectReference {
+        SelfId: 14239124498259045009
+      }
     }
   }
   Collidable_v2 {

@@ -61,7 +61,7 @@ Assets {
         }
         ParentId: 11528552669760984993
         ChildIds: 13812269186390250764
-        ChildIds: 9500152196594091122
+        ChildIds: 1909160970771312466
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -143,9 +143,13 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 9500152196594091122
-        Name: "HnH_Event_SpiderAndWebbings"
+        Id: 1909160970771312466
+        Name: "HouseEvents_Client"
         Transform {
+          Location {
+          }
+          Rotation {
+          }
           Scale {
             X: 1
             Y: 1
@@ -153,33 +157,27 @@ Assets {
           }
         }
         ParentId: 14126919033792561164
-        TemplateInstance {
-          ParameterOverrideMap {
-            key: 10713501161168169345
-            value {
-              Overrides {
-                Name: "Name"
-                String: "HnH_Event_SpiderAndWebbings"
-              }
-              Overrides {
-                Name: "Position"
-                Vector {
-                  X: -0.00402343087
-                  Y: 0.000156366848
-                }
-              }
-              Overrides {
-                Name: "Rotation"
-                Rotator {
-                  Yaw: -1.53679193e-05
-                }
-              }
-            }
-          }
-          TemplateAsset {
-            Id: 6257643016270726042
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Script {
+          ScriptAsset {
+            Id: 18234278224259400170
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
       }
       Objects {
         Id: 4459671840896542650

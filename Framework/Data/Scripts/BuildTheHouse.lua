@@ -58,39 +58,40 @@ for _,rowdata in ipairs(NFT_WALLS)do
 end
 --preload NFT Geo to table
 for _,rowdata in ipairs(NFT_HOUSE_PARTS_DOORS)do
-    NFT_DoorGeo[rowdata.AttributeValue] = rowdata.Material
+    NFT_DoorGeo[rowdata.AttributeValue] = rowdata.Template
 end
 for _,rowdata in ipairs(NFT_HOUSE_PARTS_FIREPLACES)do
-    NFT_FireplaceGeo[rowdata.AttributeValue] = rowdata.Material
+    NFT_FireplaceGeo[rowdata.AttributeValue] = rowdata.Template
 end
 for _,rowdata in ipairs(NFT_HOUSE_PARTS_FLOORS)do
-    NFT_FloorsGeo[rowdata.AttributeValue] = rowdata.Material
+    NFT_FloorsGeo[rowdata.AttributeValue] = rowdata.Template
 end
 for _,rowdata in ipairs(NFT_HOUSE_PARTS_ROOFS)do
-    NFT_RoofsGeo[rowdata.AttributeValue] = rowdata.Material
+    NFT_RoofsGeo[rowdata.AttributeValue] = rowdata.Template
 end
 for _,rowdata in ipairs(NFT_HOUSE_PARTS_WALLS)do
-    NFT_WindowsGeo[rowdata.AttributeValue] = rowdata.Material
+    NFT_WindowsGeo[rowdata.AttributeValue] = rowdata.Template
 end
---testtest
-print("NFT_TrimMaterial.red: ",NFT_TrimMaterial.red)
-print("NFT_WallsMaterial.yellow: ",NFT_WallsMaterial.yellow)
-print("NFT_FireplaceGeo.common: ",NFT_FireplaceGeo.common)
---print("NFT_FireplaceGeo[rainbow planks]: ",NFT_FireplaceGeo[rainbow planks])
-
 
 function AssembleHouse_NFT_Geo(houseData)
     CleanupHouse()
     local selectedTemplates = {}
 
     selectedTrim = NFT_TrimMaterial[houseData.Trim]
-    selectedWalls = NFT_WallsMaterial[houseData.walls]
+    print("selectedTrim",selectedTrim)
+    selectedWalls = NFT_WallsMaterial[houseData.Walls]
+    print("selectedWalls",selectedWalls)
 
     table.insert(selectedTemplates,NFT_RoofsGeo[houseData.Roof])
+    print("roof",NFT_RoofsGeo[houseData.Roof])
     table.insert(selectedTemplates,NFT_WindowsGeo[houseData.Windows])
+    print("windows",NFT_WindowsGeo[houseData.Windows])
     table.insert(selectedTemplates,NFT_FireplaceGeo[houseData.Fireplace])
+    print("fireplace",NFT_FireplaceGeo[houseData.Fireplace])
     table.insert(selectedTemplates,NFT_DoorGeo[houseData.Door])
+    print("door",NFT_DoorGeo[houseData.Door])
     table.insert(selectedTemplates,NFT_FloorsGeo[houseData.Floors])
+    print("floor",NFT_FloorsGeo[houseData.Floors])
 
     for _,selectedGeo in ipairs(selectedTemplates)do
         local part = World.SpawnAsset(selectedGeo, {parent = HOUSE_GEOMETRY_ROOT})
@@ -137,6 +138,7 @@ function SpawnHouseForPlayerID(playerID)
     --convert first 6 chars of a player id to decimal number
     local seedID = tonumber(string.sub(playerID,1,6),16)
     --setup random seed, consistent player houses for the owner
+    if Environment.IsMultiplayerPreview() then seedID = 1234567890 end
     PlayerRandomSeed = RandomStream.New(seedID)
     CleanupHouse()
     SelectMaterials()
