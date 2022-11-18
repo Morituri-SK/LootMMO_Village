@@ -99,6 +99,23 @@ Assets {
               }
             }
           }
+          ParameterOverrideMap {
+            key: 11100112454989341426
+            value {
+              Overrides {
+                Name: "ma:Shared_BaseMaterial:smart"
+                Bool: false
+              }
+              Overrides {
+                Name: "ma:Shared_BaseMaterial:utile"
+                Float: 3
+              }
+              Overrides {
+                Name: "ma:Shared_BaseMaterial:vtile"
+                Float: 3
+              }
+            }
+          }
           TemplateAsset {
             Id: 5120082263448824518
           }

@@ -163,8 +163,6 @@ function PopulateHnH_NFTs()
 end
 
 function UpdateNFT_UI()
-    --update the UI if visible
-    if HOUSE_SETUP_PANEL.visibility ~= Visibility.INHERIT then return end
     if LOADING_TOKENS then
         local length = string.len(LOADING_TEXT.text)
         if length < 7 or length > 10 then LOADING_TEXT.text = "LOADING"
@@ -174,6 +172,8 @@ function UpdateNFT_UI()
     end
     LOADING_TEXT.text = ""
     NFTS_ICONS_SCROLL_PANEL.visibility = Visibility.INHERIT
+    --update the UI if visible
+    if HOUSE_SETUP_PANEL.visibility ~= Visibility.INHERIT then return end
     --depopulation of the icons happens inside the populate function as a failsafe
     PopulateHnH_NFTs()
     ShowNFTpanel()

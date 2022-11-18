@@ -92,13 +92,14 @@ Assets {
         Name: "HouseSelectionCamera"
         Transform {
           Location {
-            X: -2415.61987
-            Y: 1434.86267
-            Z: 2107.90894
+            X: -3424.82324
+            Y: 2335.58911
+            Z: 2754.31128
           }
           Rotation {
-            Pitch: -24.0043335
-            Yaw: -31.3172913
+            Pitch: -33.3139038
+            Yaw: -32.3268127
+            Roll: 2.04331718e-06
           }
           Scale {
             X: 1

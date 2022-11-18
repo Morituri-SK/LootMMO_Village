@@ -16,7 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 1484475657950634700
+        ChildIds: 12476236793383002620
         UnregisteredParameters {
           Overrides {
             Name: "cs:WallMat"
@@ -68,8 +68,8 @@ Assets {
         }
       }
       Objects {
-        Id: 1484475657950634700
-        Name: "floor_06"
+        Id: 12476236793383002620
+        Name: "floor_covered_in_hay"
         Transform {
           Scale {
             X: 1
@@ -80,29 +80,16 @@ Assets {
         ParentId: 10653586559702099573
         TemplateInstance {
           ParameterOverrideMap {
-            key: 7944888171295324523
+            key: 8892051682521854661
             value {
               Overrides {
                 Name: "Name"
-                String: "floor_06"
-              }
-              Overrides {
-                Name: "Rotation"
-                Rotator {
-                }
-              }
-              Overrides {
-                Name: "Scale"
-                Vector {
-                  X: 1
-                  Y: 1
-                  Z: 1
-                }
+                String: "floor_covered_in_hay"
               }
             }
           }
           TemplateAsset {
-            Id: 1472751818935407457
+            Id: 10657255255251921385
           }
         }
       }

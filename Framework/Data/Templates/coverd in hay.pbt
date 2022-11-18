@@ -1,13 +1,13 @@
 Assets {
-  Id: 5120082263448824518
-  Name: "floor_01"
+  Id: 7046206623722967375
+  Name: "coverd in hay"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 9636590379608031035
+      RootId: 424242153913661503
       Objects {
-        Id: 9636590379608031035
-        Name: "floor_01"
+        Id: 424242153913661503
+        Name: "coverd in hay"
         Transform {
           Scale {
             X: 1
@@ -15,8 +15,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16968008187147085648
-        ChildIds: 11100112454989341426
+        ParentId: 4781671109827199097
+        ChildIds: 7018935518054077209
+        ChildIds: 13556195306205975698
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -38,12 +39,12 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 11100112454989341426
+        Id: 7018935518054077209
         Name: "Cube - Bottom-Aligned"
         Transform {
           Location {
-            X: -182.451584
-            Y: 98.4818878
+            X: -197.962738
+            Y: 98.4820328
             Z: -225.718796
           }
           Rotation {
@@ -51,16 +52,100 @@ Assets {
           }
           Scale {
             X: 22.8322277
-            Y: 22.7809525
+            Y: 23.0655479
             Z: 0.268784672
           }
         }
-        ParentId: 9636590379608031035
+        ParentId: 424242153913661503
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 10634098119816284342
+              Id: 15789416543718654060
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: true
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 3.42535639
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 1.97992909
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.333333343
+              G: 0.333333343
+              B: 0.333333343
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 198353679974341757
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 13556195306205975698
+        Name: "Cube - Bottom-Aligned"
+        Transform {
+          Location {
+            X: -197.962784
+            Y: 98.4819565
+            Z: -225.718796
+          }
+          Rotation {
+            Yaw: 89.9999771
+          }
+          Scale {
+            X: 22.8322277
+            Y: 23.0655479
+            Z: 0.268784672
+          }
+        }
+        ParentId: 424242153913661503
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 13966939411272872771
             }
           }
           Overrides {
@@ -69,11 +154,11 @@ Assets {
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:utile"
-            Float: 3
+            Float: 0.701525271
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 3
+            Float: 1.53505349
           }
         }
         Collidable_v2 {
@@ -123,12 +208,12 @@ Assets {
       }
     }
     Assets {
-      Id: 10634098119816284342
-      Name: "Wood Planks"
+      Id: 13966939411272872771
+      Name: "Road Wear 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_wood_planks_dark_001_uv"
+        AssetId: "mi_road_wear_001_uv_ref"
       }
     }
     PrimaryAssetId {
