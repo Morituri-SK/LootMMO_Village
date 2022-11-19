@@ -134,6 +134,7 @@ Assets {
           }
           MinPitch: -89
           MaxPitch: 89
+          UseAsAudioListener: true
           AudioListenerOffset {
           }
           IsCameraCollisionEnabled: true
@@ -630,6 +631,17 @@ Assets {
         ParentId: 12961820942465402145
         WantsNetworking: true
         TemplateInstance {
+          ParameterOverrideMap {
+            key: 17548713239600815877
+            value {
+              Overrides {
+                Name: "ma:Building_WallInner:id"
+                AssetReference {
+                  Id: 5636072297468064602
+                }
+              }
+            }
+          }
           ParameterOverrideMap {
             key: 18310280821465396038
             value {

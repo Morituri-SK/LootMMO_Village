@@ -1605,17 +1605,6 @@ Objects {
         }
       }
     }
-    ParameterOverrideMap {
-      key: 15613458201964064406
-      value {
-        Overrides {
-          Name: "ma:Building_WallInner:id"
-          AssetReference {
-            Id: 5636072297468064602
-          }
-        }
-      }
-    }
     TemplateAsset {
       Id: 2283134758532537457
     }

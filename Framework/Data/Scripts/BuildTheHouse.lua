@@ -96,7 +96,7 @@ function AssembleHouse_NFT_Geo(houseData)
     print("floor",NFT_FloorsGeo[houseData.Floors])
 
     for _,selectedGeo in ipairs(selectedTemplates)do
-        local part = World.SpawnAsset(selectedGeo, {parent = HOUSE_GEOMETRY_ROOT})
+        local part = World.SpawnAsset(selectedGeo, {parent = HOUSE_GEOMETRY_ROOT, networkContext = NetworkContextType.NETWORKED})
         part:SetCustomProperty("WallMat",selectedWalls)
         part:SetCustomProperty("TrimMat",selectedTrim)
         part:ForceReplication()
@@ -149,23 +149,27 @@ end
 
 --this will spawn a semirandom NON-NFT house, seed based on the player ID
 function SpawnHouseForPlayerID(playerID)
-    --convert first 6 chars of a player id to decimal number
-    local seedID = tonumber(string.sub(playerID,1,6),16)
     --setup random seed, consistent player houses for the owner
-    if Environment.IsMultiplayerPreview() then seedID = 1234567890 end
+    local seedID = 1234567890
+    --not working for bots
+    if not Environment.IsMultiplayerPreview() then
+        --convert first 6 chars of a player id to decimal number
+        seedID = tonumber(string.sub(playerID,1,6),16)
+    end
     PlayerRandomSeed = RandomStream.New(seedID)
     CleanupHouse()
     SelectMaterials()
-    SpawnRandomHouse()
+    SpawnRandomHouse(HOUSE_PARTS)
     AdjustFlavorText()
 end
 
-function SpawnRandomHouse()
+function SpawnRandomHouse(houseParts)
     --get one random part from each subtable
-    for key, rowData in ipairs(NFT_HOUSE_PARTS)do
+    for key, rowData in ipairs(houseParts)do
         local subtable = rowData.TablesOfTemplates
         local randomID = PlayerRandomSeed:GetInteger(1, #subtable) --math.random(1,#subtable)
-        local part = World.SpawnAsset(subtable[randomID].Template, {parent = HOUSE_GEOMETRY_ROOT})
+        print("Spawning",subtable[randomID].Template)
+        local part = World.SpawnAsset(subtable[randomID].Template, {parent = HOUSE_GEOMETRY_ROOT, networkContext = NetworkContextType.NETWORKED})
         part:SetCustomProperty("WallMat",selectedWalls)
         part:SetCustomProperty("TrimMat",selectedTrim)
         part:ForceReplication()
@@ -181,20 +185,23 @@ function SpawnRandomHouse()
     end
 end
 
---init random house (on server start)
-CleanupHouse()
---SelectMaterials()
-SelectNFTMaterials()
-SpawnRandomHouse()
-AdjustFlavorText()
+function SpawnRandomNFThouse()
+    CleanupHouse()
+    --SelectMaterials()
+    SelectNFTMaterials()
+    SpawnRandomHouse(NFT_HOUSE_PARTS)
+    AdjustFlavorText()
+end
 
+--init random house (on server start)
+SpawnRandomNFThouse()
 
 --this will cycle house geometry for geo combinations debug
 while DEBUG_RANDOM do
     CleanupHouse()
     --SelectMaterials()
     SelectNFTMaterials()
-    SpawnRandomHouse()
+    SpawnRandomHouse(NFT_HOUSE_PARTS)
     AdjustFlavorText()
     Task.Wait(math.random(10,30))
     ResetFlavorText()

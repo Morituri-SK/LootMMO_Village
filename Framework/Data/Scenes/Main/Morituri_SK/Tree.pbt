@@ -10869,7 +10869,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:DebugPrint"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:Furniture_Server"

@@ -40,8 +40,15 @@ function SaveTokenToLocalTable(token)
     table.insert(PlayerHnH_NFT_Data,token)
 end
 
+function SaveAllTokensForLocalUse(tokens)
+    PlayerHnH_NFT_Data = tokens
+end
+
 function LoadTokens(tokenIDs)
     LOADING_TOKENS = true
+    print("LOADING TOKENS FOR CLIENT")
+    ASYNC_BLOCKCHAIN_FOR_PLAYER.GetTokens(HnH_ContractAddress, {retries = 3}, SaveAllTokensForLocalUse)
+    --[[
     PlayerHnH_NFT_Data = {}
     for _,id in ipairs(tokenIDs)do
         print("getting token or id "..id)
@@ -50,8 +57,8 @@ function LoadTokens(tokenIDs)
         ASYNC_BLOCKCHAIN_FOR_PLAYER.GetToken(HnH_ContractAddress, id, SaveTokenToLocalTable)
         --update UI to show the "loading ...""
         UpdateNFT_UI()
-    end
-    print("LOADING COMPLETED")
+    end]]
+    print("LOADING FOR CLIENT COMPLETED")
     LOADING_TOKENS = false
     UpdateNFT_UI()
 end
@@ -154,7 +161,8 @@ function PopulateHnH_NFTs()
     --default icon
     SetupIcon(true,false,0,0)
     --free nft icon
-    SetupIcon(false,true,0,0)
+    --temporary NFTs are free for everyone
+    --SetupIcon(false,true,0,0)
     --owned icons
     for key,token in pairs(PlayerHnH_NFT_Data)do
         print("setup icon with token id",token.tokenId)
@@ -215,3 +223,6 @@ Events.Connect("Shopkeeper.OFF",OnPlayerWalksAway)
 
 CLOSE_BUTTON.clickedEvent:Connect(OnPlayerWalksAway)
 LOCAL_PLAYER.privateNetworkedDataChangedEvent:Connect(OnPNDchanged)
+
+--Temporary load all tokens, they are free for now
+LoadTokens()

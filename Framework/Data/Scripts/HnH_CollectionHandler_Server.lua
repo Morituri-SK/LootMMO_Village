@@ -7,6 +7,7 @@ local DEBUG_PRINT = script:GetCustomProperty("DebugPrint")
 local FURNITURE_SERVER = script:GetCustomProperty("Furniture_Server"):WaitForObject()
 
 local HnH_Tokens_Data = {}
+local ALL_HnH_TokensData = {}
 
 function SetTokensResults(tokens,player)
     --TODO remove refreshing?? stupid idea?
@@ -70,6 +71,13 @@ function SpawnHomeForPlayer(player, tokenIDToSpawn)
     end
 end
 
+function SpawnBasicHomeForPlayer(player)
+    --setup the correct target
+    local playerHouse = FURNITURE_SERVER.context.GetPlayerHomeObject(player)
+    local controlScript = playerHouse:FindChildByName("BuildTheHouse")
+    controlScript.context.SpawnHouseForPlayerID(player.id)
+end
+
 function OnGiefHomeRequest(player,tokenId)
     print("Gief token",tokenId,"event triggered")
     local tokenIDToSpawn = nil
@@ -87,12 +95,22 @@ function OnGiefHomeRequest(player,tokenId)
     end
 end
 
+function SaveHnHTokens(tokens)
+    ALL_HnH_TokensData = tokens
+end
+
+function Get_HnH_Collection_Tokens()
+    ASYNC_BLOCKCHAIN_FOR_PLAYER.GetTokens(HnH_ContractAddress, {retries = 3}, SaveHnHTokens)
+end
+
 function Get_HnH_TokensForPlayer(player)
-    if player:GetPrivateNetworkedData("RefreshingHnH") == true then return end
+    --temporary free collection for everyone
+    SetTokensResults(ALL_HnH_TokensData,player)
+    --[[if player:GetPrivateNetworkedData("RefreshingHnH") == true then return end
     ASYNC_BLOCKCHAIN_FOR_PLAYER.GetTokensForPlayer(player,{
                                                     contractAddress = HnH_ContractAddress,
                                                     forceRefreshCache = true
-                                                    },SetTokensResults)
+                                                    },SetTokensResults)]]
 end
 
 function LoadPlayerLastUsedHouseID(player)
@@ -100,6 +118,10 @@ function LoadPlayerLastUsedHouseID(player)
     local lastID = data.LastHnH_ID or ""
     --TODO check if the player still owns the token
     player:SetPrivateNetworkedData("LastHnH_ID",lastID)
+    --spawn the last used home
+
+    --else spawn default player home
+    SpawnBasicHomeForPlayer(player)
 end
 
 function SavePlayerSelectedHouseID(player,selectedID)
@@ -137,3 +159,6 @@ Game.playerLeftEvent:Connect(OnPlayerLeft)
 
 Events.ConnectForPlayer("RefreshTokens",Get_HnH_TokensForPlayer)
 Events.ConnectForPlayer("GiefHouse",OnGiefHomeRequest)
+
+--temporary free tokens for everyone
+Get_HnH_Collection_Tokens()
