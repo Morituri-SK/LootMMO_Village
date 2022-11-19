@@ -1,6 +1,8 @@
 ---@type Folder
 local HOUSE_GEOMETRY_ROOT = script:GetCustomProperty("HouseGeometryRoot"):WaitForObject()
 local HOUSE_PARTS = require(script:GetCustomProperty("HouseParts"))
+-- Custom 
+local NFT_HOUSE_PARTS = require(script:GetCustomProperty("NFT_HouseParts"))
 local WALL_MATERIALS = require(script:GetCustomProperty("WallMaterials"))
 local TRIM_MATERIALS = require(script:GetCustomProperty("TrimMaterials"))
 
@@ -133,6 +135,18 @@ function SelectMaterials(randomNumber)
     trimString = TRIM_MATERIALS[randomTrimId].FlavorText
 end
 
+function SelectNFTMaterials(randomNumber)
+    --local randomWallId = math.random(1,#WALL_MATERIALS)
+    local randomWallId = PlayerRandomSeed:GetInteger(1, #NFT_WALLS)
+    selectedWalls = NFT_WALLS[randomWallId].Material
+    --local randomTrimId = math.random(1,#TRIM_MATERIALS)
+    local randomTrimId = PlayerRandomSeed:GetInteger(1, #NFT_TRIMS)
+    selectedTrim = NFT_TRIMS[randomTrimId].Material
+    if Object.IsValid(HOUSE_FLAVOR) ~= true then return end
+    wallsString = NFT_WALLS[randomWallId].FlavorText
+    trimString = NFT_TRIMS[randomTrimId].FlavorText
+end
+
 --this will spawn a semirandom NON-NFT house, seed based on the player ID
 function SpawnHouseForPlayerID(playerID)
     --convert first 6 chars of a player id to decimal number
@@ -148,7 +162,7 @@ end
 
 function SpawnRandomHouse()
     --get one random part from each subtable
-    for key, rowData in ipairs(HOUSE_PARTS)do
+    for key, rowData in ipairs(NFT_HOUSE_PARTS)do
         local subtable = rowData.TablesOfTemplates
         local randomID = PlayerRandomSeed:GetInteger(1, #subtable) --math.random(1,#subtable)
         local part = World.SpawnAsset(subtable[randomID].Template, {parent = HOUSE_GEOMETRY_ROOT})
@@ -169,7 +183,8 @@ end
 
 --init random house (on server start)
 CleanupHouse()
-SelectMaterials()
+--SelectMaterials()
+SelectNFTMaterials()
 SpawnRandomHouse()
 AdjustFlavorText()
 
@@ -177,7 +192,8 @@ AdjustFlavorText()
 --this will cycle house geometry for geo combinations debug
 while DEBUG_RANDOM do
     CleanupHouse()
-    SelectMaterials()
+    --SelectMaterials()
+    SelectNFTMaterials()
     SpawnRandomHouse()
     AdjustFlavorText()
     Task.Wait(math.random(10,30))
