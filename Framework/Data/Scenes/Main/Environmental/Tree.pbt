@@ -302,9 +302,9 @@ Objects {
       Name: "bp:Color"
       Color {
         R: 0.364583343
-        G: 0.232875511
-        B: 0.107849173
-        A: 1
+        G: 0.288608611
+        B: 0.184440568
+        A: 0.585000038
       }
     }
     Overrides {
@@ -550,7 +550,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 0.700153172
+      Float: 0.490585238
     }
     Overrides {
       Name: "bp:Fade Out Distance"
@@ -668,7 +668,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 0.786295056
+      Float: 1.04373372
     }
     Overrides {
       Name: "bp:Blend Target Image"
@@ -801,7 +801,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 5
+      Float: 7
     }
     Overrides {
       Name: "bp:Soft Distance Shadows"
