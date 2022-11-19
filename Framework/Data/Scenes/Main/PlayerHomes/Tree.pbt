@@ -131,6 +131,17 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 15613458201964064406
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner:id"
+          AssetReference {
+            Id: 5636072297468064602
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 16550294515031268176
       value {
         Overrides {
@@ -455,6 +466,17 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 15613458201964064406
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner:id"
+          AssetReference {
+            Id: 5636072297468064602
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 16550294515031268176
       value {
         Overrides {
@@ -613,6 +635,17 @@ Objects {
         Overrides {
           Name: "ma:Building_Roof:smart"
           Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15613458201964064406
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner:id"
+          AssetReference {
+            Id: 5636072297468064602
+          }
         }
       }
     }
@@ -779,6 +812,17 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 15613458201964064406
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner:id"
+          AssetReference {
+            Id: 5636072297468064602
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 16550294515031268176
       value {
         Overrides {
@@ -907,6 +951,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 15613458201964064406
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner:id"
+          AssetReference {
+            Id: 5636072297468064602
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 2283134758532537457
     }
@@ -1006,6 +1061,17 @@ Objects {
         Overrides {
           Name: "ma:Building_Roof:smart"
           Bool: false
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15613458201964064406
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner:id"
+          AssetReference {
+            Id: 5636072297468064602
+          }
         }
       }
     }
@@ -1165,6 +1231,17 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 15613458201964064406
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner:id"
+          AssetReference {
+            Id: 5636072297468064602
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 18234352107026564051
       value {
         Overrides {
@@ -1241,6 +1318,17 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -63.9549255
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15613458201964064406
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner:id"
+          AssetReference {
+            Id: 5636072297468064602
           }
         }
       }
@@ -1347,6 +1435,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 15613458201964064406
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner:id"
+          AssetReference {
+            Id: 5636072297468064602
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 2283134758532537457
     }
@@ -1449,6 +1548,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 15613458201964064406
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner:id"
+          AssetReference {
+            Id: 5636072297468064602
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 2283134758532537457
     }
@@ -1491,6 +1601,17 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -163.738144
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15613458201964064406
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner:id"
+          AssetReference {
+            Id: 5636072297468064602
           }
         }
       }
