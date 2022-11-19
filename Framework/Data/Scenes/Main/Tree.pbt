@@ -65,6 +65,7 @@ Objects {
   ChildIds: 11267109907598625232
   ChildIds: 16064645051266697941
   ChildIds: 5862007894085192939
+  ChildIds: 673365122982953748
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -77,6 +78,138 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 673365122982953748
+  Name: "Rizvi"
+  Transform {
+    Location {
+      X: 4735.29297
+      Y: 8667.55469
+      Z: 3137.67236
+    }
+    Rotation {
+      Yaw: 36.4671555
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:2:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 2499274055612512061
+      }
+    }
+    Overrides {
+      Name: "ma:2:Shared_Detail1:id"
+      AssetReference {
+        Id: 2914438470864662999
+      }
+    }
+    Overrides {
+      Name: "ma:2:Shared_Detail2:id"
+      AssetReference {
+        Id: 11535961666482776542
+      }
+    }
+    Overrides {
+      Name: "ma:1:Shared_Detail1:id"
+      AssetReference {
+        Id: 11535961666482776542
+      }
+    }
+    Overrides {
+      Name: "ma:1:Shared_Detail2:id"
+      AssetReference {
+        Id: 11535961666482776542
+      }
+    }
+    Overrides {
+      Name: "ma:1:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 2914438470864662999
+      }
+    }
+    Overrides {
+      Name: "ma:2:Shared_Detail2:color"
+      Color {
+        R: 0.0399999619
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:0:Shared_Detail1:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:3:Shared_Detail1:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16912192915158960834
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    AnimatedMesh {
+      AnimationStance: "unarmed_idle_relaxed"
+      AnimationStancePlaybackRate: 1
+      AnimationStanceShouldLoop: true
+      AnimationPlaybackRateMultiplier: 1
+      PlayOnStartAnimation {
+        PlaybackRate: 1
+      }
+      SkinnedMeshes {
+        Id: 841534158063459245
+      }
+      SkinnedMeshes {
+        Id: 13677687073568333259
+      }
+      SkinnedMeshes {
+        Id: 1430557070987966504
+      }
+      SkinnedMeshes {
+        Id: 13583040906138958744
+      }
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -42262,6 +42395,7 @@ Objects {
     Location {
       X: -215.693665
       Y: 307.181549
+      Z: -1.65136719
     }
     Rotation {
       Yaw: -55.300415

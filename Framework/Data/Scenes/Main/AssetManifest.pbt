@@ -453,6 +453,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13583040906138958744
+  Name: "Humanoid 2 Roscoe"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_guy_head_military_001_ref"
+  }
+}
+Assets {
   Id: 13546958377898405023
   Name: "Fantasy Armchair 01"
   PlatformAssetType: 1
