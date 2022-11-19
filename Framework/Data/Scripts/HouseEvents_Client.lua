@@ -22,3 +22,5 @@ end
 Task.Wait(5)
 
 CheckForSpiderEvent()
+
+script:Destroy()

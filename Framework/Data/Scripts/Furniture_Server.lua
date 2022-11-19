@@ -429,7 +429,7 @@ function LoadOnlinePlayerFurnitureData(player)
         local f_Placed = data.Furniture_Placed or {}
         local f_Inventory = data.Furniture_Owned or defaultFurnitueInventory
         player:SetPrivateNetworkedData("Furniture_Placed",f_Placed)
-        player:SetPrivateNetworkedData("Furniture_Owned", f_Inventory)
+        player:SetPrivateNetworkedData("Furniture_Owned", defaultFurnitueInventory)-- TODO f_Inventory)
     else
         warn("Initial load of player concurrent storage failed, retrying")
         Task.Spawn(function() LoadOnlinePlayerFurnitureData(player) end,.1)

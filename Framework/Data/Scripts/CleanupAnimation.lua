@@ -81,6 +81,8 @@ function DoAnimation(trig,other)
     --burn the webs
     for _,eff in ipairs(WEBBINGS:GetChildren())do
         if eff:IsA("Vfx") then
+            eff:SetSmartProperty("Initial Start Delay",math.random()*2)
+            eff:SetSmartProperty("Play Duration",math.random()*3 + 2)
             eff:Play()
         end
     end
@@ -101,7 +103,7 @@ function DoAnimation(trig,other)
         end
     end
     --destory the template
-    Task.Spawn(DestoryMe,30) --enough time to play all effects
+    Task.Spawn(DestoryMe,5) --enough time to play all effects
 end
 
 

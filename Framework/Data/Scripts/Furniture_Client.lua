@@ -371,11 +371,17 @@ function OnPNDchanged(player, key)
     end
 end
 
+function CloseFurnitureInventoryPanel()
+    LOCAL_PLAYER.clientUserData.isPlacingFurniture = false
+    PopulateRemovePoints()
+    HideInventoryMenu()
+end
+
 function OnActionPressed(player, action, value)
     if action == "Furniture" then
         --toggele the inventory panel
         if FURNITURE_INVENTORY_PANEL.visibility == Visibility.INHERIT then
-            HideInventoryMenu()
+            CloseFurnitureInventoryPanel()
         else
             if not LOCAL_PLAYER.clientUserData.isEditing then return end
             --furniture inventory is available only in edit mode (TODO check inventory anywhere)
@@ -475,11 +481,7 @@ LOCAL_PLAYER.clientUserData.orderAsc.count = false
 --connect inventory sorting buttons
 ORDER_COUNT.clickedEvent:Connect(function() OrderInventory("count") end)
 ORDER_NAMES.clickedEvent:Connect(function() OrderInventory("name") end)
-CLOSE_BUTTON.clickedEvent:Connect(function()
-    LOCAL_PLAYER.clientUserData.isPlacingFurniture = false
-    PopulateRemovePoints()
-    HideInventoryMenu()
-end)
+CLOSE_BUTTON.clickedEvent:Connect(CloseFurnitureInventoryPanel)
 
 --connect events
 LOCAL_PLAYER.privateNetworkedDataChangedEvent:Connect(OnPNDchanged)

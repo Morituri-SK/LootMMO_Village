@@ -4751,7 +4751,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4918,7 +4918,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -11394,6 +11394,8 @@ Objects {
   ParentId: 6506881851932499775
   ChildIds: 2127569541611126187
   ChildIds: 14121393067465012526
+  ChildIds: 16520831674645054302
+  ChildIds: 532252107445430212
   ChildIds: 6090356525288994903
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -11447,8 +11449,6 @@ Objects {
   ChildIds: 8433800592343041696
   ChildIds: 14319955924276655021
   ChildIds: 5371730245909040849
-  ChildIds: 16520831674645054302
-  ChildIds: 532252107445430212
   ChildIds: 539662160026172832
   ChildIds: 17065874001025951061
   ChildIds: 6963199312789986140
@@ -12001,111 +12001,6 @@ Objects {
   }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 532252107445430212
-  Name: "OwnerNameWorldText"
-  Transform {
-    Location {
-      X: -0.00215985742
-      Y: 0.000173285036
-    }
-    Rotation {
-      Yaw: 3.24433931e-05
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6090356525288994903
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Text {
-    Text: "Owner Name"
-    FontAsset {
-    }
-    Color {
-      R: 1
-      G: 0.898432672
-      B: 0.643333316
-      A: 1
-    }
-    HorizontalAlignment {
-      Value: "mc:ecoretexthorizontalalign:center"
-    }
-    VerticalAlignment {
-      Value: "mc:ecoretextverticalalign:center"
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 16520831674645054302
-  Name: "RentedForWorldText"
-  Transform {
-    Location {
-      X: -0.00215985742
-      Y: 0.000173285036
-      Z: -20.4768639
-    }
-    Rotation {
-      Yaw: 3.24433931e-05
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6090356525288994903
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Text {
-    Text: "Rented for"
-    FontAsset {
-    }
-    Color {
-      R: 1
-      G: 0.898432672
-      B: 0.643333316
-      A: 1
-    }
-    HorizontalAlignment {
-      Value: "mc:ecoretexthorizontalalign:center"
-    }
-    VerticalAlignment {
-      Value: "mc:ecoretextverticalalign:center"
-    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -12800,6 +12695,112 @@ Objects {
   }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 532252107445430212
+  Name: "OwnerNameWorldText"
+  Transform {
+    Location {
+      X: -4.97667551
+      Y: 0.00081076991
+      Z: 2.10501814
+    }
+    Rotation {
+      Yaw: 3.24433931e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18244903944594354568
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Text {
+    Text: "Owner Name"
+    FontAsset {
+    }
+    Color {
+      R: 1
+      G: 0.898432672
+      B: 0.643333316
+      A: 1
+    }
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16520831674645054302
+  Name: "RentedForWorldText"
+  Transform {
+    Location {
+      X: -4.97667551
+      Y: 0.00081076991
+      Z: -18.3718452
+    }
+    Rotation {
+      Yaw: 3.24433931e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18244903944594354568
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Text {
+    Text: "Rented for"
+    FontAsset {
+    }
+    Color {
+      R: 1
+      G: 0.898432672
+      B: 0.643333316
+      A: 1
+    }
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
