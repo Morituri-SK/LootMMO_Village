@@ -43307,6 +43307,15 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 6950829313978141288
+      value {
+        Overrides {
+          Name: "Name"
+          String: "UI MMO Portal Panel"
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 13833816058458802116
       value {
         Overrides {

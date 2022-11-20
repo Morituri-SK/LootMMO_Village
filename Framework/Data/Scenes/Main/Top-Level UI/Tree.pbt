@@ -193,6 +193,10 @@ Objects {
             Value: "mc:evisibilitysetting:forceoff"
           }
         }
+        Overrides {
+          Name: "Name"
+          String: "UI XPbar Container"
+        }
       }
     }
     TemplateAsset {
@@ -258,6 +262,15 @@ Objects {
         Overrides {
           Name: "Name"
           String: "ProfileImage"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12747003789844575660
+      value {
+        Overrides {
+          Name: "Name"
+          String: "UI Profile Container"
         }
       }
     }

@@ -10795,6 +10795,52 @@ Objects {
         SelfId: 12638232018733802742
       }
     }
+    Overrides {
+      Name: "cs:UIXPbarContainer"
+      ObjectReference {
+        SelfId: 13922169797174913325
+        SubObjectId: 16880048014117415600
+        InstanceId: 16594009381829640598
+        TemplateId: 7928961812369481920
+      }
+    }
+    Overrides {
+      Name: "cs:UIProfileContainer"
+      ObjectReference {
+        SelfId: 16786296333798497667
+        SubObjectId: 12747003789844575660
+        InstanceId: 18067922938863195130
+        TemplateId: 7725181499865013921
+      }
+    }
+    Overrides {
+      Name: "cs:UIQuestContainer"
+      ObjectReference {
+        SelfId: 12509019111658310021
+      }
+    }
+    Overrides {
+      Name: "cs:AbilityDisplay"
+      ObjectReference {
+        SelfId: 2501417716296683687
+        SubObjectId: 5192230512577096875
+        InstanceId: 13620541732778982903
+        TemplateId: 13074073657660917058
+        NestedInstanceIds: 7900543579759898107
+        OuterTemplateIds: 5338087018861399484
+      }
+    }
+    Overrides {
+      Name: "cs:UIMMOPortalPanel"
+      ObjectReference {
+        SelfId: 17211336762913188066
+        SubObjectId: 13613012059654326647
+        InstanceId: 13620541732778982903
+        TemplateId: 14735854669174090622
+        NestedInstanceIds: 17348995099918167096
+        OuterTemplateIds: 5338087018861399484
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

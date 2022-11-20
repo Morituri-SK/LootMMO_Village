@@ -30,6 +30,25 @@ local INVENTORY_ICON = script:GetCustomProperty("InventoryIcon"):WaitForObject()
 ---@type UIImage
 local ICON_BG = script:GetCustomProperty("IconBG"):WaitForObject()
 
+--UI panels to hide on inventory
+---@type UIContainer
+local UIXPBAR_CONTAINER = script:GetCustomProperty("UIXPbarContainer"):WaitForObject()
+---@type UIContainer
+local UIPROFILE_CONTAINER = script:GetCustomProperty("UIProfileContainer"):WaitForObject()
+---@type UIContainer
+local UIQUEST_CONTAINER = script:GetCustomProperty("UIQuestContainer"):WaitForObject()
+---@type UIContainer
+local ABILITY_DISPLAY = script:GetCustomProperty("AbilityDisplay"):WaitForObject()
+---@type UIPanel
+local UIMMOPORTAL_PANEL = script:GetCustomProperty("UIMMOPortalPanel"):WaitForObject()
+
+local LOOTMMO_UI_CONTAINERS = {
+    UIXPBAR_CONTAINER,
+    UIPROFILE_CONTAINER,
+    UIQUEST_CONTAINER,
+    ABILITY_DISPLAY,
+    UIMMOPORTAL_PANEL
+}
 
 local PRINT_DEBUG = script:GetCustomProperty("PrintDebug")
 local LOCAL_PLAYER = Game.GetLocalPlayer()
@@ -141,11 +160,19 @@ end
 function HideInventoryMenu()
     FURNITURE_INVENTORY_PANEL.visibility = Visibility.FORCE_OFF
     SELECT_FURNITURE_BUTTON.visibility = Visibility.FORCE_OFF
+    --SHOW LootMMO panels
+    for _, panel in ipairs(LOOTMMO_UI_CONTAINERS)do
+        panel.visibility = Visibility.INHERIT
+    end
     _G.CursorStack.Disable()
     LOCAL_PLAYER:ClearOverrideCamera()
 end
 
 function ShowInventoryMenu()
+    --HIDE LootMMO panels
+    for _, panel in ipairs(LOOTMMO_UI_CONTAINERS)do
+        panel.visibility = Visibility.FORCE_OFF
+    end
     --remove triggers already placed, as the player is moving to menu
     RemoveMountPointsHelpers()
     LOCAL_PLAYER:SetOverrideCamera(INVENTORY_CAMERA)
