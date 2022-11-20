@@ -1,4 +1,30 @@
 Assets {
+  Id: 17963167263475046322
+  Name: "HnH_GlobalFurniture"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "b9d3022184124026953e2373e7f2a565"
+      Type {
+        Value: "mc:enetreferencetype:concurrentplayerpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 17831283547553515560
+  Name: "NFTUpgraded"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "65823e02242e400581c79279a1e42dc4"
+      Type {
+        Value: "mc:enetreferencetype:concurrentplayerpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 17683806647698883602
   Name: "Trim - Straight - 08m"
   PlatformAssetType: 1
@@ -14,19 +40,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_carpet_tile_002"
-  }
-}
-Assets {
-  Id: 17157977466683768474
-  Name: "NFTUpgraded"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "5fa066f7d0324fd399216a37ae4a361c"
-      Type {
-        Value: "mc:enetreferencetype:concurrentplayerpersistence"
-      }
-    }
   }
 }
 Assets {
@@ -638,6 +651,19 @@ Assets {
   }
 }
 Assets {
+  Id: 10870010080177729272
+  Name: "character1"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "2daf3d8c7aa44237b8d8d108be971931"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 10784387645319107096
   Name: "Tree Oak 01"
   PlatformAssetType: 1
@@ -671,19 +697,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_wood_planks_dark_001_uv"
-  }
-}
-Assets {
-  Id: 10441760965546680272
-  Name: "Character Additional"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "9990c175b82342c784bf5360e242fd67"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
   }
 }
 Assets {
@@ -735,19 +748,6 @@ Assets {
       Key: "9a630a8140814140828ba9db2ab94b93"
       Type {
         Value: "mc:enetreferencetype:creatorperk"
-      }
-    }
-  }
-}
-Assets {
-  Id: 9873395270556790564
-  Name: "HaH_RentedHomes"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "6d080c59b04142d0bee73e8a775a2143"
-      Type {
-        Value: "mc:enetreferencetype:concurrentpersistence"
       }
     }
   }
@@ -828,19 +828,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9003723600529713560
-  Name: "Character1"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "66225082990c4a5ca0d0d5323ea57a88"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 8892646755837011518
   Name: "Starter Pack"
   PlatformAssetType: 24
@@ -891,19 +878,6 @@ Assets {
   PrimaryAsset {
     AssetType: "SkinnedMeshAssetRef"
     AssetId: "npc_human_guy_head_basic_006_ref"
-  }
-}
-Assets {
-  Id: 8379647479970023649
-  Name: "HaH_PlayerFurnitureInventory"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "1343d442394a4f66a452f18f674af38a"
-      Type {
-        Value: "mc:enetreferencetype:concurrentplayerpersistence"
-      }
-    }
   }
 }
 Assets {
@@ -1261,6 +1235,19 @@ Assets {
   }
 }
 Assets {
+  Id: 4070792370362085559
+  Name: "character2"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "390ce78cc1d541aca93293ac19534930"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 4044214825842439722
   Name: "Grass Short"
   PlatformAssetType: 1
@@ -1292,25 +1279,25 @@ Assets {
   }
 }
 Assets {
+  Id: 3589373420127082255
+  Name: "HnH_RentedHomes"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "e439f77a61744b9f98a5d8ff075c9a84"
+      Type {
+        Value: "mc:enetreferencetype:concurrentpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 3575013281856575933
   Name: "Ring - Quarter Thick"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_quarter_torus_003"
-  }
-}
-Assets {
-  Id: 3295690706030492699
-  Name: "Character2"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "01c69676f0a843e09e8665b546791748"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
   }
 }
 Assets {
@@ -1331,6 +1318,19 @@ Assets {
       Key: "2b7b93a96eca459587afbb4e3292dc28"
       Type {
         Value: "mc:enetreferencetype:creatorperk"
+      }
+    }
+  }
+}
+Assets {
+  Id: 1824408531594509504
+  Name: "charAdditional"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "8243f19b6413476a8dbb9c66d4f7bfaa"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
       }
     }
   }

@@ -4399,7 +4399,7 @@ Objects {
     Overrides {
       Name: "cs:CreatorStorageHousingKey"
       NetReference {
-        Key: "6d080c59b04142d0bee73e8a775a2143"
+        Key: "e439f77a61744b9f98a5d8ff075c9a84"
         Type {
           Value: "mc:enetreferencetype:concurrentpersistence"
         }
@@ -4408,7 +4408,7 @@ Objects {
     Overrides {
       Name: "cs:GlobalFurniturePlayerStorage"
       NetReference {
-        Key: "1343d442394a4f66a452f18f674af38a"
+        Key: "b9d3022184124026953e2373e7f2a565"
         Type {
           Value: "mc:enetreferencetype:concurrentplayerpersistence"
         }
