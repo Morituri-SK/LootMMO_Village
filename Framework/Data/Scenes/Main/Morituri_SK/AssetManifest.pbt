@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17887163939926122530
-  Name: "Humanoid 1 Rig"
-  PlatformAssetType: 25
-  PrimaryAsset {
-    AssetType: "SkeletonAssetRef"
-    AssetId: "npc_gal_wireframe_001_ref"
-  }
-}
-Assets {
   Id: 17786706417721973926
   Name: "Decal Bullet Damage Wood"
   PlatformAssetType: 14
@@ -413,6 +404,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6514209623434722747
+  Name: "Office Paper"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_off_desktop_paper_stack_01_ref"
+  }
+}
+Assets {
   Id: 6308925410951461315
   Name: "Fantasy Dining Chair 01 - Side 01"
   PlatformAssetType: 1
@@ -473,15 +473,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fan_wardrobe_001_drwr_001_ref"
-  }
-}
-Assets {
-  Id: 3049795529619199002
-  Name: "Humanoid 1 Kate"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_gal_head_basic_004_ref"
   }
 }
 Assets {

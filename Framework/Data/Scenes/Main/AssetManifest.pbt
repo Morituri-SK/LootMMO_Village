@@ -1,22 +1,4 @@
 Assets {
-  Id: 17939558829693481757
-  Name: "Text 05: W"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F6_Text_022"
-  }
-}
-Assets {
-  Id: 17701111452802492806
-  Name: "Nature - Mushroom Cap 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_nat_fun_mushroom_cap_001_ref"
-  }
-}
-Assets {
   Id: 17683806647698883602
   Name: "Trim - Straight - 08m"
   PlatformAssetType: 1
@@ -32,24 +14,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_carpet_tile_002"
-  }
-}
-Assets {
-  Id: 17413311397260214661
-  Name: "Text 05: L"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F6_Text_011"
-  }
-}
-Assets {
-  Id: 17262965394654424988
-  Name: "Text 05: M"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F6_Text_012"
   }
 }
 Assets {
@@ -128,15 +92,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16117672282992721703
-  Name: "Fantasy Book Open 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fan_book_open_001_ref"
-  }
-}
-Assets {
   Id: 16054453462634196546
   Name: "Pyramid - 6-Sided Hollow Thin"
   PlatformAssetType: 1
@@ -168,15 +123,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15908316282523460105
-  Name: "Bottle 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fantasy_bottle_002"
-  }
-}
-Assets {
   Id: 15904841793697771346
   Name: "Fabric Burlap Old 01"
   PlatformAssetType: 2
@@ -205,15 +151,6 @@ Assets {
         Value: "mc:enetreferencetype:creatorperk"
       }
     }
-  }
-}
-Assets {
-  Id: 15732161586930297432
-  Name: "Fantasy Chandelier 02 - Base 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fan_chandelier_001_base_001_ref"
   }
 }
 Assets {
@@ -319,15 +256,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14914754800339828726
-  Name: "Helix - Double 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prim_helix_double_001_ref"
-  }
-}
-Assets {
   Id: 14862609072787733245
   Name: "GoldPack1"
   PlatformAssetType: 24
@@ -426,15 +354,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13791225619385764102
-  Name: "Wicker Basket 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_fan_wicker_002_uv"
-  }
-}
-Assets {
   Id: 13677687073568333259
   Name: "Humanoid 2 Peasant Shirt"
   PlatformAssetType: 26
@@ -490,15 +409,6 @@ Assets {
         Value: "mc:enetreferencetype:creatorperk"
       }
     }
-  }
-}
-Assets {
-  Id: 13322205298195831282
-  Name: "Nature Log 04"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_nat_log_004_ref"
   }
 }
 Assets {
@@ -595,15 +505,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12215957792427691606
-  Name: "Fantasy Wall Mirror 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fan_mirror_002_ref"
-  }
-}
-Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -688,15 +589,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11343781392449978746
-  Name: "Flower Bellflower 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_foliage_gen_flower_bell_002_ref"
-  }
-}
-Assets {
   Id: 11261036391358393726
   Name: "Whitebox Stairs 01 Straight"
   PlatformAssetType: 1
@@ -725,24 +617,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_foliage_gen_leafy_groundcover_002"
-  }
-}
-Assets {
-  Id: 11201877121137974382
-  Name: "Modern Damaged Stairs Steps 01 - Single 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mod_stairs_step_single_01_damaged_01_ref"
-  }
-}
-Assets {
-  Id: 11172584822548293486
-  Name: "Text 05: E"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F6_Text_004"
   }
 }
 Assets {
@@ -788,15 +662,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prism_hexagon_hq_001"
-  }
-}
-Assets {
-  Id: 10771108408610196052
-  Name: "Chain Tile 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_chain_001"
   }
 }
 Assets {
@@ -897,24 +762,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9449769113998509772
-  Name: "Fantasy Kitchen Cabinets 01 - Island Counter Base 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fan_cabinet_kitch_001_island_001_ref"
-  }
-}
-Assets {
-  Id: 9435981393071230363
-  Name: "Organic - Food - Pumpkin 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_org_food_pumpkin_002_ref"
-  }
-}
-Assets {
   Id: 9360906347466037585
   Name: "Self Boost Gold"
   PlatformAssetType: 24
@@ -994,24 +841,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8946705668394899138
-  Name: "Candle 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fantasy_candle_004"
-  }
-}
-Assets {
-  Id: 8933537604162373856
-  Name: "Plane 1m - One Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_1m_001"
-  }
-}
-Assets {
   Id: 8892646755837011518
   Name: "Starter Pack"
   PlatformAssetType: 24
@@ -1056,15 +885,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8522862850213083371
-  Name: "Mushroom Cap 02 (Morel)"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_nat_mushroom_cap_002_uv_ref"
-  }
-}
-Assets {
   Id: 8475244315695859103
   Name: "Humanoid 2 Xavier"
   PlatformAssetType: 26
@@ -1093,15 +913,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fan_shelf_kitch_002_ref"
-  }
-}
-Assets {
-  Id: 8344097111488681074
-  Name: "Fantasy Bookshelf Expansion 01 - Base 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fan_bookshelf_exp_001_base_001_ref"
   }
 }
 Assets {
@@ -1176,15 +987,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7540056073807749771
-  Name: "Fantasy Book Pile 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fan_book_pile_001_ref"
-  }
-}
-Assets {
   Id: 7363477334452929865
   Name: "Sphere"
   PlatformAssetType: 1
@@ -1216,15 +1018,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7140455039762794277
-  Name: "Text 05: O"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F6_Text_014"
-  }
-}
-Assets {
   Id: 6997751774838429298
   Name: "Grass Basic"
   PlatformAssetType: 2
@@ -1252,15 +1045,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6789792910396689734
-  Name: "Fantasy Sink 01 - Bowl 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fan_sink_bowl_001_ref"
-  }
-}
-Assets {
   Id: 6777447344140592468
   Name: "Metal Steel Brushed"
   PlatformAssetType: 2
@@ -1276,15 +1060,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_rope_001"
-  }
-}
-Assets {
-  Id: 6570799477593546466
-  Name: "Organic - Food - Pumpkin 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_org_food_pumpkin_003_ref"
   }
 }
 Assets {
@@ -1334,15 +1109,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fan_study_easel_001_ref"
-  }
-}
-Assets {
-  Id: 6248700263324820103
-  Name: "Ember Volume VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_ember_volume_vfx"
   }
 }
 Assets {
@@ -1495,15 +1261,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4141304838921540341
-  Name: "Fantasy Study Orb 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fan_study_orb_stand_001_ref"
-  }
-}
-Assets {
   Id: 4044214825842439722
   Name: "Grass Short"
   PlatformAssetType: 1
@@ -1522,24 +1279,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3954460808835832726
-  Name: "Fantasy Basket 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fan_basket_002_ref"
-  }
-}
-Assets {
-  Id: 3937103910117390938
-  Name: "Bottle 05"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fantasy_bottle_005"
-  }
-}
-Assets {
   Id: 3725870701821859093
   Name: "Gem Pack 3"
   PlatformAssetType: 24
@@ -1553,30 +1292,12 @@ Assets {
   }
 }
 Assets {
-  Id: 3616010520093284609
-  Name: "Urban Bottle Square 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_gen_bottle_005_ref"
-  }
-}
-Assets {
   Id: 3575013281856575933
   Name: "Ring - Quarter Thick"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_quarter_torus_003"
-  }
-}
-Assets {
-  Id: 3561112289871758366
-  Name: "Text 05: C"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F6_Text_002"
   }
 }
 Assets {
@@ -1590,24 +1311,6 @@ Assets {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
     }
-  }
-}
-Assets {
-  Id: 3065469884835923133
-  Name: "Urban Damaged Rebar - Single 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dest_rebar_005_ref"
-  }
-}
-Assets {
-  Id: 2467419526449891454
-  Name: "Fantasy Bathtub 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fan_bathtub_002_ref"
   }
 }
 Assets {
@@ -1630,15 +1333,6 @@ Assets {
         Value: "mc:enetreferencetype:creatorperk"
       }
     }
-  }
-}
-Assets {
-  Id: 1739548662395284344
-  Name: "Urban Bottle Decanter 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_gen_bottle_006_ref"
   }
 }
 Assets {
@@ -1684,15 +1378,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "stone_001"
-  }
-}
-Assets {
-  Id: 1203040097962668862
-  Name: "Craftsman End Table"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_end_table_001"
   }
 }
 Assets {

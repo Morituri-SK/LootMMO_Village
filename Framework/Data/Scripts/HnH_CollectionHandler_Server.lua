@@ -6,6 +6,7 @@ local DEBUG_PRINT = script:GetCustomProperty("DebugPrint")
 ---@type Script
 local FURNITURE_SERVER = script:GetCustomProperty("Furniture_Server"):WaitForObject()
 
+ServerNFT_Loaded = false
 local HnH_Tokens_Data = {}
 local ALL_HnH_TokensData = {}
 
@@ -103,9 +104,14 @@ end
 
 function Get_HnH_Collection_Tokens()
     ASYNC_BLOCKCHAIN_FOR_PLAYER.GetTokens(HnH_ContractAddress, {retries = 3}, SaveHnHTokens)
+    ServerNFT_Loaded = true
 end
 
 function Get_HnH_TokensForPlayer(player)
+    while ServerNFT_Loaded == false do
+        Task.Wait(1)
+    end
+    print("ServerNFT_Loaded == true, lets save tokens for player")
     --temporary free collection for everyone
     SetTokensResults(ALL_HnH_TokensData,player)
     --[[if player:GetPrivateNetworkedData("RefreshingHnH") == true then return end

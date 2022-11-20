@@ -1456,6 +1456,7 @@ Objects {
   ChildIds: 15821320603241606000
   ChildIds: 10916860611687910875
   ChildIds: 10433021272353190400
+  ChildIds: 15441642065845275341
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1471,6 +1472,61 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 5579624959842189730
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15441642065845275341
+  Name: "Office Paper"
+  Transform {
+    Location {
+      X: -110.396233
+      Y: 25.5399971
+      Z: 125.913086
+    }
+    Rotation {
+      Yaw: -30.3632145
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6909026875999388688
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6514209623434722747
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -11430,7 +11486,6 @@ Objects {
     }
   }
   ParentId: 6506881851932499775
-  ChildIds: 2127569541611126187
   ChildIds: 14121393067465012526
   ChildIds: 16520831674645054302
   ChildIds: 532252107445430212
@@ -12849,14 +12904,14 @@ Objects {
   Name: "AdjustRentTrigger"
   Transform {
     Location {
-      X: 105.625458
-      Y: 340.541412
-      Z: -192.746857
+      X: 3458.2478
+      Y: 4305.54297
+      Z: -901.154907
     }
     Rotation {
-      Pitch: -5.01180792
-      Yaw: -65.5434
-      Roll: -0.212585405
+      Pitch: -5.0118103
+      Yaw: -65.543396
+      Roll: -0.212585449
     }
     Scale {
       X: 0.307692319
@@ -12891,77 +12946,6 @@ Objects {
     }
     BreadcrumbTemplate {
     }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 2127569541611126187
-  Name: "AdjustRentMesh"
-  Transform {
-    Location {
-      X: 81.1401749
-      Y: 335.320404
-      Z: -194.90506
-    }
-    Rotation {
-      Pitch: 2.06238914
-      Yaw: 3.07411792e-05
-      Roll: 1.96385255e-08
-    }
-    Scale {
-      X: 0.307692319
-      Y: 0.307692319
-      Z: 0.307692319
-    }
-  }
-  ParentId: 18244903944594354568
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17887163939926122530
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    AnimatedMesh {
-      AnimationStance: "unarmed_idle_relaxed"
-      AnimationStancePlaybackRate: 1
-      AnimationStanceShouldLoop: true
-      AnimationPlaybackRateMultiplier: 1
-      PlayOnStartAnimation {
-        PlaybackRate: 1
-      }
-      SkinnedMeshes {
-        Id: 3049795529619199002
-      }
-      SkinnedMeshes {
-        Id: 841534158063459245
-      }
-      SkinnedMeshes {
-        Id: 841534158063459245
-      }
-      SkinnedMeshes {
-        Id: 841534158063459245
-      }
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
