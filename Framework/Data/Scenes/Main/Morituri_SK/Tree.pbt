@@ -4360,7 +4360,7 @@ Objects {
     }
     Overrides {
       Name: "cs:RentForDays"
-      Float: 0.0005556
+      Float: 0.0416666679
     }
   }
   Collidable_v2 {
@@ -10831,6 +10831,7 @@ Objects {
   ChildIds: 13550840488547346910
   ChildIds: 14239124498259045009
   ChildIds: 15579077399734071784
+  ChildIds: 3541584767910182295
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10845,6 +10846,43 @@ Objects {
   }
   NetworkContext {
     Type: Server
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3541584767910182295
+  Name: "AwardFurnitureQuest_Server"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10043882049894405331
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14202384101831449677
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -11194,11 +11232,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:CostToRent"
-      Int: 10
+      Int: 5
     }
     Overrides {
       Name: "cs:ResourceNeeded"
-      String: "TestCurrency"
+      String: "Sapphire"
     }
     Overrides {
       Name: "cs:CostToRent:isrep"
@@ -12012,9 +12050,9 @@ Objects {
   Name: "Frame Small Inside Corner"
   Transform {
     Location {
-      X: 1.06005859
-      Y: -69.2299805
-      Z: -30.916748
+      X: 1.0637207
+      Y: -103.59082
+      Z: -34.2895508
     }
     Rotation {
       Yaw: 3.11739532e-05
@@ -12089,9 +12127,9 @@ Objects {
   Name: "Frame Small Inside Corner"
   Transform {
     Location {
-      X: 1.05737305
-      Y: 69.2299805
-      Z: 10.1768799
+      X: 1.06103516
+      Y: 103.391113
+      Z: 10.1767578
     }
     Rotation {
       Yaw: 3.2506272e-05
@@ -12166,8 +12204,8 @@ Objects {
   Name: "Frame Small Inside Corner"
   Transform {
     Location {
-      X: 1.05960786
-      Y: -69.2299728
+      X: 1.05945766
+      Y: -103.597282
       Z: 10.1768332
     }
     Rotation {
@@ -12243,18 +12281,17 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -1.4085037e-05
-      Y: 67.9998932
-      Z: -10.2468452
+      X: -0.000403771061
+      Y: 102.151947
+      Z: -11.6849461
     }
     Rotation {
-      Yaw: -4.82967243e-06
       Roll: 89.9999771
     }
     Scale {
-      X: 0.0200179294
-      Y: 0.428528577
-      Z: 0.0199999083
+      X: 0.0200179219
+      Y: 0.457289368
+      Z: 0.0199998859
     }
   }
   ParentId: 6090356525288994903
@@ -12321,17 +12358,17 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: 1.4085037e-05
-      Y: -67.9998932
-      Z: -10.2468452
+      X: -0.000131460343
+      Y: -102.367188
+      Z: -11.6849461
     }
     Rotation {
       Roll: 89.9999847
     }
     Scale {
-      X: 0.0200179294
-      Y: 0.428528577
-      Z: 0.0199999083
+      X: 0.0200179219
+      Y: 0.457289368
+      Z: 0.0199998859
     }
   }
   ParentId: 6090356525288994903
@@ -12398,16 +12435,16 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: 0.000205654374
-      Y: -0.00160501641
-      Z: -33.7370796
+      X: 0.000205653792
+      Y: -0.00160501688
+      Z: -37.1081734
     }
     Rotation {
       Yaw: 3.58584875e-05
     }
     Scale {
-      X: 0.0200178679
-      Y: 1.32609665
+      X: 0.0200414471
+      Y: 2.00766611
       Z: 0.02
     }
   }
@@ -12429,7 +12466,7 @@ Objects {
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:utile"
-      Float: 10
+      Float: 13
     }
   }
   Collidable_v2 {
@@ -12475,16 +12512,16 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: 0.000205654374
-      Y: -0.00160501641
+      X: 0.000205653792
+      Y: -0.00160501688
       Z: 13.0641527
     }
     Rotation {
       Yaw: 2.21981136e-05
     }
     Scale {
-      X: 0.020017866
-      Y: 1.32609665
+      X: 0.0200414471
+      Y: 2.00766611
       Z: 0.02
     }
   }
@@ -12506,7 +12543,7 @@ Objects {
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:utile"
-      Float: 10
+      Float: 13
     }
   }
   Collidable_v2 {
@@ -12552,17 +12589,17 @@ Objects {
   Name: "Plane 1m - One Sided"
   Transform {
     Location {
-      X: -0.0747128725
-      Y: -0.00169756322
-      Z: -10.5745192
+      X: -0.07471288
+      Y: -0.00169753574
+      Z: -12.5195312
     }
     Rotation {
       Pitch: -90
     }
     Scale {
-      X: 0.460123688
-      Y: 1.35527015
-      Z: 0.307701051
+      X: 0.500000119
+      Y: 2.03811717
+      Z: 0.25001055
     }
   }
   ParentId: 6090356525288994903
@@ -12629,9 +12666,9 @@ Objects {
   Name: "Frame Small Inside Corner"
   Transform {
     Location {
-      X: 1.05737305
-      Y: 69.2299805
-      Z: -30.916748
+      X: 1.06103516
+      Y: 103.391113
+      Z: -34.2895508
     }
     Rotation {
       Yaw: 3.2506272e-05
@@ -12707,8 +12744,8 @@ Objects {
   Transform {
     Location {
       X: -4.97667551
-      Y: 0.00081076991
-      Z: 2.10501814
+      Y: 0.000812530576
+      Z: -0.843449533
     }
     Rotation {
       Yaw: 3.24433931e-05
@@ -12760,8 +12797,8 @@ Objects {
   Transform {
     Location {
       X: -4.97667551
-      Y: 0.00081076991
-      Z: -18.3718452
+      Y: 0.000812530576
+      Z: -21.3203125
     }
     Rotation {
       Yaw: 3.24433931e-05

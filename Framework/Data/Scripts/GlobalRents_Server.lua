@@ -83,6 +83,8 @@ function SetNewOwner(houseName, player)
     if _G.HousingServerData[houseName].ownerID ~= player.id and _G.HousingServerData[houseName].ownerID ~= "" then return end
     local dataToSave = {}
     dataToSave.ownerID = player.id
+    --proceed the quest
+    Events.Broadcast("Quest.Village2", player, "VillaRented")
     local secondsBought = math.floor(RENT_FOR_DAYS * 86400)
     if _G.HousingServerData[houseName].expiresAt == 0 then
         --set new expiration

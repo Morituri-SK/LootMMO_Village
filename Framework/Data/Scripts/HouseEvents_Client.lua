@@ -1,9 +1,9 @@
 -- Custom 
-local ROOT = script.parent.parent
+local ROOT = script:GetCustomProperty("ROOT"):WaitForObject()
 local MOUNT_POINTS = ROOT:FindChildByName("MountPoints")
 local SPIDER_EVENT_TEMPLATE = script:GetCustomProperty("SpiderEventTemplate")
-local LOCAL_PLAYER = Game.GetLocalPlayer()
 
+local LOCAL_PLAYER = Game.GetLocalPlayer()
 local MOUNT_POINTS_PLACES = MOUNT_POINTS:GetChildren()
 
 function CheckForSpiderEvent()

@@ -20,6 +20,7 @@ Objects {
   ChildIds: 6027092394335620886
   ChildIds: 14682876555441161092
   ChildIds: 5194263957960348502
+  ChildIds: 1490598476785560899
   ChildIds: 13166582935527539135
   ChildIds: 6451286473535473017
   Collidable_v2 {
@@ -63,10 +64,8 @@ Objects {
     }
   }
   ParentId: 190860723530651946
+  ChildIds: 9712696993873836934
   ChildIds: 3213512931467878885
-  ChildIds: 4822285833890348824
-  ChildIds: 5376381881959334117
-  ChildIds: 14535008065583657993
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -93,18 +92,12 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14535008065583657993
-  Name: "Fantasy Armchair 01"
+  Id: 3213512931467878885
+  Name: "QuestObjectivePickup"
   Transform {
     Location {
-      X: -1.73577118
-      Y: -19.3957863
-      Z: 241.414551
     }
     Rotation {
-      Pitch: -1.29907227
-      Yaw: 0.436133832
-      Roll: 174.978836
     }
     Scale {
       X: 1
@@ -113,6 +106,114 @@ Objects {
     }
   }
   ParentId: 6451286473535473017
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:QuestID"
+      String: "Cart"
+    }
+    Overrides {
+      Name: "cs:ObjectiveIndex"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:GeoToHide"
+      ObjectReference {
+        SelfId: 9712696993873836934
+      }
+    }
+    Overrides {
+      Name: "cs:InteractionLabel"
+      String: "Recover Lost Crate"
+    }
+    Overrides {
+      Name: "cs:TriggerScale"
+      Float: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 120242700683647500
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9712696993873836934
+  Name: "FurniturePile"
+  Transform {
+    Location {
+      X: -15.750493
+      Y: -70.4544067
+      Z: -0.000618934631
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6451286473535473017
+  ChildIds: 4822285833890348824
+  ChildIds: 5376381881959334117
+  ChildIds: 14535008065583657993
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14535008065583657993
+  Name: "Fantasy Armchair 01"
+  Transform {
+    Location {
+      X: 14.0146942
+      Y: 51.0585899
+      Z: 241.415176
+    }
+    Rotation {
+      Pitch: -1.29906774
+      Yaw: 0.436133057
+      Roll: 174.978821
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9712696993873836934
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -210,12 +311,13 @@ Objects {
   Name: "Small Open Crate"
   Transform {
     Location {
-      X: -1.46001625
-      Y: 62.3896103
-      Z: 0.560699463
+      X: 14.2904701
+      Y: 132.844009
+      Z: 0.561317444
     }
     Rotation {
-      Yaw: 92.2095108
+      Yaw: 92.2094879
+      Roll: -6.15236559e-07
     }
     Scale {
       X: 1
@@ -223,7 +325,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6451286473535473017
+  ParentId: 9712696993873836934
   ChildIds: 17314736467395320104
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -322,9 +424,9 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: -15.7508059
-      Y: -70.4543457
-      Z: 3.9100647e-05
+      X: -0.000323778775
+      Y: 2.43599352e-05
+      Z: 0.000659348909
     }
     Rotation {
     }
@@ -334,7 +436,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6451286473535473017
+  ParentId: 9712696993873836934
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -365,67 +467,6 @@ Objects {
   }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 3213512931467878885
-  Name: "QuestObjectivePickup"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6451286473535473017
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:QuestID"
-      String: "Cart"
-    }
-    Overrides {
-      Name: "cs:ObjectiveIndex"
-      Int: 1
-    }
-    Overrides {
-      Name: "cs:GeoToHide"
-      ObjectReference {
-        SelfId: 4822285833890348824
-      }
-    }
-    Overrides {
-      Name: "cs:InteractionLabel"
-      String: "Recover Lost Crate"
-    }
-    Overrides {
-      Name: "cs:TriggerScale"
-      Float: 2
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 120242700683647500
-    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -7048,6 +7089,63 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+  Id: 1490598476785560899
+  Name: "FurnitureCollider"
+  Transform {
+    Location {
+      X: 11581.3359
+      Y: -716.578613
+      Z: 43957.3828
+    }
+    Rotation {
+      Pitch: 23.8959217
+      Yaw: 3.62798238
+      Roll: 9.52637196
+    }
+    Scale {
+      X: 1.74371
+      Y: 2.51397109
+      Z: 3.52554035
+    }
+  }
+  ParentId: 190860723530651946
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 5194263957960348502
   Name: "Quest Area"
   Transform {
@@ -7416,6 +7514,9 @@ Objects {
     }
   }
   ParentId: 17798732759644559527
+  ChildIds: 18014611063134242427
+  ChildIds: 8715517142074182245
+  ChildIds: 12421229453148805588
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7430,6 +7531,171 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12421229453148805588
+  Name: "ObjectiveEventListener"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3253575031683594171
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:QuestID"
+      String: "Village2"
+    }
+    Overrides {
+      Name: "cs:ObjectiveIndex"
+      Int: 3
+    }
+    Overrides {
+      Name: "cs:ObjectID"
+      String: "VillaRented"
+    }
+    Overrides {
+      Name: "cs:EventID"
+      String: "Quest.Village2"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9246345034586664616
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8715517142074182245
+  Name: "ObjectiveEventListener"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3253575031683594171
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:QuestID"
+      String: "Village2"
+    }
+    Overrides {
+      Name: "cs:ObjectiveIndex"
+      Int: 2
+    }
+    Overrides {
+      Name: "cs:ObjectID"
+      String: "NFTselected"
+    }
+    Overrides {
+      Name: "cs:EventID"
+      String: "Quest.Village2"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9246345034586664616
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18014611063134242427
+  Name: "ObjectiveEventListener"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3253575031683594171
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:QuestID"
+      String: "Village2"
+    }
+    Overrides {
+      Name: "cs:ObjectiveIndex"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:ObjectID"
+      String: "FurniturePlaced"
+    }
+    Overrides {
+      Name: "cs:EventID"
+      String: "Quest.Village2"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9246345034586664616
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

@@ -263,6 +263,8 @@ function OnPlaceFurnitureRequest(player, furnitureID, mountpointRef)
         currentlyPlaced[mountpointID] = furnitureID
         if PRINT_DEBUG then print("placing new id to the player home furniture layout[",mountpointID,"]=",furnitureID) end
         player:SetPrivateNetworkedData(PNDstring,currentlyPlaced)
+        --proceed in the quest
+        Events.Broadcast("Quest.Village2", player, "FurniturePlaced")
     end
 end
 
@@ -376,6 +378,24 @@ function SavePlayerConcurentStorage(playerID, dataName, dataValue)
         end
     end
 end
+-------------------------------
+--Quest awards
+-------------------------------
+
+function AwardDefaultInventory(player)
+    --TODO, check also the villa furniture, or connect to quest completed
+    --check if the player inventory is empty and no furniture is placed
+    for _,id in pairs(player:GetPrivateNetworkedData("Furniture_Owned")) do
+        --there is something in the inventory!
+        return
+    end
+    for _,id in pairs(player:GetPrivateNetworkedData("Furniture_Placed")) do
+        --there is something placed!
+        return
+    end
+    --with the empty inventory, receive the default on quest completed
+    player:SetPrivateNetworkedData("Furniture_Owned", defaultFurnitueInventory)
+end
 
 -------------------------------
 --Player functions
@@ -429,7 +449,7 @@ function LoadOnlinePlayerFurnitureData(player)
         local f_Placed = data.Furniture_Placed or {}
         local f_Inventory = data.Furniture_Owned or defaultFurnitueInventory
         player:SetPrivateNetworkedData("Furniture_Placed",f_Placed)
-        player:SetPrivateNetworkedData("Furniture_Owned", defaultFurnitueInventory)-- TODO f_Inventory)
+        player:SetPrivateNetworkedData("Furniture_Owned", f_Inventory)
     else
         warn("Initial load of player concurrent storage failed, retrying")
         Task.Spawn(function() LoadOnlinePlayerFurnitureData(player) end,.1)
@@ -480,7 +500,10 @@ end
 for _, data in ipairs(PLAYER_HIDEOUTS)do
     data.repulseTrigger.beginOverlapEvent:Connect(function (trigger, other)
         if other:IsA("Player") ~= true then return end
-        if IsAllowedToEnter(data.ownerID,other.id,data.accessRights) == true then return end
+        if IsAllowedToEnter(data.ownerID,other.id,data.accessRights) == true then
+            if data.ownerID == other.id then Events.Broadcast("Quest.Village1", other, "HomeFound") end
+            return
+        end
         local direction = (other:GetWorldPosition() - trigger:GetWorldPosition()):GetNormalized()
         direction = Vector3.New(direction.x,direction.y,0)
         local force = 1500
@@ -507,3 +530,8 @@ Events.ConnectForPlayer("PlaceFurniture",OnPlaceFurnitureRequest)
 --Mark funiture system loaded, this starts the GlobalRents_Server.lua
 -------------------------------
 _G.FurnitureLoaded = true
+
+-------------------------------
+--Quest award handles
+-------------------------------
+Events.Connect("AwardDefaultInventory",AwardDefaultInventory)

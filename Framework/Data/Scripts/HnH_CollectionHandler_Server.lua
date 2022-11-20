@@ -13,7 +13,7 @@ function SetTokensResults(tokens,player)
     --TODO remove refreshing?? stupid idea?
     if tokens == nil then warn("player "..player.name.." do own no HnH tokens _ SERVER") return end
     player:SetPrivateNetworkedData("RefreshingHnH",true)
-    if DEBUG_PRINT then print("HnH test results #1 for ",player.name) end
+    if DEBUG_PRINT then print("HnH saving owned tokens for ",player.name) end
     HnH_Tokens_Data[player.id] = {}
     local savedIDs = {} --to pass the available IDs to client for UI
     for _,t in ipairs(tokens) do
@@ -68,6 +68,8 @@ function SpawnHomeForPlayer(player, tokenIDToSpawn)
             print(k,v)
         end
         controlScript.context.AssembleHouse_NFT_Geo(HnH_Tokens_Data[player.id][key].Attributes)
+        --award the quest
+        Events.Broadcast("Quest.Village2", player, "NFTselected")
     end
 end
 

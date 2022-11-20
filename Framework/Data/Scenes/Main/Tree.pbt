@@ -48343,6 +48343,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 13833816058458802116
+      value {
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 5338087018861399484
     }
