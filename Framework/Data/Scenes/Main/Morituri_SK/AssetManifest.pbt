@@ -26,12 +26,30 @@ Assets {
   }
 }
 Assets {
+  Id: 17566897953615540671
+  Name: "Adult 01 Vocal Efforts Agreement Positive Uhhuh 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_vo_efforts_male_adult_1_agreement_positive_uhhuh_01a_Cue_ref"
+  }
+}
+Assets {
   Id: 17101816685119402645
   Name: "Fantasy Couch 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fan_couch_001_ref"
+  }
+}
+Assets {
+  Id: 16912192915158960834
+  Name: "Humanoid 2 Rig"
+  PlatformAssetType: 25
+  PrimaryAsset {
+    AssetType: "SkeletonAssetRef"
+    AssetId: "npc_guy_wireframe_001_ref"
   }
 }
 Assets {
@@ -50,6 +68,15 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_dummy_pivot"
+  }
+}
+Assets {
+  Id: 15463597562545228630
+  Name: "Fantasy Coins 009"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Coins_009"
   }
 }
 Assets {
@@ -86,6 +113,33 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fan_chair_dining_001_head_001_ref"
+  }
+}
+Assets {
+  Id: 14060330023043759337
+  Name: "BG Flat 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_020"
+  }
+}
+Assets {
+  Id: 13677687073568333259
+  Name: "Humanoid 2 Peasant Shirt"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_guy_upper_fantasy_000_ref_temp"
+  }
+}
+Assets {
+  Id: 13583040906138958744
+  Name: "Humanoid 2 Roscoe"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_guy_head_military_001_ref"
   }
 }
 Assets {
@@ -131,6 +185,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_hq_test_001"
+  }
+}
+Assets {
+  Id: 12826647398051142834
+  Name: "UI Basic Frame 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Basic_Frame_002"
   }
 }
 Assets {
@@ -350,6 +413,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8475244315695859103
+  Name: "Humanoid 2 Xavier"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_guy_head_basic_006_ref"
+  }
+}
+Assets {
   Id: 8358355642110621346
   Name: "Fantasy Kitchen Cabinets 01 - Frame Counter Base 01"
   PlatformAssetType: 1
@@ -440,6 +512,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5338351160029262659
+  Name: "Pirata One"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "PirataOneRegular_ref"
+  }
+}
+Assets {
   Id: 5236535358397511382
   Name: "BG Flat 011"
   PlatformAssetType: 9
@@ -518,6 +599,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fan_table_end_001_top_001_ref"
+  }
+}
+Assets {
+  Id: 1430557070987966504
+  Name: "Humanoid 2 Peasant Pants"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_guy_lower_fantasy_000_ref"
   }
 }
 Assets {

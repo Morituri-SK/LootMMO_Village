@@ -1,5 +1,8 @@
 ---@type UIPanel
 local HOUSE_SETUP_ICON = script:GetCustomProperty("HouseSetup_Icon"):WaitForObject()
+---@type UIPanel
+local RENT_SETUP_ICON = script:GetCustomProperty("RentSetup_Icon"):WaitForObject()
+
 ---@type UIProgressBar
 local UIPROGRESS_BAR = script:GetCustomProperty("UIProgressBar"):WaitForObject()
 ---@type UIImage
@@ -8,7 +11,7 @@ local OK = script:GetCustomProperty("OK"):WaitForObject()
 local CANCEL = script:GetCustomProperty("Cancel"):WaitForObject()
 
 local LOCAL_PLAYER = Game.GetLocalPlayer()
-local Panels = {houseSetup = HOUSE_SETUP_ICON}
+local Panels = {houseSetup = HOUSE_SETUP_ICON, rentSetup = RENT_SETUP_ICON}
 
 local ROOT = script.parent
 local targetPos = nil

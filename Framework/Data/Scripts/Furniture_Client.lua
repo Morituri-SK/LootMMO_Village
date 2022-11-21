@@ -41,13 +41,19 @@ local UIQUEST_CONTAINER = script:GetCustomProperty("UIQuestContainer"):WaitForOb
 local ABILITY_DISPLAY = script:GetCustomProperty("AbilityDisplay"):WaitForObject()
 ---@type UIPanel
 local UIMMOPORTAL_PANEL = script:GetCustomProperty("UIMMOPortalPanel"):WaitForObject()
+---@type UIContainer
+local UIDROP_CONTAINER = script:GetCustomProperty("UIDropContainer"):WaitForObject()
+---@type UIContainer
+local RESOURCE_DISPLAY_CONTAINER = script:GetCustomProperty("ResourceDisplayContainer"):WaitForObject()
 
 local LOOTMMO_UI_CONTAINERS = {
     UIXPBAR_CONTAINER,
     UIPROFILE_CONTAINER,
     UIQUEST_CONTAINER,
     ABILITY_DISPLAY,
-    UIMMOPORTAL_PANEL
+    UIMMOPORTAL_PANEL,
+    UIDROP_CONTAINER,
+    RESOURCE_DISPLAY_CONTAINER
 }
 
 local PRINT_DEBUG = script:GetCustomProperty("PrintDebug")

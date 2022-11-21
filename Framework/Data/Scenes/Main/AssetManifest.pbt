@@ -43,15 +43,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16912192915158960834
-  Name: "Humanoid 2 Rig"
-  PlatformAssetType: 25
-  PrimaryAsset {
-    AssetType: "SkeletonAssetRef"
-    AssetId: "npc_guy_wireframe_001_ref"
-  }
-}
-Assets {
   Id: 16845241941935487831
   Name: "Glass 01 (no distortion)"
   PlatformAssetType: 2
@@ -367,30 +358,12 @@ Assets {
   }
 }
 Assets {
-  Id: 13677687073568333259
-  Name: "Humanoid 2 Peasant Shirt"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_guy_upper_fantasy_000_ref_temp"
-  }
-}
-Assets {
   Id: 13642204757580273705
   Name: "Cube - Chamfered Small Polished"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_003"
-  }
-}
-Assets {
-  Id: 13583040906138958744
-  Name: "Humanoid 2 Roscoe"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_guy_head_military_001_ref"
   }
 }
 Assets {
@@ -872,15 +845,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8475244315695859103
-  Name: "Humanoid 2 Xavier"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_guy_head_basic_006_ref"
-  }
-}
-Assets {
   Id: 8356682104891696291
   Name: "Fantasy Kitchen Shelf Counter Base 01"
   PlatformAssetType: 1
@@ -1351,15 +1315,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_stairs_001_150cm_ref"
-  }
-}
-Assets {
-  Id: 1430557070987966504
-  Name: "Humanoid 2 Peasant Pants"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_guy_lower_fantasy_000_ref"
   }
 }
 Assets {

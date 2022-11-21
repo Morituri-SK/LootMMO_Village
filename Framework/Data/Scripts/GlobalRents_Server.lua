@@ -97,6 +97,7 @@ function SetNewOwner(houseName, player)
 end
 
 function CheckForRentAdd(player, houseName)
+    print("Got event to rent ",houseName)
     --crosscheck
     local cost = CurrentInstanceHousesForRentData[houseName].costToRent
     local res = CurrentInstanceHousesForRentData[houseName].resourceNeeded

@@ -15,11 +15,6 @@ Objects {
     }
   }
   ParentId: 17798732759644559527
-  ChildIds: 3596772733111668458
-  ChildIds: 6785639698803999618
-  ChildIds: 6027092394335620886
-  ChildIds: 14682876555441161092
-  ChildIds: 5194263957960348502
   ChildIds: 1490598476785560899
   ChildIds: 13166582935527539135
   ChildIds: 6451286473535473017
@@ -48,14 +43,14 @@ Objects {
   Name: "LostCrate"
   Transform {
     Location {
-      X: 11647.498
-      Y: -758.222
-      Z: 43781.9961
+      X: -6115.36719
+      Y: 5478.96729
+      Z: 42763.207
     }
     Rotation {
-      Pitch: -25.1417236
-      Yaw: -166.814972
-      Roll: -7.2833252
+      Pitch: -9.74789429
+      Yaw: -29.9116516
+      Roll: -14.4910278
     }
     Scale {
       X: 1
@@ -127,7 +122,7 @@ Objects {
     }
     Overrides {
       Name: "cs:TriggerScale"
-      Float: 2
+      Float: 2.5
     }
   }
   Collidable_v2 {
@@ -478,14 +473,14 @@ Objects {
   Name: "Cart"
   Transform {
     Location {
-      X: 11698.8486
-      Y: -780.113831
-      Z: 43732.7188
+      X: -6120.63
+      Y: 5529.01807
+      Z: 42708.3477
     }
     Rotation {
-      Pitch: 25.6938648
-      Yaw: 2.77202821
-      Roll: 7.72707462
+      Pitch: 11.6966782
+      Yaw: 140.708359
+      Roll: 17.6662846
     }
     Scale {
       X: 0.676581383
@@ -2497,14 +2492,14 @@ Objects {
   Name: "Wheel"
   Transform {
     Location {
-      X: 523.859619
-      Y: 34.7127571
-      Z: 91.7918243
+      X: 648.496704
+      Y: 92.6228714
+      Z: 68.6836166
     }
     Rotation {
-      Pitch: -85.738678
-      Yaw: 52.2776146
-      Roll: 129.344589
+      Pitch: -102.017
+      Yaw: 104.348114
+      Roll: 76.9195557
     }
     Scale {
       X: 1
@@ -3266,8 +3261,8 @@ Objects {
       Z: 84.6978912
     }
     Rotation {
-      Pitch: -50.398838
-      Yaw: -89.9999771
+      Pitch: -50.3988342
+      Yaw: -89.9999695
       Roll: 89.9997864
     }
     Scale {
@@ -6718,14 +6713,14 @@ Objects {
   Name: "Cylinder - Polished"
   Transform {
     Location {
-      X: -276.103302
-      Y: 170.781677
-      Z: 81.1542358
+      X: -387.240021
+      Y: 119.1437
+      Z: 60.5491371
     }
     Rotation {
-      Pitch: 0.96270144
-      Yaw: -50.7693481
-      Roll: 4.15077734
+      Pitch: -11.4133606
+      Yaw: -52.044342
+      Roll: -3.6605835
     }
     Scale {
       X: 1.42669272
@@ -7093,19 +7088,19 @@ Objects {
   Name: "FurnitureCollider"
   Transform {
     Location {
-      X: 11581.3359
-      Y: -716.578613
-      Z: 43957.3828
+      X: -6149.13916
+      Y: 5409.76953
+      Z: 42939
     }
     Rotation {
-      Pitch: 23.8959217
-      Yaw: 3.62798238
-      Roll: 9.52637196
+      Pitch: 9.79419
+      Yaw: 141.175323
+      Roll: 19.193779
     }
     Scale {
-      X: 1.74371
-      Y: 2.51397109
-      Z: 3.52554035
+      X: 1.61448419
+      Y: 2.31274629
+      Z: 3.52554059
     }
   }
   ParentId: 190860723530651946
@@ -7146,360 +7141,6 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5194263957960348502
-  Name: "Quest Area"
-  Transform {
-    Location {
-      X: 12447.416
-      Y: -272.576294
-      Z: 44695.543
-    }
-    Rotation {
-      Yaw: 161.93927
-    }
-    Scale {
-      X: 45.7309761
-      Y: 45.7309761
-      Z: 45.7309761
-    }
-  }
-  ParentId: 190860723530651946
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Y Scale"
-      Float: 1.5
-    }
-    Overrides {
-      Name: "bp:X Scale"
-      Float: 1.5
-    }
-    Overrides {
-      Name: "bp:Z Scale"
-      Float: 1.5
-    }
-    Overrides {
-      Name: "bp:Type"
-      Enum {
-        Value: "mc:evolumetype:1"
-      }
-    }
-    Overrides {
-      Name: "bp:Absolute Scale"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Shape Visibility"
-      Enum {
-        Value: "mc:evolumevisibility:newenumerator0"
-      }
-    }
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 1
-        G: 0.5
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Visible In Preview"
-      Bool: true
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 15895911216899816748
-    }
-    TeamSettings {
-    }
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 14682876555441161092
-  Name: "Enemy Spawn"
-  Transform {
-    Location {
-      X: 11398.7939
-      Y: -1315.33325
-      Z: 43730.7031
-    }
-    Rotation {
-      Yaw: -135.359512
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 190860723530651946
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Y Scale"
-      Float: 1.5
-    }
-    Overrides {
-      Name: "bp:X Scale"
-      Float: 1.5
-    }
-    Overrides {
-      Name: "bp:Z Scale"
-      Float: 1.5
-    }
-    Overrides {
-      Name: "bp:Type"
-      Enum {
-        Value: "mc:evolumetype:1"
-      }
-    }
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Absolute Scale"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 15895911216899816748
-    }
-    TeamSettings {
-    }
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 6027092394335620886
-  Name: "Enemy Spawn"
-  Transform {
-    Location {
-      X: 11317.5693
-      Y: -636.907104
-      Z: 43657.1484
-    }
-    Rotation {
-      Yaw: 166.727661
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 190860723530651946
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Y Scale"
-      Float: 1.5
-    }
-    Overrides {
-      Name: "bp:X Scale"
-      Float: 1.5
-    }
-    Overrides {
-      Name: "bp:Z Scale"
-      Float: 1.5
-    }
-    Overrides {
-      Name: "bp:Type"
-      Enum {
-        Value: "mc:evolumetype:1"
-      }
-    }
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Absolute Scale"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 15895911216899816748
-    }
-    TeamSettings {
-    }
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 6785639698803999618
-  Name: "Enemy Spawn"
-  Transform {
-    Location {
-      X: 11820.3682
-      Y: 234.061829
-      Z: 43692.0391
-    }
-    Rotation {
-      Yaw: 79.7826
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 190860723530651946
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Y Scale"
-      Float: 1.5
-    }
-    Overrides {
-      Name: "bp:X Scale"
-      Float: 1.5
-    }
-    Overrides {
-      Name: "bp:Z Scale"
-      Float: 1.5
-    }
-    Overrides {
-      Name: "bp:Type"
-      Enum {
-        Value: "mc:evolumetype:1"
-      }
-    }
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Absolute Scale"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 15895911216899816748
-    }
-    TeamSettings {
-    }
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 3596772733111668458
-  Name: "ObjectiveEncounterSpawn"
-  Transform {
-    Location {
-      X: 28884.3359
-      Y: 13864.0371
-      Z: -1699.96484
-    }
-    Rotation {
-      Yaw: 161.93927
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 190860723530651946
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:EnemyIDs"
-      String: "Dragon"
-    }
-    Overrides {
-      Name: "cs:MinPlayerLevel"
-      Int: 0
-    }
-    Overrides {
-      Name: "cs:EnemyCount"
-      Int: 3
-    }
-    Overrides {
-      Name: "cs:ChanceEpicEnemy"
-      Float: 0.05
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 15156443327978326566
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
   Id: 3253575031683594171
   Name: "Village2"
   Transform {
@@ -7517,6 +7158,8 @@ Objects {
   ChildIds: 18014611063134242427
   ChildIds: 8715517142074182245
   ChildIds: 12421229453148805588
+  ChildIds: 15054719694292848936
+  ChildIds: 3871757292872281986
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7531,6 +7174,579 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3871757292872281986
+  Name: "QuestMarkers"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3253575031683594171
+  ChildIds: 8744064909569343005
+  ChildIds: 17155125539106841156
+  ChildIds: 14712206913418803559
+  ChildIds: 16701406402868618821
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16701406402868618821
+  Name: "QuestObjectivePickup"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3871757292872281986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:QuestID"
+      String: "Village2"
+    }
+    Overrides {
+      Name: "cs:ObjectiveIndex"
+      Int: 2
+    }
+    Overrides {
+      Name: "cs:GeoToHide"
+      ObjectReference {
+        SelfId: 8744064909569343005
+      }
+    }
+    Overrides {
+      Name: "cs:InteractionLabel"
+      String: " "
+    }
+    Overrides {
+      Name: "cs:TriggerScale"
+      Float: 0.01
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 120242700683647500
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14712206913418803559
+  Name: "QuestObjectivePickup"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3871757292872281986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:QuestID"
+      String: "Village2"
+    }
+    Overrides {
+      Name: "cs:ObjectiveIndex"
+      Int: 3
+    }
+    Overrides {
+      Name: "cs:GeoToHide"
+      ObjectReference {
+        SelfId: 17155125539106841156
+      }
+    }
+    Overrides {
+      Name: "cs:InteractionLabel"
+      String: " "
+    }
+    Overrides {
+      Name: "cs:TriggerScale"
+      Float: 0.01
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 120242700683647500
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17155125539106841156
+  Name: "WP Marker Villa"
+  Transform {
+    Location {
+      X: 4732.52197
+      Y: 8664.63184
+      Z: 43471.6328
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3871757292872281986
+  ChildIds: 17177982392443342142
+  ChildIds: 12434902584615469422
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12434902584615469422
+  Name: "Cone - Soft 01"
+  Transform {
+    Location {
+      Z: 38.2963867
+    }
+    Rotation {
+      Pitch: 180
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.3
+    }
+  }
+  ParentId: 17155125539106841156
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 675563715440209277
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.53
+        G: 0.326423824
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13277570635617278853
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17177982392443342142
+  Name: "Sphere"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.1
+      Y: 0.1
+      Z: 0.1
+    }
+  }
+  ParentId: 17155125539106841156
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 675563715440209277
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.53
+        G: 0.326423824
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7363477334452929865
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8744064909569343005
+  Name: "WP Marker NFT"
+  Transform {
+    Location {
+      X: 4927.10352
+      Y: 8270.33301
+      Z: 43471.6328
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3871757292872281986
+  ChildIds: 11318993501890051286
+  ChildIds: 5206573355790662252
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5206573355790662252
+  Name: "Cone - Soft 01"
+  Transform {
+    Location {
+      Z: 38.2963867
+    }
+    Rotation {
+      Pitch: 180
+    }
+    Scale {
+      X: 0.15
+      Y: 0.15
+      Z: 0.3
+    }
+  }
+  ParentId: 8744064909569343005
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 675563715440209277
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.53
+        G: 0.326423824
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13277570635617278853
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11318993501890051286
+  Name: "Sphere"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.1
+      Y: 0.1
+      Z: 0.1
+    }
+  }
+  ParentId: 8744064909569343005
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 675563715440209277
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.53
+        G: 0.326423824
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7363477334452929865
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15054719694292848936
+  Name: "ObjectiveEventListener"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3253575031683594171
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:QuestID"
+      String: "Village2"
+    }
+    Overrides {
+      Name: "cs:ObjectiveIndex"
+      Int: 4
+    }
+    Overrides {
+      Name: "cs:ObjectID"
+      String: "VillaEntered"
+    }
+    Overrides {
+      Name: "cs:EventID"
+      String: "Quest.Village2"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9246345034586664616
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

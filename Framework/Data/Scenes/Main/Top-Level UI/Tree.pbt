@@ -47,6 +47,15 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 6083919564752263823
+      value {
+        Overrides {
+          Name: "Name"
+          String: "UI Drop Container"
+        }
+      }
+    }
     TemplateAsset {
       Id: 2738102251407328100
     }

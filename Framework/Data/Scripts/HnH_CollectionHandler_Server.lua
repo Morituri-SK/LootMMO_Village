@@ -152,10 +152,14 @@ function OnPlayerJoined(player)
     print("loading last used hnh id")
     --load last used HnH ID
     LoadPlayerLastUsedHouseID(player)
-    --testtest
-    print("LastHnH_ID:",player:GetPrivateNetworkedData("LastHnH_ID"))
     if DEBUG_PRINT then print("player HnH token load done") end
-    --TODO build player house based on this value
+    --build player house based on this value
+    local lastTokenID = player:GetPrivateNetworkedData("LastHnH_ID")
+    if lastTokenID == "def" or not lastTokenID then
+        SpawnBasicHomeForPlayer(player)
+    else
+        SpawnHomeForPlayer(player, lastTokenID)
+    end
 end
 
 function OnPlayerLeft(player)

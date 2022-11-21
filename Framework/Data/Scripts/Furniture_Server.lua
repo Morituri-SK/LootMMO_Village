@@ -501,7 +501,10 @@ for _, data in ipairs(PLAYER_HIDEOUTS)do
     data.repulseTrigger.beginOverlapEvent:Connect(function (trigger, other)
         if other:IsA("Player") ~= true then return end
         if IsAllowedToEnter(data.ownerID,other.id,data.accessRights) == true then
-            if data.ownerID == other.id then Events.Broadcast("Quest.Village1", other, "HomeFound") end
+            if data.ownerID == other.id then
+                if data.isGlobal ~= true then Events.Broadcast("Quest.Village1", other, "HomeFound")
+                else Events.Broadcast("Quest.Village2", other, "VillaEntered") end
+            end
             return
         end
         local direction = (other:GetWorldPosition() - trigger:GetWorldPosition()):GetNormalized()

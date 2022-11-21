@@ -62,15 +62,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15895911216899816748
-  Name: "Dummy Object"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_dummy_pivot"
-  }
-}
-Assets {
   Id: 15020893570606002283
   Name: "Rock Block 01"
   PlatformAssetType: 1
@@ -122,6 +113,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Basic_Shape_Triangle"
+  }
+}
+Assets {
+  Id: 13277570635617278853
+  Name: "Cone - Soft 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prim_cylinder_soft_001_ref"
   }
 }
 Assets {
@@ -230,6 +230,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_wood_planks_001_uv"
+  }
+}
+Assets {
+  Id: 7363477334452929865
+  Name: "Sphere"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_sphere_002"
   }
 }
 Assets {
@@ -347,6 +356,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_burned_streak_002_ref"
+  }
+}
+Assets {
+  Id: 675563715440209277
+  Name: "Emissive Glow Transparent"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_emissive_001"
   }
 }
 Assets {

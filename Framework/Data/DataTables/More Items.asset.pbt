@@ -42,6 +42,15 @@ Assets {
       }
     }
     Assets {
+      Id: 17206715859368833938
+      Name: "Fantasy Crate 005"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Fantasy_Equip_Crate_005"
+      }
+    }
+    Assets {
       Id: 18108420544862680383
       Name: "Magic Dark Powerup 02 SFX"
       PlatformAssetType: 7
@@ -75,6 +84,15 @@ Assets {
       PrimaryAsset {
         AssetType: "AudioAssetRef"
         AssetId: "sfx_coins_victory_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 14805894010585201136
+      Name: "Wooden Interface Movement Treasure Chest Open Empty 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_wooden_interface_movement_treasure_chest_open_empty_01_Cue_ref"
       }
     }
   }
