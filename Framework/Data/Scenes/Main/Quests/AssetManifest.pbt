@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17101816685119402645
+  Name: "Fantasy Couch 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fan_couch_001_ref"
+  }
+}
+Assets {
   Id: 16932470960206363953
   Name: "Sail Flag Parachute Cloth Open 01 SFX"
   PlatformAssetType: 7
@@ -59,6 +68,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_crate_narrow_lid_simple_160cm_001"
+  }
+}
+Assets {
+  Id: 15418753173860505430
+  Name: "Fantasy Vanity 01 - Counter 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fan_vanity_001_base_001_ref"
   }
 }
 Assets {
@@ -149,6 +167,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_wood_raw_001_uv"
+  }
+}
+Assets {
+  Id: 12385794193739794509
+  Name: "Decal Stains Round 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_stain_round_001"
   }
 }
 Assets {
@@ -266,6 +293,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pyramid_hq_001"
+  }
+}
+Assets {
+  Id: 6616607038129274534
+  Name: "Reinforced Crate 150cm"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_crate_reinforced_150cm_001"
   }
 }
 Assets {

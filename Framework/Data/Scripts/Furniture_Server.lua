@@ -35,8 +35,10 @@ local PlayerStorageSaveStack = {}
 --testtest
 local defaultFurnitueInventory = {}
 --each item in two pieces
-for i=1,31 do
-    defaultFurnitueInventory[i] = {i,2}
+for i=1,#FURNITURE_ITEMS_TABLE do
+    if math.random() < .5 then
+        defaultFurnitueInventory[i] = {i,math.random(1,4)}
+    end
 end
 
 -------------------------------
@@ -377,6 +379,14 @@ end
 --Quest awards
 -------------------------------
 
+function AwardRandomFurnitureItems(player,count)
+    if count < 1 then return end
+    for i=1,count do
+        local randomItemID = math.random(1,#FURNITURE_ITEMS_TABLE)
+        AddFurnitureToPlayerInventory(player, randomItemID)
+    end
+end
+
 function AwardDefaultInventory(player)
     --TODO, check also the villa furniture, or connect to quest completed
     --check if the player inventory is empty and no furniture is placed
@@ -531,3 +541,4 @@ _G.FurnitureLoaded = true
 --Quest award handles
 -------------------------------
 Events.Connect("AwardDefaultInventory",AwardDefaultInventory)
+Events.Connect("AwardInventoryItem.random",AwardRandomFurnitureItems)

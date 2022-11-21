@@ -141,6 +141,24 @@ Assets {
       }
     }
     Assets {
+      Id: 5429192061789721306
+      Name: "Market"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Fantasy_Icon_Market"
+      }
+    }
+    Assets {
+      Id: 12089956651671713082
+      Name: "Location"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Fantasy_Icon_Location"
+      }
+    }
+    Assets {
       Id: 3863414809819673447
       Name: "Stein"
       PlatformAssetType: 9

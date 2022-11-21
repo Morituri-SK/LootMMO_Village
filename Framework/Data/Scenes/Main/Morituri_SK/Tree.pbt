@@ -3500,7 +3500,6 @@ Objects {
   Control {
     Width: 1250
     Height: 250
-    UIX: -100
     UIY: -50
     RenderTransformPivot {
       Anchor {
@@ -3933,7 +3932,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"

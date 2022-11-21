@@ -1,6 +1,1693 @@
 Name: "Quests"
 RootId: 17798732759644559527
 Objects {
+  Id: 5000086495378373804
+  Name: "Furniture2"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17798732759644559527
+  ChildIds: 675547772916880935
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 675547772916880935
+  Name: "LostCrate"
+  Transform {
+    Location {
+      X: 18465.7559
+      Y: -16287.709
+      Z: 46121.2969
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5000086495378373804
+  ChildIds: 4145074386325769428
+  ChildIds: 4671848212816280258
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4671848212816280258
+  Name: "QuestObjectivePickup"
+  Transform {
+    Location {
+      X: -177.15625
+      Y: -47.5459
+      Z: 117.200195
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 675547772916880935
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:QuestID"
+      String: "Furniture2"
+    }
+    Overrides {
+      Name: "cs:ObjectiveIndex"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:GeoToHide"
+      ObjectReference {
+        SelfId: 4145074386325769428
+      }
+    }
+    Overrides {
+      Name: "cs:InteractionLabel"
+      String: "Recover Furniture"
+    }
+    Overrides {
+      Name: "cs:TriggerScale"
+      Float: 3
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 120242700683647500
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4145074386325769428
+  Name: "FurniturePile"
+  Transform {
+    Location {
+      X: 88.4267578
+      Y: -90.3505859
+      Z: -156.420593
+    }
+    Rotation {
+      Pitch: 36.9400558
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 675547772916880935
+  ChildIds: 17646093095170690495
+  ChildIds: 763937471446003161
+  ChildIds: 6315409557471254513
+  ChildIds: 15359012971460168469
+  ChildIds: 14099640154843579804
+  ChildIds: 16893211803026983139
+  ChildIds: 14110306822744266807
+  ChildIds: 17547288816549901537
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17547288816549901537
+  Name: "Fantasy Armchair 01"
+  Transform {
+    Location {
+      X: 302.715149
+      Y: 157.767578
+      Z: 354.799133
+    }
+    Rotation {
+      Pitch: 149.279602
+      Yaw: -47.0499268
+      Roll: -26.1402588
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4145074386325769428
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail2:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:utile"
+      Float: 5
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:vtile"
+      Float: 5
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:color"
+      Color {
+        R: 0.543046296
+        G: 0.683333278
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:utile"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:vtile"
+      Float: 0.25
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.13
+        G: 0.012052984
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15418753173860505430
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14110306822744266807
+  Name: "Reinforced Crate 150cm"
+  Transform {
+    Location {
+      X: 150.687744
+      Y: 175.889648
+      Z: 173.96405
+    }
+    Rotation {
+      Pitch: 5.35811901
+      Yaw: 97.1652451
+      Roll: -36.604248
+    }
+    Scale {
+      X: 0.726386189
+      Y: 0.726386189
+      Z: 0.726386189
+    }
+  }
+  ParentId: 4145074386325769428
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6616607038129274534
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16893211803026983139
+  Name: "Reinforced Crate 150cm"
+  Transform {
+    Location {
+      X: 83.2552414
+      Y: 188.504883
+      Z: 94.5137482
+    }
+    Rotation {
+      Pitch: -21.6943054
+      Yaw: 58.0555649
+      Roll: -30.6615906
+    }
+    Scale {
+      X: 0.726386189
+      Y: 0.726386189
+      Z: 0.726386189
+    }
+  }
+  ParentId: 4145074386325769428
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6616607038129274534
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14099640154843579804
+  Name: "Reinforced Crate 150cm"
+  Transform {
+    Location {
+      X: 11.0435543
+      Y: 90.3505859
+      Z: 148.810806
+    }
+    Rotation {
+      Pitch: -36.9400635
+    }
+    Scale {
+      X: 0.726386189
+      Y: 0.726386189
+      Z: 0.726386189
+    }
+  }
+  ParentId: 4145074386325769428
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6616607038129274534
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15359012971460168469
+  Name: "Decal Stains Round 01"
+  Transform {
+    Location {
+      X: 42.6162109
+      Y: 58.1767578
+      Z: 306.143677
+    }
+    Rotation {
+      Yaw: 39.958065
+      Roll: 2.71658206
+    }
+    Scale {
+      X: 0.170103729
+      Y: 0.170103729
+      Z: 0.170103729
+    }
+  }
+  ParentId: 4145074386325769428
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 12385794193739794509
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6315409557471254513
+  Name: "Decal Stains Round 01"
+  Transform {
+    Location {
+      X: -36.8388672
+      Y: 59.4414062
+      Z: 306.143677
+    }
+    Rotation {
+      Yaw: -40.0875816
+      Roll: 2.71658182
+    }
+    Scale {
+      X: 0.129330635
+      Y: 0.129330635
+      Z: 0.129330635
+    }
+  }
+  ParentId: 4145074386325769428
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 12385794193739794509
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 763937471446003161
+  Name: "Decal Stains Top 01"
+  Transform {
+    Location {
+      X: 39.4892578
+      Y: 10.5175781
+      Z: 370.151428
+    }
+    Rotation {
+      Yaw: 5.20749474
+      Roll: 79.4062653
+    }
+    Scale {
+      X: 0.230139345
+      Y: 0.230139345
+      Z: 0.230139345
+    }
+  }
+  ParentId: 4145074386325769428
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13092937155567782746
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17646093095170690495
+  Name: "Fantasy Armchair 01"
+  Transform {
+    Location {
+      X: 14.0146942
+      Y: 51.0585899
+      Z: 241.415176
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4145074386325769428
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail2:id"
+      AssetReference {
+        Id: 3356855775676619623
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:utile"
+      Float: 5
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:vtile"
+      Float: 5
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:color"
+      Color {
+        R: 0.543046296
+        G: 0.683333278
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:utile"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:vtile"
+      Float: 0.25
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1213114920771183354
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17101816685119402645
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17716445312279968036
+  Name: "Furniture1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17798732759644559527
+  ChildIds: 10196646207796350510
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10196646207796350510
+  Name: "LostCrate"
+  Transform {
+    Location {
+      X: -15869.2822
+      Y: 8138.3877
+      Z: 40679.2344
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17716445312279968036
+  ChildIds: 7136633457114551483
+  ChildIds: 9017467934977779128
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9017467934977779128
+  Name: "QuestObjectivePickup"
+  Transform {
+    Location {
+      X: -88.1933594
+      Y: -47.5459
+      Z: 117.200012
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10196646207796350510
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:QuestID"
+      String: "Furniture1"
+    }
+    Overrides {
+      Name: "cs:ObjectiveIndex"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:GeoToHide"
+      ObjectReference {
+        SelfId: 7136633457114551483
+      }
+    }
+    Overrides {
+      Name: "cs:InteractionLabel"
+      String: "Recover Furniture"
+    }
+    Overrides {
+      Name: "cs:TriggerScale"
+      Float: 2.5
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 120242700683647500
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7136633457114551483
+  Name: "FurniturePile"
+  Transform {
+    Location {
+      X: 88.4267578
+      Y: -90.3505859
+      Z: -156.420593
+    }
+    Rotation {
+      Pitch: 36.9400558
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10196646207796350510
+  ChildIds: 18374131392678937940
+  ChildIds: 9240950604406325093
+  ChildIds: 10417634350836756182
+  ChildIds: 13014868618378365661
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13014868618378365661
+  Name: "Decal Stains Round 01"
+  Transform {
+    Location {
+      X: 42.6162109
+      Y: 58.1767578
+      Z: 306.143677
+    }
+    Rotation {
+      Yaw: 39.958065
+      Roll: 2.71658206
+    }
+    Scale {
+      X: 0.170103729
+      Y: 0.170103729
+      Z: 0.170103729
+    }
+  }
+  ParentId: 7136633457114551483
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 12385794193739794509
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10417634350836756182
+  Name: "Decal Stains Round 01"
+  Transform {
+    Location {
+      X: -36.8388672
+      Y: 59.4414062
+      Z: 306.143677
+    }
+    Rotation {
+      Yaw: -40.0875816
+      Roll: 2.71658182
+    }
+    Scale {
+      X: 0.129330635
+      Y: 0.129330635
+      Z: 0.129330635
+    }
+  }
+  ParentId: 7136633457114551483
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 12385794193739794509
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9240950604406325093
+  Name: "Decal Stains Top 01"
+  Transform {
+    Location {
+      X: 39.4892578
+      Y: 10.5175781
+      Z: 370.151428
+    }
+    Rotation {
+      Yaw: 5.20749474
+      Roll: 79.4062653
+    }
+    Scale {
+      X: 0.230139345
+      Y: 0.230139345
+      Z: 0.230139345
+    }
+  }
+  ParentId: 7136633457114551483
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13092937155567782746
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18374131392678937940
+  Name: "Fantasy Armchair 01"
+  Transform {
+    Location {
+      X: 14.0146942
+      Y: 51.0585899
+      Z: 241.415176
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7136633457114551483
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail2:id"
+      AssetReference {
+        Id: 3356855775676619623
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:utile"
+      Float: 5
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:vtile"
+      Float: 5
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:color"
+      Color {
+        R: 0.543046296
+        G: 0.683333278
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:utile"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:vtile"
+      Float: 0.25
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1213114920771183354
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17101816685119402645
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16678092842151178787
+  Name: "Furniture0"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17798732759644559527
+  ChildIds: 3327831511038056069
+  ChildIds: 2364710731848136824
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2364710731848136824
+  Name: "LostCrate"
+  Transform {
+    Location {
+      X: -6115.36719
+      Y: 5478.96729
+      Z: 42763.207
+    }
+    Rotation {
+      Pitch: -9.74789429
+      Yaw: -29.9116516
+      Roll: -14.4910278
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16678092842151178787
+  ChildIds: 2329190247653785086
+  ChildIds: 12232294159807464046
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12232294159807464046
+  Name: "QuestObjectivePickup"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2364710731848136824
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:QuestID"
+      String: "Furniture0"
+    }
+    Overrides {
+      Name: "cs:ObjectiveIndex"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:GeoToHide"
+      ObjectReference {
+        SelfId: 2329190247653785086
+      }
+    }
+    Overrides {
+      Name: "cs:InteractionLabel"
+      String: "Recover Lost Goods"
+    }
+    Overrides {
+      Name: "cs:TriggerScale"
+      Float: 2.5
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 120242700683647500
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2329190247653785086
+  Name: "FurniturePile"
+  Transform {
+    Location {
+      X: -15.750493
+      Y: -70.4544067
+      Z: -0.000618934631
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2364710731848136824
+  ChildIds: 7136956210797673906
+  ChildIds: 15423459148618418809
+  ChildIds: 5220522949101404981
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5220522949101404981
+  Name: "Fantasy Armchair 01"
+  Transform {
+    Location {
+      X: 14.0146942
+      Y: 51.0585899
+      Z: 241.415176
+    }
+    Rotation {
+      Pitch: -1.29906774
+      Yaw: 0.436133057
+      Roll: 174.978821
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2329190247653785086
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail2:id"
+      AssetReference {
+        Id: 3356855775676619623
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:utile"
+      Float: 5
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:vtile"
+      Float: 5
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:color"
+      Color {
+        R: 0.543046296
+        G: 0.683333278
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 9651684874529213799
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:utile"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:vtile"
+      Float: 0.25
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1213114920771183354
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13546958377898405023
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15423459148618418809
+  Name: "Small Open Crate"
+  Transform {
+    Location {
+      X: 14.2904701
+      Y: 132.844009
+      Z: 0.561317444
+    }
+    Rotation {
+      Yaw: 92.2094879
+      Roll: -6.15236559e-07
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2329190247653785086
+  ChildIds: 5655534616842681295
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12046203229753918105
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5655534616842681295
+  Name: "Small Crate Lid"
+  Transform {
+    Location {
+      X: 15.139431
+      Y: -0.347892761
+      Z: 51.8676376
+    }
+    Rotation {
+      Pitch: 52.1958351
+      Yaw: -9.80712891
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15423459148618418809
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16051074517428955240
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7136956210797673906
+  Name: "Simple Crate 150cm"
+  Transform {
+    Location {
+      X: -0.000323778775
+      Y: 2.43599352e-05
+      Z: 0.000659348909
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2329190247653785086
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6892861472875270100
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3327831511038056069
+  Name: "FurnitureCollider"
+  Transform {
+    Location {
+      X: -6149.13916
+      Y: 5409.76953
+      Z: 42939
+    }
+    Rotation {
+      Pitch: 9.79419
+      Yaw: 141.175323
+      Roll: 19.193779
+    }
+    Scale {
+      X: 1.61448419
+      Y: 2.31274629
+      Z: 3.52554059
+    }
+  }
+  ParentId: 16678092842151178787
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 190860723530651946
   Name: "Cart"
   Transform {

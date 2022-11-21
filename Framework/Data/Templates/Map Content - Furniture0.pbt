@@ -1,24 +1,24 @@
 Assets {
-  Id: 13133666905264532810
-  Name: "Map Content - Village1"
+  Id: 7913538331190828109
+  Name: "Map Content - Furniture0"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 1058285864860418042
+      RootId: 8410511084354329398
       Objects {
-        Id: 1058285864860418042
-        Name: "Map Content - Village1"
+        Id: 8410511084354329398
+        Name: "Map Content - Furniture0"
         Transform {
           Scale {
-            X: 88.1684723
-            Y: 88.1684723
-            Z: 88.1684723
+            X: 528.979248
+            Y: 528.979248
+            Z: 528.979248
           }
         }
         ParentId: 3926631431061671274
-        ChildIds: 3644295060986520124
-        ChildIds: 8118065039069182676
-        ChildIds: 2395981997646425094
+        ChildIds: 5225522652456765168
+        ChildIds: 774270601098616344
+        ChildIds: 6581965537562888394
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -63,7 +63,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 3644295060986520124
+        Id: 5225522652456765168
         Name: "Title"
         Transform {
           Location {
@@ -82,7 +82,7 @@ Assets {
             Z: 0.315559894
           }
         }
-        ParentId: 1058285864860418042
+        ParentId: 8410511084354329398
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -105,7 +105,7 @@ Assets {
             }
           }
           Text {
-            Label: "Home sweet home"
+            Label: "Damaged Cart"
             Color {
               R: 0.101
               G: 0.0404000059
@@ -148,7 +148,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 8118065039069182676
+        Id: 774270601098616344
         Name: "Description"
         Transform {
           Location {
@@ -166,7 +166,7 @@ Assets {
             Z: 0.772937536
           }
         }
-        ParentId: 1058285864860418042
+        ParentId: 8410511084354329398
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -189,7 +189,7 @@ Assets {
             }
           }
           Text {
-            Label: "There is a whole village out there to be explored.\r\n\r\nLocate your new home and enjoy the pleasant stay."
+            Label: "There is another damaged cart loaded with goods. If you recover it, you will be granted a piece of furniture.\r\n - Travelling Merchant Nemo -"
             Color {
               R: 0.101
               G: 0.0404000059
@@ -233,7 +233,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 2395981997646425094
+        Id: 6581965537562888394
         Name: "UI Image"
         Transform {
           Location {
@@ -252,7 +252,7 @@ Assets {
             Z: 0.59120506
           }
         }
-        ParentId: 1058285864860418042
+        ParentId: 8410511084354329398
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -266,8 +266,8 @@ Assets {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
         Control {
-          Width: 330
-          Height: 240
+          Width: 480
+          Height: 270
           UIX: 10
           UIY: 70
           RenderTransformPivot {
@@ -277,7 +277,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 12692601234119504328
+              Id: 15169982944845935266
             }
             Color {
               R: 0.775000036
@@ -292,7 +292,6 @@ Assets {
             }
             ShadowOffset {
             }
-            FlipHorizontal: true
             ScreenshotIndex: 1
           }
           AnchorLayout {
