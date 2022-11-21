@@ -45,6 +45,7 @@ Assets {
             Z: 134.611847
           }
           Rotation {
+            Pitch: 180
           }
           Scale {
             X: 1

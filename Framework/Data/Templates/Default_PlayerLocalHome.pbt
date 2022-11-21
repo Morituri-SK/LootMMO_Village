@@ -2573,15 +2573,26 @@ Assets {
         }
         ParentId: 11528552669760984993
         ChildIds: 115290679224366598
-        ChildIds: 14320264929627284872
-        ChildIds: 17340996646058526138
-        ChildIds: 10657606977063437153
-        ChildIds: 8407343008042822861
-        ChildIds: 5315337458142725107
-        ChildIds: 16522723232291935491
-        ChildIds: 10105752093362352820
-        ChildIds: 7003461428155032369
-        ChildIds: 10070295001449570039
+        ChildIds: 9092936257281394946
+        ChildIds: 13276647256533241233
+        ChildIds: 2341619485610479972
+        ChildIds: 11606435103111448543
+        ChildIds: 5034147929598145028
+        ChildIds: 2678004064046362275
+        ChildIds: 15836063994729606081
+        ChildIds: 13701039704187906953
+        ChildIds: 1285647116125949519
+        ChildIds: 4999571653141449868
+        ChildIds: 13108460333027938130
+        ChildIds: 15581129939683583869
+        ChildIds: 18338658161305690086
+        ChildIds: 12104657457556265247
+        ChildIds: 1204347691164280514
+        ChildIds: 14800318178544888411
+        ChildIds: 11734540188860055703
+        ChildIds: 9430007037685684403
+        ChildIds: 8757338650807886847
+        ChildIds: 11872598348186219567
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2607,12 +2618,12 @@ Assets {
         Name: "1"
         Transform {
           Location {
-            X: 663.538818
-            Y: -482.777466
-            Z: 158.580887
+            X: 172.633606
+            Y: -702.803345
+            Z: 320.486572
           }
           Rotation {
-            Yaw: -33.0176697
+            Yaw: 90
           }
           Scale {
             X: 1
@@ -2624,11 +2635,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Accepts"
-            String: "Bed"
-          }
-          Overrides {
-            Name: "cs:Accepts2"
-            String: "LargeTable"
+            String: "WallDecor"
           }
         }
         Collidable_v2 {
@@ -2653,15 +2660,16 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 14320264929627284872
+        Id: 9092936257281394946
         Name: "2"
         Transform {
           Location {
-            X: -349.015625
-            Y: 483.189087
-            Z: 158.580948
+            X: 232.466278
+            Y: 638.764832
+            Z: 320.486572
           }
           Rotation {
+            Yaw: -90
           }
           Scale {
             X: 1
@@ -2673,7 +2681,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Accepts"
-            String: "Chest"
+            String: "WallDecor"
           }
         }
         Collidable_v2 {
@@ -2698,15 +2706,16 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 17340996646058526138
+        Id: 13276647256533241233
         Name: "3"
         Transform {
           Location {
-            X: 513.441895
-            Y: 14.7141113
-            Z: 155.27179
+            X: -277.694427
+            Y: 24.2357178
+            Z: 158.515625
           }
           Rotation {
+            Yaw: -179.230881
           }
           Scale {
             X: 1
@@ -2718,7 +2727,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Accepts"
-            String: "Bench"
+            String: "CarpetS"
           }
         }
         Collidable_v2 {
@@ -2743,16 +2752,201 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 10657606977063437153
+        Id: 2341619485610479972
         Name: "4"
         Transform {
           Location {
-            X: 835.059082
-            Y: 529.892944
-            Z: 158.580826
+            X: -785.413269
+            Y: 17.3780212
+            Z: 158.515625
           }
           Rotation {
-            Yaw: 180
+            Yaw: -171.810852
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6466327783546113288
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Accepts"
+            String: "CarpetS"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 15895911216899816748
+          }
+          TeamSettings {
+          }
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 11606435103111448543
+        Name: "5"
+        Transform {
+          Location {
+            X: 311.70871
+            Y: -386.995361
+            Z: 157.462402
+          }
+          Rotation {
+            Yaw: 95.1898041
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6466327783546113288
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Accepts"
+            String: "CarpetL"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 15895911216899816748
+          }
+          TeamSettings {
+          }
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 5034147929598145028
+        Name: "6"
+        Transform {
+          Location {
+            X: 308.171417
+            Y: 333.558929
+            Z: 157.462402
+          }
+          Rotation {
+            Yaw: 88.0044861
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6466327783546113288
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Accepts"
+            String: "CarpetL"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 15895911216899816748
+          }
+          TeamSettings {
+          }
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 2678004064046362275
+        Name: "7"
+        Transform {
+          Location {
+            X: 63.5370178
+            Y: -23.2923603
+            Z: 157.4
+          }
+          Rotation {
+            Yaw: -176.188873
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6466327783546113288
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Accepts"
+            String: "CarpetL"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 15895911216899816748
+          }
+          TeamSettings {
+          }
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 15836063994729606081
+        Name: "8"
+        Transform {
+          Location {
+            X: 787.788452
+            Y: -464.042847
+            Z: 157.399902
+          }
+          Rotation {
+            Yaw: -178.920105
+            Roll: 0.00345826917
           }
           Scale {
             X: 1
@@ -2789,16 +2983,111 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 8407343008042822861
-        Name: "5"
+        Id: 13701039704187906953
+        Name: "9"
         Transform {
           Location {
-            X: 198.420654
-            Y: -572.758545
-            Z: 158.580887
+            X: 770.754639
+            Y: 432.851624
+            Z: 157.454102
           }
           Rotation {
-            Yaw: -106.010193
+            Yaw: -178.92009
+            Roll: 0.00345826498
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6466327783546113288
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Accepts"
+            String: "StandingFurniture"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 15895911216899816748
+          }
+          TeamSettings {
+          }
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 1285647116125949519
+        Name: "10"
+        Transform {
+          Location {
+            X: 244.029221
+            Y: 469.332397
+            Z: 157.450928
+          }
+          Rotation {
+            Yaw: -0.823852539
+            Roll: 0.00345823402
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6466327783546113288
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Accepts"
+            String: "Bed"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 15895911216899816748
+          }
+          TeamSettings {
+          }
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 4999571653141449868
+        Name: "11"
+        Transform {
+          Location {
+            X: 313.928711
+            Y: -523.018921
+            Z: 157.478027
+          }
+          Rotation {
+            Yaw: -105.81369
+            Roll: 0.00345821842
           }
           Scale {
             X: 1
@@ -2835,16 +3124,17 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 5315337458142725107
-        Name: "6"
+        Id: 13108460333027938130
+        Name: "12"
         Transform {
           Location {
-            X: 188.960693
-            Y: -704.258057
-            Z: 325.037
+            X: -237.638321
+            Y: -511.815796
+            Z: 157.506836
           }
           Rotation {
-            Yaw: 89.9997787
+            Yaw: -161.52153
+            Roll: 0.00345820608
           }
           Scale {
             X: 1
@@ -2856,7 +3146,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Accepts"
-            String: "WallPicture"
+            String: "LargeTable"
           }
         }
         Collidable_v2 {
@@ -2881,16 +3171,17 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 16522723232291935491
-        Name: "7"
+        Id: 15581129939683583869
+        Name: "13"
         Transform {
           Location {
-            X: 223.87085
-            Y: 638.511292
-            Z: 325.037
+            X: 521.872681
+            Y: -35.1069183
+            Z: 157.526611
           }
           Rotation {
-            Yaw: -90
+            Yaw: -179.070694
+            Roll: 0.00345819676
           }
           Scale {
             X: 1
@@ -2902,7 +3193,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Accepts"
-            String: "WallPicture"
+            String: "Table"
           }
         }
         Collidable_v2 {
@@ -2927,16 +3218,17 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 10105752093362352820
-        Name: "8"
+        Id: 18338658161305690086
+        Name: "14"
         Transform {
           Location {
-            X: 228.259521
-            Y: 581.186951
-            Z: 155.27179
+            X: -320.765289
+            Y: 375.622375
+            Z: 157.544434
           }
           Rotation {
-            Yaw: -90
+            Yaw: -0.778045654
+            Roll: 0.00345817651
           }
           Scale {
             X: 1
@@ -2948,7 +3240,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Accepts"
-            String: "Bench"
+            String: "Table"
           }
         }
         Collidable_v2 {
@@ -2973,16 +3265,17 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 7003461428155032369
-        Name: "9"
+        Id: 12104657457556265247
+        Name: "15"
         Transform {
           Location {
-            X: -142.783447
-            Y: 555.994629
-            Z: 158.580948
+            X: -154.130249
+            Y: 414.634949
+            Z: 157.54248
           }
           Rotation {
-            Yaw: -90
+            Yaw: 118.158264
+            Roll: 0.00345815532
           }
           Scale {
             X: 1
@@ -2994,7 +3287,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Accepts"
-            String: "Chest"
+            String: "Chair"
           }
         }
         Collidable_v2 {
@@ -3019,16 +3312,17 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 10070295001449570039
-        Name: "10"
+        Id: 1204347691164280514
+        Name: "16"
         Transform {
           Location {
-            X: 594.703613
-            Y: 555.995239
-            Z: 158.580948
+            X: 340.478516
+            Y: -192.819397
+            Z: 157.553223
           }
           Rotation {
-            Yaw: -89.9999695
+            Yaw: -61.4898682
+            Roll: 0.00345813832
           }
           Scale {
             X: 1
@@ -3040,7 +3334,242 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Accepts"
-            String: "Chest"
+            String: "Chair"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 15895911216899816748
+          }
+          TeamSettings {
+          }
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 14800318178544888411
+        Name: "17"
+        Transform {
+          Location {
+            X: 320.750244
+            Y: 81.6558228
+            Z: 157.547119
+          }
+          Rotation {
+            Yaw: -110.199432
+            Roll: 0.00345812715
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6466327783546113288
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Accepts"
+            String: "Chair"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 15895911216899816748
+          }
+          TeamSettings {
+          }
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 11734540188860055703
+        Name: "18"
+        Transform {
+          Location {
+            X: 602.978088
+            Y: -413.147186
+            Z: 157.520752
+          }
+          Rotation {
+            Yaw: -110.199432
+            Roll: 0.00345812365
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6466327783546113288
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Accepts"
+            String: "Chair"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 15895911216899816748
+          }
+          TeamSettings {
+          }
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 9430007037685684403
+        Name: "19"
+        Transform {
+          Location {
+            X: 602.949097
+            Y: 430.069458
+            Z: 157.538086
+          }
+          Rotation {
+            Yaw: -81.82901
+            Roll: 0.0034581041
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6466327783546113288
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Accepts"
+            String: "Chair"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 15895911216899816748
+          }
+          TeamSettings {
+          }
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 8757338650807886847
+        Name: "20"
+        Transform {
+          Location {
+            X: -787.702
+            Y: 782.023499
+            Z: 157.605713
+          }
+          Rotation {
+            Yaw: -31.6141052
+            Roll: 0.00345805706
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6466327783546113288
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Accepts"
+            String: "ExteriorDecor"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 15895911216899816748
+          }
+          TeamSettings {
+          }
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 11872598348186219567
+        Name: "21"
+        Transform {
+          Location {
+            X: -757.811768
+            Y: -571.131104
+            Z: 157.67627
+          }
+          Rotation {
+            Yaw: 51.7216377
+            Roll: 0.00345802144
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6466327783546113288
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Accepts"
+            String: "ExteriorDecor"
           }
         }
         Collidable_v2 {

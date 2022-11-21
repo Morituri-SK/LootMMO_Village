@@ -1,13 +1,13 @@
 Assets {
-  Id: 9260503140529630183
-  Name: "Sitting_Bench"
+  Id: 11756982114002417351
+  Name: "P_Shelf_Large"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 8081602898756693686
+      RootId: 6670519813122404748
       Objects {
-        Id: 8081602898756693686
-        Name: "Sitting_Bench"
+        Id: 6670519813122404748
+        Name: "P_Shelf_Large"
         Transform {
           Scale {
             X: 1
@@ -15,10 +15,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 11736204087483734546
-        ChildIds: 4127613937701371051
-        WantsNetworking: true
+        ParentId: 8213801260503478656
+        ChildIds: 15858702214058656765
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -39,63 +37,12 @@ Assets {
         }
       }
       Objects {
-        Id: 11736204087483734546
-        Name: "FurnitureRepulseTrigger"
+        Id: 15858702214058656765
+        Name: "Fantasy Kitchen Shelf Counter Base 01"
         Transform {
           Location {
-            X: 15200
-            Y: 16190.7568
-            Z: 5578.88232
-          }
-          Rotation {
-            Yaw: 89.9999924
-          }
-          Scale {
-            X: 0.748144567
-            Y: 0.90455085
-            Z: 1.53208983
-          }
-        }
-        ParentId: 8081602898756693686
-        WantsNetworking: true
-        TemplateInstance {
-          ParameterOverrideMap {
-            key: 4237438562745346629
-            value {
-              Overrides {
-                Name: "Name"
-                String: "FurnitureRepulseTrigger"
-              }
-              Overrides {
-                Name: "TriggerShape"
-                Enum {
-                  Value: "mc:etriggershape:box"
-                }
-              }
-              Overrides {
-                Name: "CoreProxy.IsReplicationEnabledByDefault"
-                Bool: false
-              }
-              Overrides {
-                Name: "Scale"
-                Vector {
-                  X: 0.748144567
-                  Y: 4.82626963
-                  Z: 1.53208983
-                }
-              }
-            }
-          }
-          TemplateAsset {
-            Id: 144368898507393120
-          }
-        }
-      }
-      Objects {
-        Id: 4127613937701371051
-        Name: "Sitting_Bench"
-        Transform {
-          Location {
+            X: 28.7813721
+            Y: 0.009765625
           }
           Rotation {
             Yaw: -90
@@ -106,8 +53,27 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8081602898756693686
-        WantsNetworking: true
+        ParentId: 6670519813122404748
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -122,7 +88,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 18237254496856447026
+            Id: 8356682104891696291
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -145,12 +111,12 @@ Assets {
       }
     }
     Assets {
-      Id: 18237254496856447026
-      Name: "Bench Full"
+      Id: 8356682104891696291
+      Name: "Fantasy Kitchen Shelf Counter Base 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_bench_001"
+        AssetId: "sm_prop_fan_shelf_kitch_002_ref"
       }
     }
     PrimaryAssetId {

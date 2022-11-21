@@ -1,13 +1,13 @@
 Assets {
-  Id: 9260503140529630183
-  Name: "Sitting_Bench"
+  Id: 12898283420616882776
+  Name: "Dining_Chair_M"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 8081602898756693686
+      RootId: 11538468004930696160
       Objects {
-        Id: 8081602898756693686
-        Name: "Sitting_Bench"
+        Id: 11538468004930696160
+        Name: "Dining_Chair_M"
         Transform {
           Scale {
             X: 1
@@ -16,8 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 11736204087483734546
-        ChildIds: 4127613937701371051
+        ChildIds: 8694044416266000048
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -31,15 +30,31 @@ Assets {
         EditorIndicatorVisibility {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
-        Folder {
-          IsGroup: true
+        CoreMesh {
+          MeshAsset {
+            Id: 14804925474299247765
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
-        Id: 11736204087483734546
+        Id: 8694044416266000048
         Name: "FurnitureRepulseTrigger"
         Transform {
           Location {
@@ -56,7 +71,7 @@ Assets {
             Z: 1.53208983
           }
         }
-        ParentId: 8081602898756693686
+        ParentId: 11538468004930696160
         WantsNetworking: true
         TemplateInstance {
           ParameterOverrideMap {
@@ -80,8 +95,20 @@ Assets {
                 Name: "Scale"
                 Vector {
                   X: 0.748144567
-                  Y: 4.82626963
+                  Y: 0.90455085
                   Z: 1.53208983
+                }
+              }
+              Overrides {
+                Name: "Rotation"
+                Rotator {
+                  Yaw: 90
+                }
+              }
+              Overrides {
+                Name: "Position"
+                Vector {
+                  Z: 81.6333
                 }
               }
             }
@@ -91,66 +118,14 @@ Assets {
           }
         }
       }
-      Objects {
-        Id: 4127613937701371051
-        Name: "Sitting_Bench"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Yaw: -90
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 8081602898756693686
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 18237254496856447026
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
     }
     Assets {
-      Id: 18237254496856447026
-      Name: "Bench Full"
+      Id: 14804925474299247765
+      Name: "Fantasy Dining Chair 01 - Head 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_bench_001"
+        AssetId: "sm_prop_fan_chair_dining_001_head_001_ref"
       }
     }
     PrimaryAssetId {

@@ -7,7 +7,7 @@ Assets {
       RootId: 16908262915694613242
       Objects {
         Id: 16908262915694613242
-        Name: "Japanese Futon (Prop)"
+        Name: "Bed_Japanese"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10501847451495907733
+        ParentId: 4781671109827199097
+        ChildIds: 8563121274219998697
         ChildIds: 931032867493602340
         ChildIds: 6950770697664395187
         ChildIds: 149147141120857375
@@ -40,6 +41,72 @@ Assets {
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 8563121274219998697
+        Name: "FurnitureRepulseTrigger"
+        Transform {
+          Location {
+            X: 15200
+            Y: 16190.7568
+            Z: 5578.88232
+          }
+          Rotation {
+            Yaw: 89.9999924
+          }
+          Scale {
+            X: 0.748144567
+            Y: 0.90455085
+            Z: 1.53208983
+          }
+        }
+        ParentId: 16908262915694613242
+        WantsNetworking: true
+        TemplateInstance {
+          ParameterOverrideMap {
+            key: 4237438562745346629
+            value {
+              Overrides {
+                Name: "Name"
+                String: "FurnitureRepulseTrigger"
+              }
+              Overrides {
+                Name: "TriggerShape"
+                Enum {
+                  Value: "mc:etriggershape:box"
+                }
+              }
+              Overrides {
+                Name: "CoreProxy.IsReplicationEnabledByDefault"
+                Bool: false
+              }
+              Overrides {
+                Name: "Scale"
+                Vector {
+                  X: 1.20793045
+                  Y: 3.20679784
+                  Z: 4.36878586
+                }
+              }
+              Overrides {
+                Name: "Rotation"
+                Rotator {
+                  Pitch: 90
+                }
+              }
+              Overrides {
+                Name: "Position"
+                Vector {
+                  X: -59.3994141
+                  Z: 43.0053711
+                }
+              }
+            }
+          }
+          TemplateAsset {
+            Id: 144368898507393120
+          }
         }
       }
       Objects {

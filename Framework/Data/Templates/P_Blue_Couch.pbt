@@ -1,13 +1,13 @@
 Assets {
-  Id: 9260503140529630183
-  Name: "Sitting_Bench"
+  Id: 16612488393709857991
+  Name: "P_Blue_Couch"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 8081602898756693686
+      RootId: 17549165535796233603
       Objects {
-        Id: 8081602898756693686
-        Name: "Sitting_Bench"
+        Id: 17549165535796233603
+        Name: "Blue_Couch"
         Transform {
           Scale {
             X: 1
@@ -15,10 +15,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 11736204087483734546
-        ChildIds: 4127613937701371051
-        WantsNetworking: true
+        ParentId: 8213801260503478656
+        ChildIds: 9748805799033751916
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -39,61 +37,8 @@ Assets {
         }
       }
       Objects {
-        Id: 11736204087483734546
-        Name: "FurnitureRepulseTrigger"
-        Transform {
-          Location {
-            X: 15200
-            Y: 16190.7568
-            Z: 5578.88232
-          }
-          Rotation {
-            Yaw: 89.9999924
-          }
-          Scale {
-            X: 0.748144567
-            Y: 0.90455085
-            Z: 1.53208983
-          }
-        }
-        ParentId: 8081602898756693686
-        WantsNetworking: true
-        TemplateInstance {
-          ParameterOverrideMap {
-            key: 4237438562745346629
-            value {
-              Overrides {
-                Name: "Name"
-                String: "FurnitureRepulseTrigger"
-              }
-              Overrides {
-                Name: "TriggerShape"
-                Enum {
-                  Value: "mc:etriggershape:box"
-                }
-              }
-              Overrides {
-                Name: "CoreProxy.IsReplicationEnabledByDefault"
-                Bool: false
-              }
-              Overrides {
-                Name: "Scale"
-                Vector {
-                  X: 0.748144567
-                  Y: 4.82626963
-                  Z: 1.53208983
-                }
-              }
-            }
-          }
-          TemplateAsset {
-            Id: 144368898507393120
-          }
-        }
-      }
-      Objects {
-        Id: 4127613937701371051
-        Name: "Sitting_Bench"
+        Id: 9748805799033751916
+        Name: "Fantasy Couch 01"
         Transform {
           Location {
           }
@@ -106,8 +51,33 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8081602898756693686
-        WantsNetworking: true
+        ParentId: 17549165535796233603
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Detail2:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail3:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -122,7 +92,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 18237254496856447026
+            Id: 17101816685119402645
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -145,12 +115,12 @@ Assets {
       }
     }
     Assets {
-      Id: 18237254496856447026
-      Name: "Bench Full"
+      Id: 17101816685119402645
+      Name: "Fantasy Couch 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_bench_001"
+        AssetId: "sm_prop_fan_couch_001_ref"
       }
     }
     PrimaryAssetId {

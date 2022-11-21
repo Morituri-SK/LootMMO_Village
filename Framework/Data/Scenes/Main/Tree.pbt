@@ -43038,6 +43038,11 @@ Objects {
           Name: "Name"
           String: "Other Components"
         }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
       }
     }
     ParameterOverrideMap {

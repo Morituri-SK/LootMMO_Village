@@ -7,7 +7,7 @@ Assets {
       RootId: 1121218810160764965
       Objects {
         Id: 1121218810160764965
-        Name: "Table with Orb"
+        Name: "Table_with_Orb"
         Transform {
           Scale {
             X: 1
@@ -16,9 +16,9 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
+        ChildIds: 14288080427432270906
         ChildIds: 7239024010601458296
         ChildIds: 6293689619377200298
-        ChildIds: 1100527411411895549
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -37,6 +37,65 @@ Assets {
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 14288080427432270906
+        Name: "FurnitureRepulseTrigger"
+        Transform {
+          Location {
+            X: 15200
+            Y: 16190.7568
+            Z: 5578.88232
+          }
+          Rotation {
+            Yaw: 89.9999924
+          }
+          Scale {
+            X: 0.748144567
+            Y: 0.90455085
+            Z: 1.53208983
+          }
+        }
+        ParentId: 1121218810160764965
+        WantsNetworking: true
+        TemplateInstance {
+          ParameterOverrideMap {
+            key: 4237438562745346629
+            value {
+              Overrides {
+                Name: "Name"
+                String: "FurnitureRepulseTrigger"
+              }
+              Overrides {
+                Name: "TriggerShape"
+                Enum {
+                  Value: "mc:etriggershape:box"
+                }
+              }
+              Overrides {
+                Name: "CoreProxy.IsReplicationEnabledByDefault"
+                Bool: false
+              }
+              Overrides {
+                Name: "Scale"
+                Vector {
+                  X: 1.27734375
+                  Y: 1.04751956
+                  Z: 1.53208983
+                }
+              }
+              Overrides {
+                Name: "Position"
+                Vector {
+                  Z: 72.8481445
+                }
+              }
+            }
+          }
+          TemplateAsset {
+            Id: 144368898507393120
+          }
         }
       }
       Objects {
@@ -299,71 +358,6 @@ Assets {
           Value: "mc:eproxyrelevance:critical"
         }
         IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 1100527411411895549
-        Name: "FurnitureRepulseTrigger"
-        Transform {
-          Location {
-            X: 5726.73584
-            Y: 6663.60742
-            Z: 3260.81152
-          }
-          Rotation {
-            Yaw: -129.31076
-          }
-          Scale {
-            X: 3.06019568
-            Y: 3.06115437
-            Z: 2.43308949
-          }
-        }
-        ParentId: 1121218810160764965
-        WantsNetworking: true
-        TemplateInstance {
-          ParameterOverrideMap {
-            key: 4237438562745346629
-            value {
-              Overrides {
-                Name: "Name"
-                String: "FurnitureRepulseTrigger"
-              }
-              Overrides {
-                Name: "TriggerShape"
-                Enum {
-                  Value: "mc:etriggershape:sphere"
-                }
-              }
-              Overrides {
-                Name: "CoreProxy.IsReplicationEnabledByDefault"
-                Bool: false
-              }
-              Overrides {
-                Name: "Scale"
-                Vector {
-                  X: 1.79591715
-                  Y: 1.79591715
-                  Z: 1.79591715
-                }
-              }
-              Overrides {
-                Name: "Position"
-                Vector {
-                  Z: 60.8076172
-                }
-              }
-              Overrides {
-                Name: "Rotation"
-                Rotator {
-                  Yaw: -0.216522217
-                }
-              }
-            }
-          }
-          TemplateAsset {
-            Id: 144368898507393120
-          }
-        }
       }
     }
     Assets {

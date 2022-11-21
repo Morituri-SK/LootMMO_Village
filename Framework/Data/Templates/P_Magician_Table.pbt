@@ -1,13 +1,13 @@
 Assets {
-  Id: 14649372024975037465
-  Name: "StandingFurniture_Bookshelf"
+  Id: 1534725925343040711
+  Name: "P_Magician_Table"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 18329413041501960841
+      RootId: 686376732626861709
       Objects {
-        Id: 18329413041501960841
-        Name: "StandingFurniture_Bookshelf"
+        Id: 686376732626861709
+        Name: "Magician_Table"
         Transform {
           Scale {
             X: 1
@@ -15,12 +15,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 13796521093808385597
-        ChildIds: 13513796567286343349
-        ChildIds: 6162557063188123056
-        ChildIds: 2991180313208247666
-        WantsNetworking: true
+        ParentId: 8213801260503478656
+        ChildIds: 1930203501735058237
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -41,73 +37,15 @@ Assets {
         }
       }
       Objects {
-        Id: 13796521093808385597
-        Name: "FurnitureRepulseTrigger"
+        Id: 1930203501735058237
+        Name: "Fantasy Table Mirror 01 - Stand 01"
         Transform {
           Location {
-            X: 15200
-            Y: 16190.7568
-            Z: 5578.88232
+            X: -0.000976563664
+            Y: 0.00169145525
           }
           Rotation {
-            Yaw: 89.9999924
-          }
-          Scale {
-            X: 0.748144567
-            Y: 0.90455085
-            Z: 1.53208983
-          }
-        }
-        ParentId: 18329413041501960841
-        WantsNetworking: true
-        TemplateInstance {
-          ParameterOverrideMap {
-            key: 4237438562745346629
-            value {
-              Overrides {
-                Name: "Name"
-                String: "FurnitureRepulseTrigger"
-              }
-              Overrides {
-                Name: "TriggerShape"
-                Enum {
-                  Value: "mc:etriggershape:box"
-                }
-              }
-              Overrides {
-                Name: "CoreProxy.IsReplicationEnabledByDefault"
-                Bool: false
-              }
-              Overrides {
-                Name: "Scale"
-                Vector {
-                  X: 0.995839894
-                  Y: 2.17869163
-                  Z: 3.59088778
-                }
-              }
-              Overrides {
-                Name: "Position"
-                Vector {
-                  Z: 174.903809
-                }
-              }
-            }
-          }
-          TemplateAsset {
-            Id: 144368898507393120
-          }
-        }
-      }
-      Objects {
-        Id: 13513796567286343349
-        Name: "Fantasy Bookshelf Top"
-        Transform {
-          Location {
-            Z: 262.124054
-          }
-          Rotation {
-            Yaw: -90
+            Yaw: -90.0000076
           }
           Scale {
             X: 1
@@ -115,8 +53,29 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 18329413041501960841
-        WantsNetworking: true
+        ParentId: 686376732626861709
+        ChildIds: 8879159460727967317
+        ChildIds: 16872035263920857310
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Detail2:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -131,7 +90,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 5886611034140500769
+            Id: 6640887305876935896
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -151,15 +110,19 @@ Assets {
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
+        IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 6162557063188123056
-        Name: "Fantasy Bookshelf Bottom"
+        Id: 8879159460727967317
+        Name: "Fantasy Study Easel 01"
         Transform {
           Location {
+            X: -94.13237
+            Y: 17.4854012
+            Z: 116.699707
           }
           Rotation {
-            Yaw: -90
+            Yaw: -52.168457
           }
           Scale {
             X: 1
@@ -167,8 +130,27 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 18329413041501960841
-        WantsNetworking: true
+        ParentId: 1930203501735058237
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Detail2:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -183,7 +165,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 4940513130547301682
+            Id: 6249565137426286956
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -203,16 +185,18 @@ Assets {
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
+        IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 2991180313208247666
-        Name: "Fantasy Bookshelf Middle"
+        Id: 16872035263920857310
+        Name: "Fantasy Study Orb 01"
         Transform {
           Location {
-            Z: 122.782013
+            X: 113.242355
+            Y: 15.9268494
+            Z: 115.850586
           }
           Rotation {
-            Yaw: -90
           }
           Scale {
             X: 1
@@ -220,8 +204,33 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 18329413041501960841
-        WantsNetworking: true
+        ParentId: 1930203501735058237
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Detail2:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail3:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -236,7 +245,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 1909548803215530403
+            Id: 4141304838921540341
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -256,33 +265,34 @@ Assets {
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
+        IsReplicationEnabledByDefault: true
       }
     }
     Assets {
-      Id: 5886611034140500769
-      Name: "Fantasy Bookshelf Top"
+      Id: 6640887305876935896
+      Name: "Fantasy Table Mirror 01 - Stand 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_fantasy_bookshelf_top_001_ref"
+        AssetId: "sm_prop_fan_stand_tv_001_ref"
       }
     }
     Assets {
-      Id: 4940513130547301682
-      Name: "Fantasy Bookshelf Bottom"
+      Id: 6249565137426286956
+      Name: "Fantasy Study Easel 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_fantasy_bookshelf_base_001_ref"
+        AssetId: "sm_prop_fan_study_easel_001_ref"
       }
     }
     Assets {
-      Id: 1909548803215530403
-      Name: "Fantasy Bookshelf Middle"
+      Id: 4141304838921540341
+      Name: "Fantasy Study Orb 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_fantasy_bookshelf_middle_001_ref"
+        AssetId: "sm_prop_fan_study_orb_stand_001_ref"
       }
     }
     PrimaryAssetId {

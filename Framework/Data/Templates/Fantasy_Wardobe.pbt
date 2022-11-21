@@ -1,13 +1,13 @@
 Assets {
-  Id: 8424876144463020737
-  Name: "Sink_n_Mirror"
+  Id: 13257568458578774681
+  Name: "Fantasy_Wardobe"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 11282318313130253105
+      RootId: 7839420104661252684
       Objects {
-        Id: 11282318313130253105
-        Name: "Sink_n_Mirror"
+        Id: 7839420104661252684
+        Name: "Fantasy_Wardobe"
         Transform {
           Scale {
             X: 1
@@ -16,9 +16,8 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 682949850393091628
-        ChildIds: 1921245400586562044
-        ChildIds: 12233142857931614694
+        ChildIds: 17368965547449995589
+        ChildIds: 4473575175693391817
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -40,24 +39,23 @@ Assets {
         }
       }
       Objects {
-        Id: 682949850393091628
+        Id: 17368965547449995589
         Name: "FurnitureRepulseTrigger"
         Transform {
           Location {
             X: 15200
-            Y: 16190.7568
-            Z: 5578.88232
+            Y: 16004.9473
+            Z: 5560.67871
           }
           Rotation {
-            Yaw: 89.9999924
           }
           Scale {
-            X: 0.748144567
-            Y: 0.90455085
-            Z: 1.53208983
+            X: 2
+            Y: 4.25
+            Z: 1.16353512
           }
         }
-        ParentId: 11282318313130253105
+        ParentId: 7839420104661252684
         WantsNetworking: true
         TemplateInstance {
           ParameterOverrideMap {
@@ -78,25 +76,22 @@ Assets {
                 Bool: false
               }
               Overrides {
+                Name: "Rotation"
+                Rotator {
+                }
+              }
+              Overrides {
                 Name: "Scale"
                 Vector {
-                  X: 0.748144567
-                  Y: 1.7627151
-                  Z: 1.37216794
+                  X: 1.36675775
+                  Y: 2.37455082
+                  Z: 3.3358
                 }
               }
               Overrides {
                 Name: "Position"
                 Vector {
-                  X: 14.3574219
-                  Y: 8.140625
-                  Z: 70.3588867
-                }
-              }
-              Overrides {
-                Name: "Rotation"
-                Rotator {
-                  Yaw: -10.0293884
+                  Z: 173.955078
                 }
               }
             }
@@ -107,8 +102,8 @@ Assets {
         }
       }
       Objects {
-        Id: 1921245400586562044
-        Name: "Sink and mirror"
+        Id: 4473575175693391817
+        Name: "StaticContext"
         Transform {
           Location {
           }
@@ -120,10 +115,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11282318313130253105
-        ChildIds: 13541187610424620240
-        ChildIds: 9284601236683490349
-        ChildIds: 393213843603905371
+        ParentId: 7839420104661252684
+        ChildIds: 11347396430804084217
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -145,39 +138,40 @@ Assets {
         }
       }
       Objects {
-        Id: 13541187610424620240
-        Name: "Fantasy Sink 01 - Bowl 01"
+        Id: 11347396430804084217
+        Name: "Fantasy Wardrobe 01 - Frame 01"
         Transform {
           Location {
-            X: 19.703125
-            Y: 10.0288086
-            Z: 68.9751
+            Z: 81.3754883
           }
           Rotation {
-            Yaw: -148.276047
+            Yaw: -90.0000076
           }
           Scale {
-            X: 0.807310164
-            Y: 0.807310164
-            Z: 0.807310164
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
-        ParentId: 1921245400586562044
+        ParentId: 4473575175693391817
+        ChildIds: 2322679838592229480
+        ChildIds: 462390789739032202
+        ChildIds: 6650084715507627192
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         EditorIndicatorVisibility {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
         CoreMesh {
           MeshAsset {
-            Id: 6789792910396689734
+            Id: 9675899072035744352
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -195,43 +189,42 @@ Assets {
           Value: "mc:eproxyrelevance:critical"
         }
         NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:medium"
+          Value: "mc:eproxyrelevance:critical"
         }
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 9284601236683490349
-        Name: "Fantasy Kitchen Cabinets 01 - Island Counter Base 01"
+        Id: 2322679838592229480
+        Name: "Fantasy Wardrobe 01- Base 01"
         Transform {
           Location {
-            X: 17.5273438
-            Y: 13.5566406
+            Z: -81.5913086
           }
           Rotation {
-            Yaw: -101.669388
           }
           Scale {
-            X: 0.516184092
-            Y: 0.307941943
-            Z: 0.516184092
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
-        ParentId: 1921245400586562044
+        ParentId: 11347396430804084217
+        ChildIds: 17964378079873951715
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         EditorIndicatorVisibility {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
         CoreMesh {
           MeshAsset {
-            Id: 9449769113998509772
+            Id: 8301078388077227449
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -249,44 +242,43 @@ Assets {
           Value: "mc:eproxyrelevance:critical"
         }
         NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:medium"
+          Value: "mc:eproxyrelevance:critical"
         }
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 393213843603905371
-        Name: "Fantasy Wall Mirror 02"
+        Id: 17964378079873951715
+        Name: "Fantasy Wardrobe 01 - Drawer 01"
         Transform {
           Location {
-            X: -27.3325195
-            Y: 12.050293
-            Z: 127.162842
+            X: 0.000514619052
+            Y: -0.387610108
+            Z: 26
           }
           Rotation {
-            Yaw: -95.9393
           }
           Scale {
-            X: 0.70655936
-            Y: 0.70655936
-            Z: 0.70655936
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
-        ParentId: 1921245400586562044
+        ParentId: 2322679838592229480
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         EditorIndicatorVisibility {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
         CoreMesh {
           MeshAsset {
-            Id: 12215957792427691606
+            Id: 3472735141966785689
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -304,103 +296,153 @@ Assets {
           Value: "mc:eproxyrelevance:critical"
         }
         NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:medium"
+          Value: "mc:eproxyrelevance:critical"
         }
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 12233142857931614694
-        Name: "FurnitureRepulseTrigger"
+        Id: 462390789739032202
+        Name: "Fantasy Wardrobe 01 - Door 01"
         Transform {
           Location {
-            X: 6715.52246
-            Y: 6572.16846
-            Z: 3211.08862
+            X: -75.0950928
+            Y: 35.2638245
+            Z: 125.584473
           }
           Rotation {
-            Yaw: -148.935577
           }
           Scale {
-            X: 3.29499054
-            Y: 5.47827864
-            Z: 3.85937381
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
-        ParentId: 11282318313130253105
-        WantsNetworking: true
-        TemplateInstance {
-          ParameterOverrideMap {
-            key: 4237438562745346629
-            value {
-              Overrides {
-                Name: "Name"
-                String: "FurnitureRepulseTrigger"
-              }
-              Overrides {
-                Name: "TriggerShape"
-                Enum {
-                  Value: "mc:etriggershape:box"
-                }
-              }
-              Overrides {
-                Name: "Scale"
-                Vector {
-                  X: 1.33866
-                  Y: 1.33907938
-                  Z: 1.98698401
-                }
-              }
-              Overrides {
-                Name: "Position"
-                Vector {
-                  X: 15.7099609
-                  Y: 18.1445312
-                  Z: 102.301758
-                }
-              }
-              Overrides {
-                Name: "CoreProxy.IsReplicationEnabledByDefault"
-                Bool: false
-              }
-              Overrides {
-                Name: "Rotation"
-                Rotator {
-                  Yaw: -11.6401672
-                }
-              }
+        ParentId: 11347396430804084217
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9751908345988395048
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
             }
-          }
-          TemplateAsset {
-            Id: 144368898507393120
+            BoundsScale: 1
           }
         }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 6650084715507627192
+        Name: "Fantasy Wardrobe 01 - Door 01"
+        Transform {
+          Location {
+            X: 77.9306641
+            Y: 35.265625
+            Z: 125.584473
+          }
+          Rotation {
+          }
+          Scale {
+            X: -1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11347396430804084217
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9751908345988395048
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
       }
     }
     Assets {
-      Id: 6789792910396689734
-      Name: "Fantasy Sink 01 - Bowl 01"
+      Id: 9675899072035744352
+      Name: "Fantasy Wardrobe 01 - Frame 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_fan_sink_bowl_001_ref"
+        AssetId: "sm_prop_fan_wardrobe_001_frame_001_ref"
       }
     }
     Assets {
-      Id: 9449769113998509772
-      Name: "Fantasy Kitchen Cabinets 01 - Island Counter Base 01"
+      Id: 8301078388077227449
+      Name: "Fantasy Wardrobe 01- Base 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_fan_cabinet_kitch_001_island_001_ref"
+        AssetId: "sm_prop_fan_wardrobe_001_base_001_ref"
       }
     }
     Assets {
-      Id: 12215957792427691606
-      Name: "Fantasy Wall Mirror 02"
+      Id: 3472735141966785689
+      Name: "Fantasy Wardrobe 01 - Drawer 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_fan_mirror_002_ref"
+        AssetId: "sm_prop_fan_wardrobe_001_drwr_001_ref"
+      }
+    }
+    Assets {
+      Id: 9751908345988395048
+      Name: "Fantasy Wardrobe 01 - Door 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_prop_fan_wardrobe_001_door_001_ref"
       }
     }
     PrimaryAssetId {

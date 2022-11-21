@@ -1,13 +1,13 @@
 Assets {
-  Id: 9260503140529630183
-  Name: "Sitting_Bench"
+  Id: 10920219068403679330
+  Name: "R_Mirror_Large"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 8081602898756693686
+      RootId: 7453118643912147425
       Objects {
-        Id: 8081602898756693686
-        Name: "Sitting_Bench"
+        Id: 7453118643912147425
+        Name: "Mirror_Large"
         Transform {
           Scale {
             X: 1
@@ -15,10 +15,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 11736204087483734546
-        ChildIds: 4127613937701371051
-        WantsNetworking: true
+        ParentId: 8213801260503478656
+        ChildIds: 560740945332273374
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -37,65 +35,16 @@ Assets {
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
+        IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 11736204087483734546
-        Name: "FurnitureRepulseTrigger"
+        Id: 560740945332273374
+        Name: "Fantasy Wall Mirror 02"
         Transform {
           Location {
-            X: 15200
-            Y: 16190.7568
-            Z: 5578.88232
-          }
-          Rotation {
-            Yaw: 89.9999924
-          }
-          Scale {
-            X: 0.748144567
-            Y: 0.90455085
-            Z: 1.53208983
-          }
-        }
-        ParentId: 8081602898756693686
-        WantsNetworking: true
-        TemplateInstance {
-          ParameterOverrideMap {
-            key: 4237438562745346629
-            value {
-              Overrides {
-                Name: "Name"
-                String: "FurnitureRepulseTrigger"
-              }
-              Overrides {
-                Name: "TriggerShape"
-                Enum {
-                  Value: "mc:etriggershape:box"
-                }
-              }
-              Overrides {
-                Name: "CoreProxy.IsReplicationEnabledByDefault"
-                Bool: false
-              }
-              Overrides {
-                Name: "Scale"
-                Vector {
-                  X: 0.748144567
-                  Y: 4.82626963
-                  Z: 1.53208983
-                }
-              }
-            }
-          }
-          TemplateAsset {
-            Id: 144368898507393120
-          }
-        }
-      }
-      Objects {
-        Id: 4127613937701371051
-        Name: "Sitting_Bench"
-        Transform {
-          Location {
+            X: -2.36806726
+            Y: 10.5000505
+            Z: -63.9047852
           }
           Rotation {
             Yaw: -90
@@ -106,8 +55,61 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8081602898756693686
-        WantsNetworking: true
+        ParentId: 7453118643912147425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail3:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              R: 1
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:color"
+            Color {
+              R: 1
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail3:color"
+            Color {
+              R: 1
+              A: 1
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -122,7 +124,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 18237254496856447026
+            Id: 12215957792427691606
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -142,15 +144,16 @@ Assets {
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
+        IsReplicationEnabledByDefault: true
       }
     }
     Assets {
-      Id: 18237254496856447026
-      Name: "Bench Full"
+      Id: 12215957792427691606
+      Name: "Fantasy Wall Mirror 02"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_bench_001"
+        AssetId: "sm_prop_fan_mirror_002_ref"
       }
     }
     PrimaryAssetId {

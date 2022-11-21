@@ -1,13 +1,13 @@
 Assets {
-  Id: 14649372024975037465
-  Name: "StandingFurniture_Bookshelf"
+  Id: 3362693012322418561
+  Name: "P_Fantasy_Chandelier_bulbs"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 18329413041501960841
+      RootId: 14605054962453024466
       Objects {
-        Id: 18329413041501960841
-        Name: "StandingFurniture_Bookshelf"
+        Id: 14605054962453024466
+        Name: "Fantasy_Chandelier_bulbs"
         Transform {
           Scale {
             X: 1
@@ -15,108 +15,34 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 13796521093808385597
-        ChildIds: 13513796567286343349
-        ChildIds: 6162557063188123056
-        ChildIds: 2991180313208247666
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Folder {
-          IsGroup: true
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 13796521093808385597
-        Name: "FurnitureRepulseTrigger"
-        Transform {
-          Location {
-            X: 15200
-            Y: 16190.7568
-            Z: 5578.88232
-          }
-          Rotation {
-            Yaw: 89.9999924
-          }
-          Scale {
-            X: 0.748144567
-            Y: 0.90455085
-            Z: 1.53208983
-          }
-        }
-        ParentId: 18329413041501960841
-        WantsNetworking: true
-        TemplateInstance {
-          ParameterOverrideMap {
-            key: 4237438562745346629
-            value {
-              Overrides {
-                Name: "Name"
-                String: "FurnitureRepulseTrigger"
-              }
-              Overrides {
-                Name: "TriggerShape"
-                Enum {
-                  Value: "mc:etriggershape:box"
-                }
-              }
-              Overrides {
-                Name: "CoreProxy.IsReplicationEnabledByDefault"
-                Bool: false
-              }
-              Overrides {
-                Name: "Scale"
-                Vector {
-                  X: 0.995839894
-                  Y: 2.17869163
-                  Z: 3.59088778
-                }
-              }
-              Overrides {
-                Name: "Position"
-                Vector {
-                  Z: 174.903809
-                }
-              }
+        ParentId: 8213801260503478656
+        ChildIds: 8839173874001026959
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4978071971067602493
             }
           }
-          TemplateAsset {
-            Id: 144368898507393120
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail3:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
           }
         }
-      }
-      Objects {
-        Id: 13513796567286343349
-        Name: "Fantasy Bookshelf Top"
-        Transform {
-          Location {
-            Z: 262.124054
-          }
-          Rotation {
-            Yaw: -90
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 18329413041501960841
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -131,7 +57,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 5886611034140500769
+            Id: 9728256132713486641
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -153,13 +79,13 @@ Assets {
         }
       }
       Objects {
-        Id: 6162557063188123056
-        Name: "Fantasy Bookshelf Bottom"
+        Id: 8839173874001026959
+        Name: "ClientContext"
         Transform {
           Location {
+            Z: 3.44335938
           }
           Rotation {
-            Yaw: -90
           }
           Scale {
             X: 1
@@ -167,52 +93,41 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 18329413041501960841
-        WantsNetworking: true
+        ParentId: 14605054962453024466
+        ChildIds: 15254437820261544189
+        ChildIds: 5516602672847039265
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         EditorIndicatorVisibility {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
-        CoreMesh {
-          MeshAsset {
-            Id: 4940513130547301682
+        NetworkContext {
+          MinDetailLevel {
+            Value: "mc:edetaillevel:low"
           }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
+          MaxDetailLevel {
+            Value: "mc:edetaillevel:ultra"
           }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
-        Id: 2991180313208247666
-        Name: "Fantasy Bookshelf Middle"
+        Id: 15254437820261544189
+        Name: "Chain Ceiling Anchor"
         Transform {
           Location {
-            Z: 122.782013
+            Z: 80.0605469
           }
           Rotation {
-            Yaw: -90
           }
           Scale {
             X: 1
@@ -220,8 +135,15 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 18329413041501960841
-        WantsNetworking: true
+        ParentId: 8839173874001026959
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -236,7 +158,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 1909548803215530403
+            Id: 326849343922180961
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -256,33 +178,95 @@ Assets {
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 5516602672847039265
+        Name: "Fantasy Chain - Straight 2m 01"
+        Transform {
+          Location {
+            Z: 75.1923828
+          }
+          Rotation {
+            Yaw: 84.5720673
+          }
+          Scale {
+            X: 0.414378732
+            Y: 0.414378732
+            Z: 0.414378732
+          }
+        }
+        ParentId: 8839173874001026959
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4978071971067602493
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13512674754793005214
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
       }
     }
     Assets {
-      Id: 5886611034140500769
-      Name: "Fantasy Bookshelf Top"
+      Id: 9728256132713486641
+      Name: "Fantasy Chandelier 02"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_fantasy_bookshelf_top_001_ref"
+        AssetId: "sm_prop_fan_chandelier_001_ref"
       }
     }
     Assets {
-      Id: 4940513130547301682
-      Name: "Fantasy Bookshelf Bottom"
+      Id: 326849343922180961
+      Name: "Chain Ceiling Anchor"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_fantasy_bookshelf_base_001_ref"
+        AssetId: "sm_chain_top_001"
       }
     }
     Assets {
-      Id: 1909548803215530403
-      Name: "Fantasy Bookshelf Middle"
+      Id: 13512674754793005214
+      Name: "Fantasy Chain - Straight 2m 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_fantasy_bookshelf_middle_001_ref"
+        AssetId: "sm_prop_fan_chain_strt_2m_001_ref"
       }
     }
     PrimaryAssetId {

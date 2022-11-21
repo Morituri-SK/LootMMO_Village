@@ -33,16 +33,11 @@ local PlayerStorageSaveStack = {}
 
 
 --testtest
-local defaultFurnitueInventory = {
-    {1,1},
-    {2,1},
-    {3,3},
-    {4,1},
-    {5,2},
-    {6,1},
-    {7,1},
-    {8,3},
-}
+local defaultFurnitueInventory = {}
+--each item in two pieces
+for i=1,31 do
+    defaultFurnitueInventory[i] = {i,2}
+end
 
 -------------------------------
 --Context calls for NFT functions
@@ -447,7 +442,7 @@ function LoadOnlinePlayerFurnitureData(player)
         saveChanges = false
         if data.Furniture_Placed == nil then saveChanges = true end
         local f_Placed = data.Furniture_Placed or {}
-        local f_Inventory = data.Furniture_Owned or defaultFurnitueInventory
+        local f_Inventory = data.Furniture_Owned or {}
         player:SetPrivateNetworkedData("Furniture_Placed",f_Placed)
         player:SetPrivateNetworkedData("Furniture_Owned", f_Inventory)
     else
@@ -481,8 +476,6 @@ function OnPlayerJoined(player)
     --connect handles
     Player_Handles[player.id] = {}
     Player_Handles[player.id].PNDchanged = player.privateNetworkedDataChangedEvent:Connect(OnPNDchanged)
-    --TEST give player some cash to test the buyouts
-    player:SetResource("TestCurrency",25)
 end
 
 function OnPlayerLeft(player)

@@ -16,11 +16,11 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
+        ChildIds: 14324963881074679568
         ChildIds: 17463135306867460143
         ChildIds: 14956551003545079450
         ChildIds: 15834593185908976530
         ChildIds: 12789229959756945109
-        ChildIds: 18192526106645025350
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -39,6 +39,71 @@ Assets {
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 14324963881074679568
+        Name: "FurnitureRepulseTrigger"
+        Transform {
+          Location {
+            X: 15200
+            Y: 16190.7568
+            Z: 5578.88232
+          }
+          Rotation {
+            Yaw: 89.9999924
+          }
+          Scale {
+            X: 0.748144567
+            Y: 0.90455085
+            Z: 1.53208983
+          }
+        }
+        ParentId: 17825252359044380084
+        WantsNetworking: true
+        TemplateInstance {
+          ParameterOverrideMap {
+            key: 4237438562745346629
+            value {
+              Overrides {
+                Name: "Name"
+                String: "FurnitureRepulseTrigger"
+              }
+              Overrides {
+                Name: "TriggerShape"
+                Enum {
+                  Value: "mc:etriggershape:sphere"
+                }
+              }
+              Overrides {
+                Name: "CoreProxy.IsReplicationEnabledByDefault"
+                Bool: false
+              }
+              Overrides {
+                Name: "Scale"
+                Vector {
+                  X: 3.28066969
+                  Y: 3.96651673
+                  Z: 6.71831751
+                }
+              }
+              Overrides {
+                Name: "Position"
+                Vector {
+                  Z: 60.4897461
+                }
+              }
+              Overrides {
+                Name: "Rotation"
+                Rotator {
+                  Yaw: -130.156601
+                }
+              }
+            }
+          }
+          TemplateAsset {
+            Id: 144368898507393120
+          }
         }
       }
       Objects {
@@ -262,59 +327,6 @@ Assets {
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 18192526106645025350
-        Name: "FurnitureRepulseTrigger"
-        Transform {
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 17825252359044380084
-        WantsNetworking: true
-        TemplateInstance {
-          ParameterOverrideMap {
-            key: 4237438562745346629
-            value {
-              Overrides {
-                Name: "Name"
-                String: "FurnitureRepulseTrigger"
-              }
-              Overrides {
-                Name: "Scale"
-                Vector {
-                  X: 3.29499054
-                  Y: 5.47827864
-                  Z: 3.85937381
-                }
-              }
-              Overrides {
-                Name: "TriggerShape"
-                Enum {
-                  Value: "mc:etriggershape:sphere"
-                }
-              }
-              Overrides {
-                Name: "Rotation"
-                Rotator {
-                  Yaw: -148.935593
-                }
-              }
-              Overrides {
-                Name: "Position"
-                Vector {
-                  Z: 60.0727386
-                }
-              }
-            }
-          }
-          TemplateAsset {
-            Id: 144368898507393120
-          }
         }
       }
     }
