@@ -7,7 +7,7 @@ Assets {
       RootId: 15305290983390193517
       Objects {
         Id: 15305290983390193517
-        Name: "T_HnH_Flower_Roof_03"
+        Name: "curved flower roof and veranda"
         Transform {
           Scale {
             X: 1
@@ -8339,6 +8339,18 @@ Assets {
               Id: 6937005782613619979
             }
           }
+          Overrides {
+            Name: "ma:Building_LowerTrimOuter:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+          Overrides {
+            Name: "ma:Building_Foundation:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -8484,6 +8496,18 @@ Assets {
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+          Overrides {
+            Name: "ma:Building_LowerTrimOuter:id"
+            AssetReference {
+              Id: 6937005782613619979
+            }
+          }
+          Overrides {
+            Name: "ma:Building_Foundation:id"
             AssetReference {
               Id: 6937005782613619979
             }
