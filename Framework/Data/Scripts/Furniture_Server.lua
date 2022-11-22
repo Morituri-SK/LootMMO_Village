@@ -37,7 +37,8 @@ local defaultFurnitueInventory = {}
 --each item in two pieces
 for i=1,#FURNITURE_ITEMS_TABLE do
     if math.random() < .5 then
-        defaultFurnitueInventory[i] = {i,math.random(1,4)}
+        local invItem = {i,math.random(1,4)}
+        table.insert(defaultFurnitueInventory, invItem)
     end
 end
 

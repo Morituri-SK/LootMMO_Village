@@ -18,7 +18,7 @@
 "Study","09D26C9842A7CDE1","0BADBADBADBADBAD","False","Wait(0.5), Material(Incense=1)","","485000/lootmmohah","Social"
 "Cart","8A7D6241614D31D7","0BADBADBADBADBAD","False","XP(10), Wait(1), Material(Coins=100), Wait(1), Item(Furniture)","Village2, Furniture0","485000/lootmmohah","Village"
 "Village2","E5E526DB3ECC3371","0BADBADBADBADBAD","False","XP(10), Wait(1), Material(Coins=5)","","485000/lootmmohah","Village"
-"Furniture0","8A7D6241614D31D7","6DD2892F3B111C4D","True","Material(Coins=RNG[2-6]), Wait(1), Item(Furniture)","","485000/lootmmohah","Beasts1"
+"Furniture0","8A7D6241614D31D7","6DD2892F3B111C4D","True","Material(Coins=RNG[2-6]), Wait(1), Item(Furniture)","","485000/lootmmohah","Dragons1"
 "Furniture1","4B585D6A4458D2DA","DF94003F5BADA205","True","Material(Coins=RNG[5-10]), Wait(1), Item(Furniture)","","485000/lootmmohah","Undead1"
 "Furniture2","A7C82784F4C3753A","B64428771698AD4A","True","Material(Coins=RNG[8-15]), Wait(1), Item(Furniture)","","485000/lootmmohah","Spiders1"
 "Pint","359D9B4CDF48F367","0BADBADBADBADBAD","False","XP(40), Wait(1), Material(Coins=15)","ThrowChair, Pinball","485000/lootmmohah","Social"
